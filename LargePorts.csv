@@ -1,0 +1,552 @@
+Country Code,Port Location,Port Name,Port Authority,Address,Phone,Fax,800 Number,Email,Web Site,Latitude,Longitude,UN/LOCODE,Port Type,Port Size,Country
+DZA,Algiers,Port of Algiers,Entreprise Portuaire d'Alger,"02 Rue d'Angkor
+BP 259
+Algiers, Gare 259
+Algeria",213 21 423614,213 21 423603,,epal@portalger.com.dz,www.portalger.com.dz,"36° 46' 25"" N","3° 4' 2"" E",DZALG,Deepwater Seaport,Large,
+DZA,Bejaia,Port of Bejaia,Enreprise Portuaire de Bejaia,"13, avenue des freres Amrani
+Bejaia 06000
+Algeria",213 34 21 18 07,213 34 20 14 88,,portbj@portdebejaia.dz,www.portdebejaia.com.dz,"36° 45' 0"" N","5° 5' 24"" E",DZBJA,Deepwater Seaport,Large,
+ARG,Buenos Aires,Port of Buenos Aires,Administracion General de Puertos,"Buenos Aires
+Argentina",(54) 11 4342-1727,,,institucionales@puertobuenosaires.gov.ar,www.puertobuenosaires.gov.ar,"34° 35' 57"" S","58° 22' 17"" W",ARBUE,Deepwater Seaport,Large,
+ARG,Dock Sud,Port of Dock Sud,Administracion Portuaria Bonaerense,"Av. Belgrano NA 2050 (1872)
+Avellaneda
+Argentina",(0054-11) 42051462,,,puertodock@infovia.com.ar,www.consejoportuario.com.ar,"34° 38' 3"" S","58° 20' 53"" W",,Deepwater Seaport,Large,
+AUS,Brisbane,Port of Brisbane,Port of Brisbane Corporation,"1 Sandpiper Avenue
+Locked Bag 1818
+Port of Brisbane, Queensland 4178
+Australia",61 7 3258 4888,61 7 3258 4703,,info@portbris.com.au,www.portbris.com.au,"27° 22' 57"" S","153° 10' 10"" E",AUBNE,Seaport,Large,
+AUS,Melbourne,Port of Melbourne,Port of Melbourne Corporation,"GPO Box 261
+Melbourne, Victoria 3001
+Australia",+61 3 9628 7555,+61 3 9628 7550,,information@portofmelbourne.com,www.portofmelbourne.com,"37° 49' 58"" S","144° 55' 3"" E",AUMEL,Deepwater Seaport,Very Large,
+AUS,Sydney,Port of Sydney,Sydney Ports Corporation,"PO Box 25 Millers Point
+Sydney, NSW 2000
+Australia",61 2 9296 4999,61 2 9296 4742,,,www.sydneyports.com.au,"33° 51' 44"" S","151° 11' 33"" E",AUSYD,Deepwater Seaport,Large,
+AZE,Baku,Port of Baku,Baku International Sea Trade Port,"72 Uzeir Hajibeyov Street
+Baku 370010
+Azerbaijan",994 12 930268,994 12 933672,,office@bakuseaport.net,bakuseaport.az,"40° 20' 52"" N","49° 52' 35"" E",AZBAK,Seaport,Large,
+BEL,Antwerp,Port of Antwerp,Antwerp Port Authority,"Havenhuis  Entrepotkaai 1
+Antwerp B-2000
+Belgium",+32-3-205 20 11,+32-3-205 20 28,,info@haven.antwerpen.be,www.portofantwerp.be,"51° 17' 52"" N","4° 17' 59"" E",BEANR,Seaport,Very Large,
+BEL,Brussels,Port of Brussels,Port de Bruxelles,"Place des Armateurs 6
+Bruxelles 1000
+Belgium",32 2 420.67.00,32 2 420.69.74,,portdebruxelles@port.irisnet.be,www.portdebruxelles.irisnet.be,"50° 53' 10"" N","4° 23' 16"" E",BEBRU,River Port,Large,
+BEL,Ghent,The Port of Ghent,Ghent Port Company AMC,"J. Kennedylaan 32
+Ghent B-9042
+Belgium",+32/9 251 05 50,+32/9 251 54 06,,info@havengent.be,www.havengent.be,"51° 6' 52"" N","3° 46' 4"" E",BEGNE,River Port,Large,
+BRA,Niteroi,Port of Niteroi,,"Avenida Feliciano Sodre, n 215
+Niteroi, RJ CEP 24012-030
+Brazil",55 21 2718 3182,55 21 2620 7563,,,www.portosrio.gov.br,"22° 52' 45"" S","43° 7' 45"" W",BRNTR,Seaport,Large,
+CAN,Halifax,Port of Halifax,Halifax Port Authority,"1215 Marginal Road
+Halifax, Nova Scotia B3H 4P8
+Canada",902 426-8222,902 426-7335,,,www.portofhalifax.ca,"44° 39' 25"" N","63° 34' 44"" W",CAHAL,Seaport,Large,
+CAN,Montreal,Port of Montreal,Montreal Port Authority,"Port of Montreal Building, Wing No. 1
+Cite du Havre
+Montreal, Quebec H3C 3R5
+Canada",(514) 283-7011,(514) 283-0829,,info@port-montreal.com,www.port-montreal.com,"45° 32' 37"" N","73° 31' 45"" W",CAMTR,Seaport,Large,
+CAN,Quebec,Port of Quebec,,"150 Dalhousie Street
+PO Box 2268
+Quebec, Quebec G1K 7P7
+Canada",418-648-3640,418-648-4160,,marketing@portquebec.ca,www.portquebec.ca,"46° 48' 21"" N","71° 12' 51"" W",CAQUE,Seaport,Large,
+CAN,St Lawrence Seaway,St Lawrence Seaway,St. Lawrence Seaway Management Corporation,"202 Pitt Street
+Cornwall, Ontario K6J 3P7
+Canada",613-932-5170,613-932-7286,,marketing@seaway.ca,www.seaway.ca,"44° 55' 47"" N","75° 7' 8"" W",CASLW,Waterway Region,Large,
+CAN,Vancouver,Port Metro Vancouver,Vancouver Fraser Port Authority,"100 The Pointe
+999 Canada Place
+Vancouver, British Columbia V6C 3T4
+Canada",604-665-9000,604-665-9007,866-284-4271,info@portmetrovancouver.com,www.portmetrovancouver.com,"49° 17' 52"" N","123° 4' 27"" W",CAVAN,Seaport,Large,
+CAN,Victoria,Port of Victoria,Transport Canada,"12 Erie St
+Victoria, BC V8V 4X5
+Canada",250-363-3578,,,,tc.canada.ca/en/marine-transportation/ports-harbours-anchorages/port-victoria,"48° 25' 52"" N","123° 24' 37"" W",CAVIC,Seaport,Large,
+CHN,Chiwan,Port of Chiwan,Chiwan Port Authority,"c/o China Ocean Shpg Agency
+Gangwan Yi Road, Shekou
+Shenzhen, Guangdong 518067
+China",86 755 2669 4888,86 755 2669 4297,,,,"22° 28' 26"" N","113° 52' 26"" E",CNCWN,Seaport,Large,
+CHN,Dalian,Port of Dalian,Dalian Port Corporation Limited,"1 Gangwan Street
+Zhongshan District
+Dalian, Liaoning 116004
+China",86 411 8262 7147,86 411 8280 7148,,,www.portdalian.com,"38° 56' 1"" N","121° 39' 2"" E",CNDLC,Port Terminal,Large,
+CHN,Huadu,Port of Huadu,,"Huadu
+China",,,,,www.huaduport.com,"22° 27' 59"" N","113° 53' 7"" E",CNHDU,Seaport,Large,
+CHN,Lianyungang,Port of Lianyungang,Lianyungang Port Affairs,"Administration Bureau
+99 Zhongshan Dong Road
+Lianyungang, Jiangsu 222046
+China",86 518 238 2501,86 518 2382906,,,www.lygport.com.cn,"34° 44' 43"" N","119° 24' 48"" E",CNLYG,Seaport,Large,
+CHN,Ningbo,Port of Ningbo,Ningbo Port Group Limited,"Port Administration Office
+496 Yanjiang Dong Road
+Ningbo, Zhejiang 315200
+China",86 574 769 5142,86 574 769 5233,,npa_office@nbport.com.cn,www.nbport.com.cn/wps/portal,"29° 52' 0"" N","121° 33' 19"" E",CNNGB,Seaport,Large,
+CHN,Qingdao,Port of Qingdao,Qingdao Port Authority,"Port Administration Office
+6 Gangqing Road
+Qingdao, Shandong 266011
+China",86 532 298 2011,86 532 2822878,,president@qdport.com,www.qdport.com,"36° 5' 45"" N","120° 19' 2"" E",CNTAO,Seaport,Large,
+CHN,Shanghai,Port of Shanghai,"Shanghai International Port (Group) Co., Ltd.","358 East Daming Road
+Shanghai, Shanghai 200080
+China",+8621 55333388,+8621 63217936,,contact@portshanghai.com.cn,www.portshanghai.com.cn,"31° 13' 19"" N","121° 29' 22"" E",CNSHA,Seaport,Very Large,
+CHN,Shekou,Port of Shekou,"China Merchants Shekou Port Service Co., Ltd.","Gang Wan Yi Lu
+Shekou Industrial Zone, Shekou
+Shenzhen, Guangdong 518067
+China",86 755 2669 1135,86 755 2668 5859,,,,"22° 28' 15"" N","113° 54' 12"" E",CNSHK,Seaport,Large,
+CHN,Tianjin,Port of Tianjin,Port of Tianjin Authority,"35 Xingang Road No 2
+Tanggu
+Tianjin, Heibei 300456
+China",86 22 2570 5239,86 22 2570 9747,,wsc@tianjinport.ptacn.com,www.ptacn.com,"39° 0' 34"" N","117° 27' 37"" E",CNTSN,Seaport,Large,
+CHN,Xiahai,Port of Xiahai,Xiahai Harbour Administration Bureau,"Administration Office
+3 Haibin No 5 Road
+Zhanjiang, Guangdong 524003
+China",,,,,,"21° 10' 27"" N","110° 24' 38"" E",,Seaport,Large,
+CHN,Yantian,Port of Yantian,"Shenzhen Yantian Port Holdings Co.,Ltd","Yantian
+China",86 755 8379 7111,86 755 8379 7138,,,www.yantian-port.com,"22° 34' 27"" N","114° 16' 2"" E",CNYTN,Seaport,Large,
+COL,Cartagena,Port of Cartagena,Sociedad Portuaria Regional de Cartagena S.A.,"Manga Terminal Maritimo
+Cartagena A.A 7954
+Colombia",(57) (5) 6608071,(57) (5) 6502239,,,albatros.puertocartagena.com,"10° 24' 12"" N","75° 31' 51"" W",COCTG,Seaport,Large,
+CUB,Havana,Port of Havana,Empresa Terminales Mambisas de La Habana,"Havana
+Cuba",53 616 655,53 338 111,,,,"23° 7' 57"" N","82° 20' 31"" W",,Seaport,Large,
+CUB,Santiago de Cuba,Port of Santiago de Cuba,Empresa Terminales Mambisas del Oriente,"Santiago de Cuba
+Cuba",,,,,,"20° 0' 6"" N","75° 51' 38"" W",CUSCU,Seaport,Large,
+DNK,Copenhagen,Port of Copenhagen,Copenhagen Malmo Port AB,"Containervej 9
+P.O.Box 900
+Copenhagen K DK-2100
+Denmark",45 35 46 11 11,45 35 46 11 64,,cmport@cmport.com,www.cmport.com,"55° 41' 46"" N","12° 36' 48"" E",DKCPH,Seaport,Large,
+EGY,Alexandria,Port of Alexandria,Alexandria Port Authority,"106 El Horria Avenu- Alex Fouad St.
+Alex
+Alexandria 26514
+Egypt",203 4874321,203 4869714,,support@apa.gov.eg,apa.gov.eg,"31° 10' 59"" N","29° 52' 0"" E",,Seaport,Large,
+FIN,Helsinki,Port of Helsinki,Port of Helsinki,"Olympiaranta 3
+P.O. Box 800
+Helsinki FIN-00099
+Finland",+358-9-173 331,+358-9-1733 3232,,port.helsinki@hel.fi,www.portofhelsinki.fi,"60° 9' 34"" N","24° 55' 24"" E",FIHEL,Seaport,Large,
+FRA,Brest,Port of Brest,CCI de Brest,"Avenue de KIEL
+Brest 29200
+France",33 2 98 46 87 46,33 2 98 43 24 56,,service.commercial@port.cci-brest.fr,www.brest.port.fr,"48° 22' 50"" N","4° 28' 27"" W",FRBES,Deepwater Seaport,Large,
+FRA,Dunkerque,Port of Dunkerque,Port Autonome de Dunkerque,"BP 6534
+Terre-Plein Guillain
+Dunkerque, Cedex 1 59386
+France",00 33 3 28 28 75 91,00 33 3 28 28 75 97,,njuhere@portdedunkerque.fr,www.portdedunkerque.fr,"51° 2' 42"" N","2° 17' 26"" E",FRDKK,Harbor,Large,
+FRA,Le Havre,Port of Le Havre,Port Authority of Le Havre,"Terre-Plein de la Barre
+B.P. 1413
+Le Havre, Cedex 76067
+France",33 2 32 74 74 00,33 2 32 74 74 29,,internetpah@havre-port.fr,www.havre-port.net,"49° 28' 1"" N","0° 10' 40"" E",FRLEH,Deepwater Seaport,Large,
+FRA,Marseille,Port of Marseille,Marseille Fos Port Authority,"23 place de la Joliette
+BP 81965
+Marseille, Cedex 2 13226
+France",33 4 91 39 40 00,33 4 91 39 57 00,,gpmm@marseille-port.fr,www.marseille-port.fr,"43° 19' 25"" N","5° 21' 8"" E",FRMRS,Seaport,Large,
+DEU,Bremerhaven,Port of Bremerhaven,Bremen Port Authority,"Hansestadt Bremisches
+Ueberseetor 2
+Bremen
+Germany",49 421 361 8504,49 421 361 8387,,bremen-port@hbh.bremen.de,www.bremen-ports.de,"53° 33' 49"" N","8° 33' 17"" E",DEBRV,Seaport,Large,
+DEU,Duisburg,Port of Duisburg,Duisburger Hafen AG,"Alte Ruhrorter Str. 42 - 52
+Duisburg 47119
+Germany",49 0 203-803-1,49 0 203-803-232,,mail@duisport.de,www.duisport.de,"51° 26' 59"" N","6° 45' 20"" E",DEDUI,River Port,Large,
+DEU,Hamburg,Port of Hamburg,Port Authority of Hamburg,"Mattentwiete 2
+Hamburg D - 20457
+Germany",+49-40 / 37 709 -0,+49-40/37 709-109,,info@hafen-hamburg.de,www.hafen-hamburg.de,"53° 31' 29"" N","9° 57' 48"" E",DEHAM,Seaport,Very Large,
+DEU,Luebeck,Port of Lubeck,Lubecker Hafen-Gesellschaft mbH (LHG),"Hauptverwaltung Postfach 22 35
+Luebeck 23510
+Germany",+49 (4 51) 79 00,,,martin.schwardt@lhg-online.de,www.lhg-online.de,"53° 52' 58"" N","10° 43' 33"" E",DELBC,Seaport,Large,
+GRC,Piraeus,Port of Piraeus,Piraeus Port Authority S. A.,"10 Akti Miaouli
+Piraeus 185 38
+Greece",210 4550229,210 4550310,,olp@apopsinet.gr,www.olp.gr,"37° 56' 28"" N","23° 38' 2"" E",GRPIR,Seaport,Large,
+HKG,Hong Kong,Port of Hong Kong,Marine Department of the Hong Kong Special Administrative Region (SAR),"Harbour Building
+38 Pier Road
+Hong Kong
+Hong Kong",852 2542 3711,852 2541 7194,,mdenquiry@mardep.gov.hk,www.mardep.gov.hk,"22° 19' 16"" N","114° 9' 35"" E",HKHKG,Deepwater Seaport,Very Large,
+HKG,Kwai Chung,Hongkong International Terminals,Hutchison Port Holdings,"Terminal 4
+Container Port Road South
+Hong Kong",852 2619 7888,852 2612 0083,,gca@hph.com,www.hit.com.hk,"22° 19' 53"" N","114° 7' 41"" E",HKHKC,Port Terminal,Large,
+IND,Chennai,Port of Chennai,Chennai Port Trust,"Rajaji Salai
+Chennai, Tamil Nadu 600 001
+India",91 44 25362201,91 44 25361228,,diredp@chennaiport.gov.in,www.chennaiport.gov.in,"13° 6' 40"" N","80° 18' 3"" E",INMAA,Seaport,Large,
+IND,Cochin (Kochi),Port of Cochin,Cochin Port Trust,"Willingdon Island
+Cochin 682009
+India",91 484 266 6871,91 484 266 8163,,mail@cochinport.com,www.cochinport.com,"9° 58' 4"" N","76° 15' 26"" E",INCOK,Seaport,Large,
+IND,Jawaharlal Nehru,Nhava Sheva,Jawaharlal Nehru Port Trust (JNPT),"Administrative Building
+Sheva Navi, Maharashtra 400707
+India",91-22-7242322,91-22-7242325,,jawahar@giasbm01.vsnl.net.in,www.jnport.com,"18° 57' 6"" N","72° 56' 59"" E",INNSA,Seaport,Large,
+IND,Kandla,Port of Kandla,Kandla Port Trust,"Post Box 50
+Administrative Building
+Gandhidham, Gujarat 370 201
+India",91 2836 221347,91 2836 232040,,kpt@kandlaport.com,www.kandlaport.com,"23° 0' 49"" N","70° 13' 32"" E",INIXY,Seaport,Large,
+IND,Kolkata (Calcutta),Port of Kolkata,Calcutta Port Trust,"15 Strand Road
+Kolkata 700 001
+India",91-33 2230-3451,91-33 2220-4901,,portofcalcutta@portofcalcutta.com,www.kolkataporttrust.gov.in,"22° 32' 13"" N","88° 18' 23"" E",INCCU,River Port,Large,
+IND,Mumbai,Port of Mumbai,Mumbai Port Trust,"Port House
+Shoorji Vallabhdas Marg
+Mumbai, Maharastra 400 001
+India",66565656,91 22 22611011,,mbpt@vsnl.com,www.mumbaiport.gov.in,"18° 56' 31"" N","72° 53' 7"" E",INBOM,Deepwater Seaport,Large,
+IND,Paradip,Port of Paradip,Paradip Port Trust,"P.O. Paradip Port
+District Cuttack
+Paradip, Orissa 754 142
+India",06722 222046,06722 222256,,chmppt@paradipport.gov.in,www.paradipport.gov.in,"20° 16' 14"" N","86° 40' 16"" E",INPRT,Seaport,Large,
+IND,Visakhapatnam,Port of Visakhapatnam,Visakhapatnam Port Trust,"Visakhapatnam, Andhra Pradesh 530 035
+India",91 891 2564841,91 891 2565023,,info@vizagport.com,www.vizagport.com,"17° 41' 36"" N","83° 17' 22"" E",INVTZ,Seaport,Large,
+IDN,Jakarta,Port of Jakarta,,"Jalan Raya Pelabuhan Nomor 9
+Tanjung Priok, Jakarta Utara 14310
+Indonesia",62-21-4367305,62-21-4372933,,priok@inaport2.co.id,www.priokport.co.id,"6° 6' 20"" S","106° 51' 38"" E",IDJKT,Seaport,Large,
+IDN,Tanjung Priok,Port of Tanjung Priok,Indonesia Port Corp II,"JL.Raya Pelabuhan No.9
+Tanjung Priok, Jakarta 14310
+Indonesia",62-21-4367505,62-21-4372933,,,www.priokport.co.id,"6° 6' 5"" S","106° 53' 40"" E",IDTPP,Seaport,Large,
+IRN,Imam  Khomeini,Imam  Khomeini  Port,Imam KhIomeini Port Complex,"P.O. Box: 159Khuzestan Province
+Iran",98 652252 2050,98 652252 2050,,marketing@khomeiniport.com,www.khomeiniport.com,"30° 26' 55"" N","49° 4' 31"" E",IRBKM,Seaport,Large,
+ITA,Genoa,Port of Genoa,Autorita Portuale De Genova,"Palazzo SanGiogio
+Via della Mercanzia 2
+Genoa, GE 16123
+Italy",39 010 241 2793,39 010 241 2309,,info@porto.genova.it,www.porto.genova.it,"44° 24' 17"" N","8° 54' 59"" E",ITGOA,Seaport,Large,
+ITA,La Spezia,Port of La Spezia,Autorita Portuale della Spezia,"Via del Molo, 1
+La Spezia, SP 19126
+Italy",39 0187 546320,39 0187 599664,,info@porto.laspezia.it,www.portolaspezia.it,"44° 5' 14"" N","9° 51' 2"" E",ITSPE,Seaport,Large,
+ITA,Livorno,Port of Livorno,Livorno Port Authority,"Palazzo Rosciano 6
+Livorno, LI 57123
+Italy",39 0586 249465,39 0586 249514,,info@porto.livorno.it,www.porto.livorno.it,"43° 33' 21"" N","10° 18' 11"" E",ITLIV,Seaport,Large,
+ITA,Marghera,Porto Marghera,Autorita Portuale di Venezia,"Zatere, 1401
+Venezia, VE 30123
+Italy",041 4334111,041 4334254,,apv@porto.venezia.it,www.port.venice.it,"45° 27' 11"" N","12° 14' 41"" E",ITPMA,Seaport,Large,
+ITA,Napoli (Naples),Port of Napoli,Autorita Portuale di Napoli,"Piazzale Pisacane
+Napoli, NA 80133
+Italy",39 081 206929,39 081 206888,,info@porto.napoli.it,www.porto.napoli.it,"40° 50' 12"" N","14° 16' 27"" E",ITNAP,Seaport,Large,
+ITA,Venezia (Venice),Port of Venice,Autorita Portuale di Venezia,"Zatere, 1401
+Venezia, VE 30123
+Italy",041 4334111,041 4334254,,apv@porto.venezia.it,www.port.venice.it,"45° 26' 51"" N","12° 16' 59"" E",ITVCE,Seaport,Large,
+JPN,Chiba,Port of Chiba,Chiba Port and Harbour Office,"1-6-1 Chuoko
+Chuo-ku
+Chiba-shi, Chiba Pref 260-8667
+Japan",81 43 246 6201,81 43 241 3470,,,www.pref.chiba.jp/business/kowan/index-e.html,"35° 33' 44"" N","140° 3' 52"" E",JPCHB,Seaport,Very Large,
+JPN,Funabashi,Port of Funabashi,Funabashi Port Office,"Katsunan Port Admin Office
+5-1 Hama-cho 2-chome
+Funabashi, Chiba 273-0012
+Japan",81 47 433 1895,,,,,"35° 40' 13"" N","139° 58' 53"" E",JPFNB,Seaport,Large,
+JPN,Hakata,Port of Hakata,"Port and Harbor Bureau, Fukuoka City","Fukuoka City Office
+13-13 Sekijo-machi, Hakata-ku
+Fukuoka, Fukuoka 812-8620
+Japan",81 92 291 0561,81 92 291 7144,,somu.PHB@city.fukuoka.jp,www.port-of-hakata.or.jp,"33° 38' 21"" N","130° 23' 13"" E",JPHTD,Seaport,Large,
+JPN,Kawasaki,Port of Kawasaki,Kawasaki City Port and Harbor Bureau,"1 Miyamoto-cho, Kawasaki-ku
+Kawasaki, Kanagawa 210-0004
+Japan",81 44 200 2111,81 44 200 3981,,58kikaku@city.kawasaki.jp,www.city.kawasaki.jp/58/58yuuti/home/etop.html,"35° 30' 23"" N","139° 44' 59"" E",JPKWS,Seaport,Very Large,
+JPN,Kinuura,Port of Kinuura,Kinuura Port Authority,"Kinuura Port Office
+1-1, 11-gochi
+Handa City, Aichi 475-0831
+Japan",81 56 921 2451,81 56 921 2459,,kinuura-komu@pref.aichi.lg.jp,www.pref.aichi.jp/kensetsu-somu/kinuura-komu,"34° 51' 53"" N","136° 57' 4"" E",JPKNU,Seaport,Large,
+JPN,Kisarazu,Port of Kisarazu,Kisarazu Port Authority,"13-34 Kaifuchi, 3-chome
+Kisaradu City, Chiba 292-0833
+Japan",81 43 825 5141,81 43 825 6325,,,www.pref.chiba.lg.jp/business/kowan/kisarazuport-e.html,"35° 21' 16"" N","139° 51' 22"" E",JPKZU,Seaport,Large,
+JPN,Kitakyushu,Port of Kitakyushu,Kitakyushu Seaport and Airport Bureau,"1-2-7 Nishi-Kaigan
+Moji-Ku
+Kitakyushu 801-8555
+Japan",81-93-321-5941,81-093-321-5933,,kqport@kitaqport.or.jp,www.kitaqport.or.jp,"33° 55' 21"" N","130° 51' 24"" E",JPKKJ,Seaport,Large,
+JPN,Kobe,Port of Kobe,Kobe Port Terminal Corporation,"Kobe C.I.T. Bldg,16F, 1-14,Hamabe-Dori 5-chome,
+Chuo-ku
+Kobe 651-0083
+Japan",+81-(0)78-231-2401,+81-(0)78-231-2960,,shionkou@kptc.co.jp,www.kptc.co.jp,"34° 41' 3"" N","135° 14' 27"" E",JPUKB,Seaport,Large,
+JPN,Kochi,Port of Kochi,Kochi Port Authority,"1-2-2 Marunouchi
+Kochi City, Kochi 780-8570
+Japan",81 88 823 1111,81 88 823 9896,,175201@ken.pref.kochi.lg.jp,www.pref.kochi.lg.jp,"33° 31' 27"" N","133° 33' 40"" E",JPKCZ,Deepwater Seaport,Very Large,
+JPN,Kokura,Port of Kokura,Kokura Port Authority,"1-2-7 Nishi Kaigan
+Moji-ku, Kitakyushu, Fukuoka 801-8555
+Japan",81 93 321 5941,81 93 321 5933,,kqport@kitaqport.or.jp,www.kitaqport.or.jp,"33° 54' 30"" N","130° 52' 39"" E",JPKOK,Deepwater Seaport,Very Large,
+JPN,Nagasaki,Port of Nagasaki,Nagasaki Port Authority,"2-11 Dejima-cho
+Nagasaki, Nagasaki 850-0862
+Japan",81 958 221257,81 958 221257,,,www.doboku.pref.nagasaki.jp/~rinkai/kakukou/nagasaki.htm,"32° 44' 25"" N","129° 51' 54"" E",JPNGS,Seaport,Large,
+JPN,Nagoya,Port of Nagoya,Nagoya Port Authority,"8-21 Irifune 1-chome
+Minato-ku
+Nagoya, Aichi 455-8686
+Japan",+81 52 654 7840,+81 52 654 7995,,info@port-of-nagoya.jp,www.port-of-nagoya.jp,"35° 2' 42"" N","136° 50' 53"" E",,Seaport,Very Large,
+JPN,Niigata,Port of Niigata,"Bureau of Port and Airport Development, Niigata Prefecture","4-1 Shinko-cho
+Niigata City, Niigata 950-8570
+Japan",81 0 25-280-5456,81 0 25-284-5042,,T1700102@mail.pref.niigata.jp,www.pref.niigata.lg.jp/kowanshinko/1208883684365.html,"37° 57' 18"" N","139° 7' 46"" E",JPKIJ,Seaport,Large,
+JPN,Niihama,Port of Niihama,Niihama Port Authority,"5-1 Ikku-cho, 1-chome
+Niihama City, Ehime 792-0025
+Japan",81 89 733 5151,,,,,"33° 58' 15"" N","133° 15' 54"" E",JPIHA,Seaport,Large,
+JPN,Osaka,Port of Osaka,Osaka Port Corporation,"1-14-16 Nanko-kita
+Suminoe-ku
+Osaka, Osaka Pref 559-0034
+Japan",+81-6-6615-7211,+81-6-6615-7210 ,,,www.optc.or.jp,"34° 38' 9"" N","135° 26' 3"" E",JPOSA,Seaport,Large,
+JPN,Tokyo,Port of Tokyo,"Bureau of Port and Harbor,Tokyo Metropolitan Government","8-1 Nishishinjuku 2-chome Shinjuku-ku
+Tokyo 163-8001
+Japan",81-3-5320-5524,81-3-5388-1575,,,www.kouwan.metro.tokyo.jp,"35° 37' 29"" N","139° 47' 29"" E",JPTYO,Seaport,Very Large,
+JPN,Wakayama,Port of Wakayama,Wakayama Port Authority,"1-1 Komarsubaradoori
+Wakayama, Wakayama 640-8585
+Japan",81 734 413154,81 734 334839,,,,"34° 13' 23"" N","135° 7' 59"" E",JPWAK,Seaport,Large,
+JPN,Yokohama,Port of Yokohama,Port and Harbour Bureau City of Yokohama,"2 Yamashita-cho Naka-ku
+Yokohama 231-0023
+Japan",81-45-671-2880,81-45-671-7158,,portoubo@city.yokohama.jp,www.city.yokohama.jp/me/port/en/index.html,"35° 26' 11"" N","139° 40' 4"" E",JPYOK,Seaport,Very Large,
+PRK,Nampo,Port of Nampo,,"Nampo
+Korea, North",,,,,,"38° 43' 13"" N","125° 23' 45"" E",KPNAM,Seaport,Large,
+KOR,Busan,Port of Busan,Busan Port Authority,"79-9, Jungan-Dong 4GA
+Jung-Gu
+Busan 600-016
+Korea, South",82-51-999-3000,,,bpamaster@busanpa.com,www.portbusan.or.kr,"35° 6' 34"" N","129° 3' 34"" E",KRPUS,Seaport,Large,
+KOR,Gunsan,Port of Gunsan (Kunsan),Gunsan Regional Maritime Affairs and Fisheries Office,"1530-5 Soryong-dong
+Gunsan-si, Jeollabuk-do 573-882
+Korea, South",82-63-441-2222,82-63-441-2351,,,gunsan.mltm.go.kr/eng,"35° 57' 35"" N","126° 35' 27"" E",KRKUV,Seaport,Large,
+KOR,Gwangyang,Port of Gwangyang,Yeosu Regional Maritime Affairs and Fisheries Office,"335-1 Sujeong-dong
+Yeosu City 550-705
+Korea, South",061-650-6000,061-654-2358,,ohkt@momaf.go.kr,www.portgy.com,"34° 53' 18"" N","127° 40' 43"" E",KRKAN,Seaport,Large,
+KOR,Incheon,Port of Incheon,,"Seohaero 193 (1-17 7(chil)-ga Hang-dong)
+Jung-gu
+Incheon
+Korea, South",032-880-6114,032-880-6114,,,www.portincheon.go.kr,"37° 28' 27"" N","126° 37' 3"" E",KRICH,Seaport,Large,
+KOR,Masan,Port of Masan,Masan Regional Maritime Affairs and Port Office,"1-5 Wolpo-dong
+Masan-su 631-709
+Korea, South",055-249-0303,055-245-0885,,,masan.mltm.go.kr,"35° 9' 51"" N","128° 37' 34"" E",KRMAS,Seaport,Large,
+KOR,Mokpo,Port of Mokpo,Mokpo Regional Maritime Affairs and Port Office,"1101 Okam-Dong
+Mokpo city 530-831
+Korea, South",82-61-280-1700,82-61-280-1616,,,mokpo.mltm.go.kr,"34° 46' 34"" N","126° 22' 59"" E",KRMOK,Seaport,Large,
+KOR,Ulsan,Port of Ulsan,Ulsan Regional Maritime Affairs and Port Office,"139-19, Maeamdong Namgu
+Ulsan
+Korea, South",82-52-228-5500,82-52-558-5549,,,ulsan.mltm.go.kr,"35° 29' 59"" N","129° 23' 12"" E",KRUSN,Seaport,Very Large,
+LVA,Riga,Freeport of Riga,Freeport of Riga Authority,"12 O. Kalpaka blvd.
+Riga LV 1050
+Latvia",371 7030800,371 7030835,,rop@vail.rop.lv,www.rop.lv,"57° 0' 28"" N","24° 5' 27"" E",LVRIX,Seaport,Large,
+LBN,Beirut,Port of Beirut,Gestion et exploitation du port de Beyrouth (GEPB),"Beirut - Quarantaine Region
+P.O. Box 1490
+Beirut
+Lebanon",961 - 1- 580211,961 - 1- 585835,,info@portdebeyrouth.com,www.portdebeyrouth.com,"33° 54' 18"" N","35° 31' 16"" E",LBBEY,Seaport,Large,
+LTU,Klaipeda,Klaipeda State Seaport,Klaipeda State Seaport Authority,"J. Janonio g. 24
+Klaipeda LT-92251
+Lithuania",370 46 499 799,370 46 499 777,,info@port.lt,www.portofklaipeda.lt,"55° 41' 14"" N","21° 8' 5"" E",LTKLJ,Seaport,Large,
+MYS,Port Klang,Port Klang,Port Klang Authority,"Mail Bag Service 202
+Jalan
+Port Klang, Pelabuhan 42005
+Malaysia",603-31688211,603-31670211,,onestopagency@pka.gov.my,www.pka.gov.my,"3° 0' 25"" N","101° 21' 21"" E",,Harbor,Large,
+MLT,Valletta,Port of Valletta,Malta Maritime Authority,"Marina Pinto
+Valletta VLT 01
+Malta",+356 21222203,+356 21250365,,info@mma.gov.mt,www.mma.gov.mt,"35° 53' 43"" N","14° 30' 43"" E",MTMLA,Seaport,Large,
+MEX,Veracruz,Port of Veracruz,"Administracion Portuaria Integral de Veracruz, S.A. de C.V.","Av. Marina Mercante No. 210, 7 piso
+Col. Centro
+Veracruz, Veracruz 91700
+Mexico",52 229 923 2170,52 229 932 3040,,,www.puertodeveracruz.com.mx,"19° 12' 30"" N","96° 8' 2"" W",MXVER,Seaport,Large,
+NLD,Amsterdam,Port of Amsterdam,Amsterdam Port Authority,"De Ruyterkade 7
+1013 AA Amsterdam, Postbus 19406
+Amsterdam 1000 GK
+Netherlands",31 20 - 5234 500,31 20 - 6209 821,,marketing@amsterdamports.nl,www.amsterdamports.nl,"52° 24' 47"" N","4° 49' 42"" E",NLAMS,Seaport,Very Large,
+NLD,Rotterdam,Port of Rotterdam,Rotterdam Municipal Port Management,"P.O. Box 6622
+Rotterdam 3002 AP
+Netherlands",31 (0) 10 252 10 10,31 (0) 10 252 10 20,,info@portmanagement.com,www.portofrotterdam.com,"51° 55' 38"" N","4° 17' 54"" E",NLRTM,Deepwater Seaport,Very Large,
+NLD,Terneuzen/Vlissingen,Zeeland Seaports,Zeeland Seaports,"Postbox 132
+Terneuzen, AC 4530
+Netherlands",31 (0) 115 647400,31 (0) 115 647500,,,www.zeeland-seaports.com,"51° 23' 49"" N","3° 43' 20"" E",NLTNZ,Seaport,Large,
+NZL,Auckland,Ports of Auckland,Ports of Auckland,"Ports of Auckland Building
+Sunderland Street
+Auckland
+New Zealand",0064 9 366 0055,64 9 367 5455,,,www.poal.co.nz,"36° 50' 11"" S","174° 46' 16"" E",NZAKL,Seaport,Large,
+NOR,Kristiansund,Port of Kristiansund,Kristiansund Og Nordmore Havn IKS,"Kaibakken 1
+Kristiansund, More og Romsdal 6500
+Norway",+47 400 06 504,+47 716 71 483,,info@knhavn.no,www.knhavn.no,"63° 6' 48"" N","7° 45' 18"" E",NOKSU,Seaport,Large,
+PAK,Karachi,Port of Karachi,Karachi Port Trust,"Eduljee Dinshaw Road
+Karachi 74000
+Pakistan",,,,webmaster@kpt.gov.pk,www.kpt.gov.pk,"24° 50' 6"" N","66° 58' 40"" E",PKKHI,Seaport,Large,
+PER,Callao,Port of Callao,Empresa Nacional de Puertos S.A.,"Av. Contralmirante Raygada 110
+Callao
+Peru",51 1 429-9210,51 1 469-1010,,,www.enapu.com.pe,"12° 2' 43"" S","77° 8' 48"" W",PECLL,Seaport,Large,
+PHL,Manila,Port of Manila,"Philippine Ports Authority, PDO Manila/Northern Luzon","PNR Building
+South Harbor
+Manila
+Philippines",527-44-14,527-44-14,,ppa_manila@ppa.com.ph,www.ppa.com.ph,"14° 31' 27"" N","120° 56' 57"" E",PHMNL,Seaport,Very Large,
+POL,Gdansk,Port of Gdansk,Port of Gdansk Authority SA,"18 Zamknieta Str.
+Gdansk 80-955
+Poland",+48 58 737 91 00,+48 58 737 94 85,,info@portgdansk.pl,www.portgdansk.pl,"54° 23' 36"" N","18° 40' 12"" E",PLGDN,Seaport,Large,
+POL,Gdynia,Port of Gdynia,Port of Gdynia Authority SA,"Rotterdamska 9
+PO BOX 225
+Gdynia 81-337
+Poland",+48 58 627 40 02,+48 58 620 31 91,,,www.port.gdynia.pl,"54° 32' 0"" N","18° 32' 29"" E",PLGDY,Seaport,Large,
+PRT,Sines,Port of Sines,"Administracao do Porto de Sines, SA","Apartado 16
+Sines 7520-953
+Portugal",351 269 860 600,351 269 860 690,,geral@portodesines.pt,www.portodesines.pt,"37° 56' 33"" N","8° 52' 3"" W",PTSIE,Seaport,Large,
+RUS,Arkhangelsk,Port of Arkhangelsk,JSC Arkhangelsk Sea Commercial Port,"52 Troitsky Prospect
+Arkhangelsk 163000
+Russia",+7 8182 65 77 24,+7 8182 21 05 80,,port@ascp.ru,www.ascp.ru,"64° 32' 33"" N","40° 33' 36"" E",RUARH,Seaport,Large,
+RUS,Kaliningrad,Port of Kaliningrad,Kaliningrad Port Authorities,"24, Portvaya Str.
+Kaliningrad 236003
+Russia",7 0112 44 43 06,7 0112 44 45 22,,scport@ray.ru,www.transmarine.ru/PORTINFO.HTM,"54° 42' 0"" N","20° 27' 31"" E",RUKGD,Seaport,Large,
+RUS,Novorossiysk,Port of Novorossiysk,,"2, Mira str.
+Novorossiysk, Krasnodar Region 353900
+Russia",8617 600-297,8617 251-844,,referent@nle.ru,www.nle.ru,"44° 42' 54"" N","37° 48' 25"" E",RUNVS,Seaport,Large,
+RUS,St. Petersburg,Port of St. Petersburg,Port Authority of St. Petersburg,"10 Gapsalskaya Str.
+St. Petersburg 198035
+Russia",7 812 718 8951,7 812 327 4020,,public@mail.pasp.ru,www.pasp.ru,"59° 55' 38"" N","30° 13' 48"" E",RULED,Seaport,Very Large,
+RUS,Vladivostok,Port of Vladivostok,Joint Stock Company,"9, Strelnikova Str.
+Vladivostok 690950
+Russia",4232 222-364,4232 222-264,,mcport@vladcomport.ru,www.vmtp.ru,"43° 5' 40"" N","131° 53' 25"" E",RUVVO,Seaport,Large,
+SGP,Singapore,Port of Singapore,Maritime and Port Authority of Singapore (MPA),"460 Alexandra Road
+#19-00 PSA Building
+Singapore 119963
+Singapore",6375 1639,6275 9247,,qsm@mpa.gov.sg,www.mpa.gov.sg,"1° 17' 34"" N","103° 43' 31"" E",SGSIN,Deepwater Seaport,Very Large,
+ZAF,Durban,Port of Durban,Transnet National Ports Authority,"P O Box 1027
+Durban 4000
+South Africa",31 361 8804,31 361 8879,,,www.transnetnationalportsauthority.net,"29° 52' 52"" S","31° 1' 38"" E",ZADUR,Seaport,Large,
+ESP,Barcelona,Port of Barcelona,Barcelona Port Authority,"World Trade Center
+Barcelona wharf
+Barcelona 08039
+Spain",+34 93 306 88 00,,,sau@portdebarcelona.cat,www.portdebarcelona.cat,"41° 20' 25"" N","2° 9' 53"" E",ESBCN,Seaport,Very Large,
+ESP,Cadiz,Port of the Bay of Cadiz,Autoridad Portuaria de la Bahia de Cadiz (APBC),"Pza. de Espana, 17
+Cadiz, Cadiz 11006
+Spain",+34 956-240400,+34 956-240476,,cadiz@puertocadiz.com,www.puertocadiz.com,"36° 31' 12"" N","6° 15' 50"" W",ESCAD,Seaport,Large,
+ESP,Ferrol,Puerto de Ferrol,Port Authority of Ferrol - San Cibrao,"Muelle de Curuxeiras, s/n
+Ferrol, A Coruna 15401
+Spain",981 338 000,981 338 001,,ferrol@ferrol.portel.es,www.apfsc.com,"43° 28' 36"" N","8° 12' 57"" W",ESFRO,Seaport,Large,
+ESP,Tarragona,Port of Tarragona,Autoritat Portuaria de Tarragona,"Passeig de l'Escullera s/n
+Tarragona 43004
+Spain",34 977 259 400,34 977 225 499,,porttgna@porttarragona.es,www.porttarragona.es,"41° 5' 39"" N","1° 13' 21"" E",ESTAR,Seaport,Large,
+ESP,Valencia,Port of Valencia,Port Authority of Valencia (PAV),"Avda. del Muelle del Turia, s/n
+Valencia 46024
+Spain",34 96 393 9500,34 96 393 9599,,apv@valenciaport.com,www.valenciaport.com,"39° 26' 39"" N","0° 19' 10"" W",ESVLC,Seaport,Large,
+LKA,Colombo,Port of Colombo,Sri Lanka Ports Authority,"No. 19, Chaithya Road
+P. O. Box 59
+Colombo 01
+Sri Lanka",94-11 2421201,94-11 2440651,,info@slpa.lk,www.slpa.lk,"6° 57' 5"" N","79° 51' 1"" E",LKCMB,Seaport,Large,
+SWE,Malmo,Copenhagen Malmo Port,Copenhagen Malmo Port AB,"Terminalgatan 18
+Box 566
+Malmo 201 25
+Sweden",46 0 40 680 4100,46 0 40 180 501,,cmport@cmport.com,www.cmport.com,"55° 37' 32"" N","13° 0' 9"" E",SEMMA,Deepwater Seaport,Very Large,
+TWN,Keelung,Port of Keelung,,"No.1, Chung-Cheng Road
+Keelung
+Taiwan",,,886-2-24206100,,www.klhb.gov.tw,"25° 8' 54"" N","121° 45' 20"" E",TWKEL,Seaport,Large,
+TZA,Dar es Salaam,Port of Dar es Salaam,Tanzania Ports Authority,"Main Quay Number 1
+P.O. Box 1130
+Dar es Salaam
+Tanzania",255 22-2113642,255 22-2113646,,pmdsm@tanzaniaports.com,www.tanzaniaports.com,"6° 50' 4"" S","39° 17' 57"" E",TZDAR,Seaport,Large,
+THA,Laem Chabang,Port of Laem Chabang,Port Authority of Thailand,"444 Tarua Road
+Klongtoey
+Bangkok 10110
+Thailand",2269-3000,2672-7156,,patonline@port.co.th,www.port.co.th,"13° 4' 26"" N","100° 53' 43"" E",THLCH,Seaport,Large,
+TUR,Bosporus,Bosphorus (Istanbul) Strait,,Turkey,,,,,,"41° 6' 18"" N","29° 3' 51"" E",,Waterway Region,Large,
+TUR,Canakkale,Dardanelles Strait,Canakkale Port Authority,"Liman Baskanligi
+Canakkale 17100
+Turkey",90 286 217 1123,90 286 212 1001,,,www.canakkale.gov.tr,"40° 15' 53"" N","26° 31' 30"" E",TRCKZ,Waterway Region,Large,
+TUR,Istanbul,Port of Istanbul,Turkiye Denizcilik Isletmeleri AS,"Meclisi Mebusan Cad No 52
+Salipazari
+Istanbul
+Turkey",90 212 252 2100,90 212 244 3480,,istanbul.liman@superonline.com,www.tdi.com.tr,"41° 0' 46"" N","28° 59' 57"" E",TRIST,Deepwater Seaport,Very Large,
+UKR,Nikolaev,Port of Nikolaev,,"Zavodskaya street 23
+Nikolaev 54002
+Ukraine",0512 50-84-00,0512 50-88-07,,nmtp@portnikolaev.com,www.portnikolaev.com,"46° 57' 0"" N","31° 58' 18"" E",UANLV,Seaport,Large,
+UKR,Sevastopol,Port of Sevastopol,,"5 Nakhimova square
+Sevastopol, Crimea 99011
+Ukraine",+380 (692) 540648,+380 (692) 553439,,Sevport@stel.sebastopol.ua,ukrport.org.ua,"44° 37' 8"" N","33° 32' 46"" E",UASVP,Seaport,Large,
+GBR,Felixstowe,Felixstowe Port,Hutchison Ports (UK) Limited,"Tomline House
+The Dock
+Felixstowe, Suffolk IP11 3SY
+United Kingdom",44-1394-604500,44-1394-604949,,enquiries@fdrc.co.uk,www.portoffelixstowe.co.uk,"51° 57' 16"" N","1° 18' 8"" E",GBFXT,Seaport,Large,
+GBR,Immingham,Port of Immingham,Associated British Ports,"Dock Office
+Immingham
+Immingham DN40 2LZ
+United Kingdom",+44 (0) 1472 359181,+44 (0) 1472 242488,,npalmer@abports.co.uk,www.abports.co.uk/custinfo/ports/imm.htm,"53° 37' 38"" N","0° 11' 30"" W",GBIMM,Seaport,Large,
+GBR,Leith,Port of Leith,Forth Ports PLC,"Leith Port Office
+Imperial House,  Albert Dock
+Leith, Edinburgh EH6 7DN
+United Kingdom",44 131 555 8750,44 131 555 1212,,david.macpherson@forthports.co.uk,www.forthports.co.uk,"55° 58' 57"" N","3° 10' 29"" W",GBLEI,Seaport,Large,
+GBR,Liverpool,Port of Liverpool,Mersey Docks and Harbour Company,"Maritime Centre
+Liverpool L21 1LA
+United Kingdom",0151 949 6000,0151 949 6300,,,www.merseydocks.co.uk,"53° 26' 11"" N","3° 0' 41"" W",GBLIV,Seaport,Large,
+GBR,London,Port of London,Port of London Authority,"Bakers' Hall
+7 Harp Lane
+London EC3R 6LB
+United Kingdom",+44 20 7743 7900,+44 20 7743 7999,,marketing@pla.co.uk,www.pla.co.uk,"51° 30' 10"" N","0° 4' 3"" W",GBLON,River Port,Large,
+GBR,Scapa,Scapa Flow,Orkney Islands Council,"Department of Marine Services
+Harbour Authority Building
+Scapa, Scotland KW15 1SD
+United Kingdom",44 1856 873636,44 1856 873012,,harbours@orkney.gov.uk,www.orkneyharbours.com,"58° 53' 16"" N","3° 3' 12"" W",GBSFW,Waterway Region,Large,
+GBR,Southampton,Port of Southampton,Associated British Ports,"Ocean Gate
+Atlantic Way
+Southampton SO14 3QN
+United Kingdom",023 8048 8800,023 8033 6402,,southampton@abports.co.uk,www.abports.co.uk/Our_Locations/Southampton,"50° 54' 9"" N","1° 25' 44"" W",GBSOU,Seaport,Large,
+USA,Baltimore,Port of Baltimore,Maryland Port Administration,"MPA World Trade Center
+401 East Pratt Street
+Baltimore, MD 21202
+United States",,,1-800-638-7519,,www.mpa.state.md.us,"39° 13' 57"" N","76° 33' 32"" W",USBAL,Deepwater Seaport,Very Large,
+USA,Beaumont,Port of Beaumont,Port of Beaumont,"1225 Main Street
+Beaumont, TX 77701
+United States",409-835-5367,409-835-0512,,info@portofbeaumont.com,www.portofbeaumont.com,"30° 4' 41"" N","94° 5' 0"" W",USBPT,River Port,Large,
+USA,Boston,Port of Boston,Massachusetts Port Authority,"Boston, MA
+United States",617-946-4422,,800-294-2791,,www.massport.com/ports,"42° 21' 49"" N","71° 2' 12"" W",USBOS,Deepwater Seaport,Very Large,
+USA,Bremerton,Port of Bremerton,Port of Bremerton Commission,"8850 S.W. State Hwy.3
+Port Orchard, WA 98367
+United States",360 674-2381,360 674-2807,800-462-3793,guest@portofbremerton.org,www.portofbremerton.org,"47° 33' 26"" N","122° 38' 16"" W",USPWT,Seaport,Large,
+USA,Bridgeport,Port of Bridgeport,Bridgeport Port Authority,"330 Water Street
+Bridgeport, CT 06604
+United States",203-384-9777,203-384-9686,,,www.portofbridgeport.com,"41° 10' 21"" N","73° 10' 55"" W",USBDR,Seaport,Large,
+USA,Charleston,Port Charleston,South Carolina State Ports Authority,"176 Concord Street
+Charleston, SC 29401
+United States",843-723-8651,843 577 8626,800-577-8746,scspainfo@scspa.com,www.scspa.com,"32° 49' 20"" N","79° 55' 39"" W",USCHS,Deepwater Seaport,Very Large,
+USA,Chicago,Port of Chicago,Illinois International Port District,"3600 East 95th Street
+Chicago, IL 60617
+United States",773-646-4400,773-221-7678,800-843-7678,info@theportofchicago.com,www.iipd.com,"41° 41' 22"" N","87° 33' 58"" W",USCHI,Seaport,Large,
+USA,Corpus Christi,Port of Corpus Christi,Port of Corpus Christi Authority,"222 Power Street
+Corpus Christi, TX 78401
+United States",361-882-5633,361-882-7110,800-580-7110,,www.portofcorpuschristi.com,"27° 48' 46"" N","97° 24' 26"" W",USCRP,Seaport,Large,
+USA,Elizabeth,Port of Elizabeth,Port Authority of New York and New Jersey,"Elizabeth, NJ
+United States",,,,,,"40° 40' 11"" N","74° 9' 1"" W",USEZA,Seaport,Large,
+USA,Honolulu,"Honolulu Harbor, Oahu",Hawaii Department of Transportation,"700 Fort Street Mall
+Honolulu, HI 96813
+United States",808-587-2050,,,,hidot.hawaii.gov/harbors,"21° 18' 34"" N","157° 52' 40"" W",USHNL,Seaport,Large,
+USA,Honolulu,Pearl Harbor,US Navy,"Honolulu, HI
+United States",,,,,www.cnic.navy.mil/pearlharbor,"21° 21' 7"" N","157° 57' 53"" W",USHNL,Deepwater Seaport,Very Large,
+USA,Houston,Port of Houston,Port of Houston Authority,"111 East Loop North              (77029)
+P.O. Box 2562                          (77252-2562)
+Houston, TX 77252-2562
+United States",713-670-2400,713-670-2429,800-688-3625,,www.portofhouston.com,"29° 44' 21"" N","95° 12' 12"" W",USHOU,Seaport,Very Large,
+USA,Jacksonville,Port of Jacksonville,Jacksonville Port Authority,"2831 Talleyrand Avenue
+Jacksonville, FL 32206
+United States",(904) 630-3080,(904) 630-3060,,info@jaxport.com,www.jaxport.com,"30° 22' 51"" N","81° 33' 52"" W",USJAX,Seaport,Large,
+USA,Long Beach,Port of Long Beach,Long Beach Board of Harbor Commissioners,"415 W. Ocean Blvd.
+Long Beach, CA 90802
+United States",(562) 283-7000,,,webmaster@polb.com,www.polb.com,"33° 44' 56"" N","118° 12' 4"" W",USLGB,Deepwater Seaport,Very Large,
+USA,Los Angeles,Port of Los Angeles,Los Angeles Harbor Department,"425 S. Palos Verdes St.
+San Pedro, CA 90731
+United States",310 732 3400,310 732 0291,,geninfo@portoflosangeles.org,www.portoflosangeles.org,"33° 43' 55"" N","118° 15' 55"" W",USLAX,Deepwater Seaport,Very Large,
+USA,Mobile,Port of Mobile,Alabama State Port Authority,"P.O. Box 1588
+Mobile, AL 36633
+United States",334-441-7003,334-441-7216,,jlyons@asdd.com,www.asdd.com,"30° 42' 41"" N","88° 2' 25"" W",USMOB,Deepwater Seaport,Large,
+USA,New Haven,Port of New Haven,New Haven Port Authority,"100 Waterfront Street
+New Haven, CT 06512
+United States",203- 469-1391,203-469-0905,,,www.cityofnewhaven.com/PortAuthority,"41° 17' 11"" N","72° 54' 54"" W",USHVN,Seaport,Large,
+USA,New Orleans,Port of New Orleans,Board of Commissioners of the Port of New Orleans,"1350 Port of New Orleans Place
+New Orleans, LA 70130
+United States",(504) 522-2551,(504) 524-4156,,,www.portno.com,"29° 54' 51"" N","90° 5' 26"" W",USMSY,River Port,Very Large,
+USA,New York,Port of New York,The Port Authority of New York and New Jersey,"225 Park Avenue South
+New York, NY 10003
+United States",212-435-4200,,888-767-8696,,www.panynj.gov,"40° 41' 18"" N","74° 1' 43"" W",USNYC,Deepwater Seaport,Very Large,
+USA,Newark,Port of Newark,The Port Authority of New York and New Jersey,"Newark, NJ
+United States",,,,,www.panynj.gov,"40° 42' 0"" N","74° 8' 22"" W",,Deepwater Seaport,Very Large,
+USA,Newport News,Port of Newport News,Virginia Port Authority,"25th St. & Warwick Blvd.
+Newport News, VA 23607
+United States",757-928-1211,757-928-1220,,,www.vaports.com,"36° 58' 50"" N","76° 25' 54"" W",USNNS,Deepwater Seaport,Large,
+USA,Norfolk,Port of Norfolk,Virginia Port Authority,"7737 Hampton Blvd.
+Norfolk, VA 23505
+United States",757-440-7000,757-440-2640,,,www.vaports.com,"36° 54' 7"" N","76° 17' 52"" W",USORF,Deepwater Seaport,Very Large,
+USA,Oakland,Port of Oakland,Port of Oakland Board Commissioners,"530 Water Street
+Oakland, CA 94607
+United States",510 627 1339,510 627 1811,,marineinfo@portofoakland.com,www.portofoakland.com,"37° 47' 58"" N","122° 18' 7"" W",USOAK,Deepwater Seaport,Very Large,
+USA,Pasadena,Port of Pasadena,Port of Houston Authority,"111 East Loop North              (77029)
+P.O. Box 2562                          (77252-2562)
+Houston, TX 77252-2562
+United States",713-670-2400,713-670-2429,800-688-3625,,www.portofhouston.com,"29° 44' 2"" N","95° 11' 47"" W",USPAS,Seaport,Large,
+USA,Perth Amboy,Port of Perth Amboy,,"Perth Amboy, NJ
+United States",,,,,,"40° 30' 13"" N","74° 16' 24"" W",USPAY,Seaport,Large,
+USA,Philadelphia,Port of Philadelphia,Philadelphia Regional Port Authority,"3460 N. Delaware Avenue
+Philadelphia, PA 19134
+United States",215-426-2600,215-426-6800,,marketing@philaport.com,www.philaport.com,"39° 53' 43"" N","75° 8' 7"" W",USPHL,River Port,Large,
+USA,Portsmouth,Port of Portsmouth,Virginia Port Authority,"2000 Seaboard Ave.
+Portsmouth, VA 23707
+United States",757-391-6100,757-391-6176,,,www.vaports.com,"36° 49' 0"" N","76° 17' 28"" W",USPTM,Deepwater Seaport,Large,
+USA,Richmond,Port of Richmond,City of Richmond Port Department,"1411 Harbour Way South
+Richmond, CA 94804
+United States",510-215-4600,510-233-3105,,Richmondport@yahoo.com,www.ci.richmond.ca.us/index.asp?NID=102,"37° 54' 50"" N","122° 21' 51"" W",USRCH,Deepwater Seaport,Large,
+USA,San Diego,Port of San Diego,San Diego Unified Port District,"3165 Pacific Highway
+San Diego, CA 92101-1128
+United States",619-686-6200,619 686 6547,,,www.portofsandiego.org,"32° 41' 4"" N","117° 9' 41"" W",USSAN,Deepwater Seaport,Very Large,
+USA,San Francisco,Port of San Francisco,San Francisco Port Commission,"Pier 1
+The Embarcadero
+San Francisco, CA 94111
+United States",415 274 0400,415 732 0400,,webmaster@sfport.com,www.sfport.com,"37° 47' 19"" N","122° 24' 5"" W",USSFO,Deepwater Seaport,Very Large,
+USA,Seattle,Port of Seattle,Port of Seattle Commission,"2711 Alaskan Way
+Seattle, WA 98121
+United States",206 728 3000,206 728 3280,,harbor_info@portseattle.org,www.portseattle.org,"47° 36' 8"" N","122° 21' 55"" W",USSEA,Seaport,Very Large,
+USA,Tacoma,Port of Tacoma,Port of Tacoma Commission,"One Sitcum Plaza
+Tacoma, WA 98421
+United States",253-383-5841,253-593-4534,,jwoods@portoftacoma.com,www.portoftacoma.com,"47° 16' 2"" N","122° 24' 24"" W",USTIW,Seaport,Very Large,
+USA,Tampa,Tampa Port Authority,Tampa Port Authority,"1101 Channelside Drive
+Tampa, FL 33602-2192
+United States",813-905-7678,813-905-5109,800-741-2297,info@tampaport.com,www.tampaport.com,"27° 55' 48"" N","82° 26' 16"" W",USTPA,Seaport,Large,
+USA,Texas City,Port of Texas City,Port of Texas City - Texas City Terminal Railway Company,"2425 Hwy. 146 N.
+Texas City, TX 77590
+United States",409-945-4461,409-945-8479,800-893-4412,railport@railporttc.com,www.railporttc.com,"29° 22' 30"" N","94° 53' 54"" W",USTXT,Seaport,Large,

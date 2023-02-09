@@ -1,0 +1,4580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c75fe7b673af794247582ab058cbd5d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c75fe7b673af794247582ab058cbd5d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c75fe7b673af794247582ab058cbd5d = L.map(
+                "map_8c75fe7b673af794247582ab058cbd5d",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-90, -180], [90, 180]],
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c69a48f11e582d189443d4c8064eb90 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8c75fe7b673af794247582ab058cbd5d);
+        
+    
+            var marker_cluster_7a99020cbba5eb0d53408141ac4c81e2 = L.markerClusterGroup(
+                {}
+            );
+            map_8c75fe7b673af794247582ab058cbd5d.addLayer(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+            var marker_c046b7c411848b46f7008fa607998cd1 = L.marker(
+                [36.773611, 3.067222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d298ceb1f11a8464df4f2055dae9b26c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_336d34d8d17403ebcaa96e27f2242eda = $(`<div id="html_336d34d8d17403ebcaa96e27f2242eda" style="width: 100.0%; height: 100.0%;">Port of Algiers, Deepwater Seaport - Large</div>`)[0];
+                popup_d298ceb1f11a8464df4f2055dae9b26c.setContent(html_336d34d8d17403ebcaa96e27f2242eda);
+            
+        
+
+        marker_c046b7c411848b46f7008fa607998cd1.bindPopup(popup_d298ceb1f11a8464df4f2055dae9b26c)
+        ;
+
+        
+    
+    
+            marker_c046b7c411848b46f7008fa607998cd1.bindTooltip(
+                `<div>
+                     Port of Algiers, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05e975acd5a61ff23110e3480f36e132 = L.marker(
+                [36.75, 5.09],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_73c11e9af559a02df5cb06ad25c708af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_487b182d88af159d070341fbc4edf8a4 = $(`<div id="html_487b182d88af159d070341fbc4edf8a4" style="width: 100.0%; height: 100.0%;">Port of Bejaia, Deepwater Seaport - Large</div>`)[0];
+                popup_73c11e9af559a02df5cb06ad25c708af.setContent(html_487b182d88af159d070341fbc4edf8a4);
+            
+        
+
+        marker_05e975acd5a61ff23110e3480f36e132.bindPopup(popup_73c11e9af559a02df5cb06ad25c708af)
+        ;
+
+        
+    
+    
+            marker_05e975acd5a61ff23110e3480f36e132.bindTooltip(
+                `<div>
+                     Port of Bejaia, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_219990ef20280bf7b2859bb23e0e9136 = L.marker(
+                [-34.599167, -58.371389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c82867ae5095909489a6aac69a7ad5fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8915a22a7a2efa6386c3d56538cc2ad = $(`<div id="html_a8915a22a7a2efa6386c3d56538cc2ad" style="width: 100.0%; height: 100.0%;">Port of Buenos Aires, Deepwater Seaport - Large</div>`)[0];
+                popup_c82867ae5095909489a6aac69a7ad5fc.setContent(html_a8915a22a7a2efa6386c3d56538cc2ad);
+            
+        
+
+        marker_219990ef20280bf7b2859bb23e0e9136.bindPopup(popup_c82867ae5095909489a6aac69a7ad5fc)
+        ;
+
+        
+    
+    
+            marker_219990ef20280bf7b2859bb23e0e9136.bindTooltip(
+                `<div>
+                     Port of Buenos Aires, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23d82c41f4ad26de43a6d70e9550a713 = L.marker(
+                [-34.634167, -58.348056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_4dc65a7c15ce9719fcfccacbcd630dba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b0d31dc5e4e569d9f38749e2d229a43 = $(`<div id="html_9b0d31dc5e4e569d9f38749e2d229a43" style="width: 100.0%; height: 100.0%;">Port of Dock Sud, Deepwater Seaport - Large</div>`)[0];
+                popup_4dc65a7c15ce9719fcfccacbcd630dba.setContent(html_9b0d31dc5e4e569d9f38749e2d229a43);
+            
+        
+
+        marker_23d82c41f4ad26de43a6d70e9550a713.bindPopup(popup_4dc65a7c15ce9719fcfccacbcd630dba)
+        ;
+
+        
+    
+    
+            marker_23d82c41f4ad26de43a6d70e9550a713.bindTooltip(
+                `<div>
+                     Port of Dock Sud, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13702ac343e04a44c7ba0d4e1e84018f = L.marker(
+                [-27.3825, 153.169444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a51ab08187148f6e8622f183eeb63726 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93d077a714cc1ba9a38c43341ec0fbc1 = $(`<div id="html_93d077a714cc1ba9a38c43341ec0fbc1" style="width: 100.0%; height: 100.0%;">Port of Brisbane, Seaport - Large</div>`)[0];
+                popup_a51ab08187148f6e8622f183eeb63726.setContent(html_93d077a714cc1ba9a38c43341ec0fbc1);
+            
+        
+
+        marker_13702ac343e04a44c7ba0d4e1e84018f.bindPopup(popup_a51ab08187148f6e8622f183eeb63726)
+        ;
+
+        
+    
+    
+            marker_13702ac343e04a44c7ba0d4e1e84018f.bindTooltip(
+                `<div>
+                     Port of Brisbane, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b712159f01569f41bade764cfe302e5e = L.marker(
+                [-37.832778, 144.9175],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_28f20ceb5546b0382e20152e2f615f3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523f90eb49ea1841bd4e2ed2f7cc462c = $(`<div id="html_523f90eb49ea1841bd4e2ed2f7cc462c" style="width: 100.0%; height: 100.0%;">Port of Melbourne, Deepwater Seaport - Very Large</div>`)[0];
+                popup_28f20ceb5546b0382e20152e2f615f3f.setContent(html_523f90eb49ea1841bd4e2ed2f7cc462c);
+            
+        
+
+        marker_b712159f01569f41bade764cfe302e5e.bindPopup(popup_28f20ceb5546b0382e20152e2f615f3f)
+        ;
+
+        
+    
+    
+            marker_b712159f01569f41bade764cfe302e5e.bindTooltip(
+                `<div>
+                     Port of Melbourne, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd5ff67b24a8a3f5e53bbb80356bfdda = L.marker(
+                [-33.862222, 151.1925],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_861226adfd7b3c12811557999e290491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_091e14e7d14015e37e824b6e6eb043a6 = $(`<div id="html_091e14e7d14015e37e824b6e6eb043a6" style="width: 100.0%; height: 100.0%;">Port of Sydney, Deepwater Seaport - Large</div>`)[0];
+                popup_861226adfd7b3c12811557999e290491.setContent(html_091e14e7d14015e37e824b6e6eb043a6);
+            
+        
+
+        marker_bd5ff67b24a8a3f5e53bbb80356bfdda.bindPopup(popup_861226adfd7b3c12811557999e290491)
+        ;
+
+        
+    
+    
+            marker_bd5ff67b24a8a3f5e53bbb80356bfdda.bindTooltip(
+                `<div>
+                     Port of Sydney, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee2c2ce2219fb262f275af6273afb43f = L.marker(
+                [40.347778, 49.876389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_108fa65116a820ba63f3c6031daa08bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72e475bfe60bdc32c9c2edc43d22cc4a = $(`<div id="html_72e475bfe60bdc32c9c2edc43d22cc4a" style="width: 100.0%; height: 100.0%;">Port of Baku, Seaport - Large</div>`)[0];
+                popup_108fa65116a820ba63f3c6031daa08bd.setContent(html_72e475bfe60bdc32c9c2edc43d22cc4a);
+            
+        
+
+        marker_ee2c2ce2219fb262f275af6273afb43f.bindPopup(popup_108fa65116a820ba63f3c6031daa08bd)
+        ;
+
+        
+    
+    
+            marker_ee2c2ce2219fb262f275af6273afb43f.bindTooltip(
+                `<div>
+                     Port of Baku, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93e9f1e331f503e463a60cd9e409cff0 = L.marker(
+                [51.297778, 4.299722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8910c11e48c813f2eb9459bc43a85d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dbeee2fe442bdb3468a153104e2d270 = $(`<div id="html_9dbeee2fe442bdb3468a153104e2d270" style="width: 100.0%; height: 100.0%;">Port of Antwerp, Seaport - Very Large</div>`)[0];
+                popup_8910c11e48c813f2eb9459bc43a85d22.setContent(html_9dbeee2fe442bdb3468a153104e2d270);
+            
+        
+
+        marker_93e9f1e331f503e463a60cd9e409cff0.bindPopup(popup_8910c11e48c813f2eb9459bc43a85d22)
+        ;
+
+        
+    
+    
+            marker_93e9f1e331f503e463a60cd9e409cff0.bindTooltip(
+                `<div>
+                     Port of Antwerp, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bba98a8dc3a53c568a48e6170ffe286 = L.marker(
+                [-22.879167, -43.129167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1b2173b4e484d223a971a00724822c92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825eef3a856c88bb7fe9b4e7208da732 = $(`<div id="html_825eef3a856c88bb7fe9b4e7208da732" style="width: 100.0%; height: 100.0%;">Port of Niteroi, Seaport - Large</div>`)[0];
+                popup_1b2173b4e484d223a971a00724822c92.setContent(html_825eef3a856c88bb7fe9b4e7208da732);
+            
+        
+
+        marker_9bba98a8dc3a53c568a48e6170ffe286.bindPopup(popup_1b2173b4e484d223a971a00724822c92)
+        ;
+
+        
+    
+    
+            marker_9bba98a8dc3a53c568a48e6170ffe286.bindTooltip(
+                `<div>
+                     Port of Niteroi, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_987b7e022e80eb2de58c9d5e4f59d950 = L.marker(
+                [44.656944, -63.578889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_adee4196ce65f7a7092f3b1a5ea1cfc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3843ae58a73574295390e199fd52315d = $(`<div id="html_3843ae58a73574295390e199fd52315d" style="width: 100.0%; height: 100.0%;">Port of Halifax, Seaport - Large</div>`)[0];
+                popup_adee4196ce65f7a7092f3b1a5ea1cfc0.setContent(html_3843ae58a73574295390e199fd52315d);
+            
+        
+
+        marker_987b7e022e80eb2de58c9d5e4f59d950.bindPopup(popup_adee4196ce65f7a7092f3b1a5ea1cfc0)
+        ;
+
+        
+    
+    
+            marker_987b7e022e80eb2de58c9d5e4f59d950.bindTooltip(
+                `<div>
+                     Port of Halifax, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea46039000a7e17ddcf2e00ad750423b = L.marker(
+                [45.543611, -73.529167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8b74d1ead627bc63fe86ad8f98840711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e33baf72980c85eb926e993810d54b = $(`<div id="html_e8e33baf72980c85eb926e993810d54b" style="width: 100.0%; height: 100.0%;">Port of Montreal, Seaport - Large</div>`)[0];
+                popup_8b74d1ead627bc63fe86ad8f98840711.setContent(html_e8e33baf72980c85eb926e993810d54b);
+            
+        
+
+        marker_ea46039000a7e17ddcf2e00ad750423b.bindPopup(popup_8b74d1ead627bc63fe86ad8f98840711)
+        ;
+
+        
+    
+    
+            marker_ea46039000a7e17ddcf2e00ad750423b.bindTooltip(
+                `<div>
+                     Port of Montreal, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dc06423e0ba3416721ad040237c91e9 = L.marker(
+                [46.805833, -71.214167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_2ed99bf8241f300e85b233839c4bb061 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eeb4576bbc6fc2803cbd6ae4472b82d = $(`<div id="html_3eeb4576bbc6fc2803cbd6ae4472b82d" style="width: 100.0%; height: 100.0%;">Port of Quebec, Seaport - Large</div>`)[0];
+                popup_2ed99bf8241f300e85b233839c4bb061.setContent(html_3eeb4576bbc6fc2803cbd6ae4472b82d);
+            
+        
+
+        marker_8dc06423e0ba3416721ad040237c91e9.bindPopup(popup_2ed99bf8241f300e85b233839c4bb061)
+        ;
+
+        
+    
+    
+            marker_8dc06423e0ba3416721ad040237c91e9.bindTooltip(
+                `<div>
+                     Port of Quebec, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae116308d7b42704d04a0fc1b033673d = L.marker(
+                [49.297778, -123.074167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_15c5bd7e7d1fd0509fb37c92fb1b360e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42d94accee37f1083b3032ac14cc70d2 = $(`<div id="html_42d94accee37f1083b3032ac14cc70d2" style="width: 100.0%; height: 100.0%;">Port Metro Vancouver, Seaport - Large</div>`)[0];
+                popup_15c5bd7e7d1fd0509fb37c92fb1b360e.setContent(html_42d94accee37f1083b3032ac14cc70d2);
+            
+        
+
+        marker_ae116308d7b42704d04a0fc1b033673d.bindPopup(popup_15c5bd7e7d1fd0509fb37c92fb1b360e)
+        ;
+
+        
+    
+    
+            marker_ae116308d7b42704d04a0fc1b033673d.bindTooltip(
+                `<div>
+                     Port Metro Vancouver, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_339d06c05ac51c8e052704ee7c0ea8ae = L.marker(
+                [48.431111, -123.410278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_2542c3f6a50729451193704a43bd25c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c5bb6e1ddd620630200d3eb0bcba53 = $(`<div id="html_71c5bb6e1ddd620630200d3eb0bcba53" style="width: 100.0%; height: 100.0%;">Port of Victoria, Seaport - Large</div>`)[0];
+                popup_2542c3f6a50729451193704a43bd25c8.setContent(html_71c5bb6e1ddd620630200d3eb0bcba53);
+            
+        
+
+        marker_339d06c05ac51c8e052704ee7c0ea8ae.bindPopup(popup_2542c3f6a50729451193704a43bd25c8)
+        ;
+
+        
+    
+    
+            marker_339d06c05ac51c8e052704ee7c0ea8ae.bindTooltip(
+                `<div>
+                     Port of Victoria, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65bd33bbf82f0d1ea26d4bead4d7f5e9 = L.marker(
+                [22.473889, 113.873889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_cf90667633909c3bf3aa49af7650bae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3b876b137419f12b379c9b79e2c8d7d = $(`<div id="html_b3b876b137419f12b379c9b79e2c8d7d" style="width: 100.0%; height: 100.0%;">Port of Chiwan, Seaport - Large</div>`)[0];
+                popup_cf90667633909c3bf3aa49af7650bae3.setContent(html_b3b876b137419f12b379c9b79e2c8d7d);
+            
+        
+
+        marker_65bd33bbf82f0d1ea26d4bead4d7f5e9.bindPopup(popup_cf90667633909c3bf3aa49af7650bae3)
+        ;
+
+        
+    
+    
+            marker_65bd33bbf82f0d1ea26d4bead4d7f5e9.bindTooltip(
+                `<div>
+                     Port of Chiwan, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2393374edaa20c4f5febce91cbe0f03 = L.marker(
+                [38.933611, 121.650556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b6fce2339b69a79be214b1f169d5e800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0e30d3cae07dd606b7f44a62aac6d8 = $(`<div id="html_fc0e30d3cae07dd606b7f44a62aac6d8" style="width: 100.0%; height: 100.0%;">Port of Dalian, Port Terminal - Large</div>`)[0];
+                popup_b6fce2339b69a79be214b1f169d5e800.setContent(html_fc0e30d3cae07dd606b7f44a62aac6d8);
+            
+        
+
+        marker_d2393374edaa20c4f5febce91cbe0f03.bindPopup(popup_b6fce2339b69a79be214b1f169d5e800)
+        ;
+
+        
+    
+    
+            marker_d2393374edaa20c4f5febce91cbe0f03.bindTooltip(
+                `<div>
+                     Port of Dalian, Port Terminal - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2177d94c7ca8e27d793b07278b0cd6b7 = L.marker(
+                [22.466389, 113.885278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9a16a17829a0a3ed2033bb7b6c3e2ade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a67564959eecf35597cdbfd7d9f0327 = $(`<div id="html_5a67564959eecf35597cdbfd7d9f0327" style="width: 100.0%; height: 100.0%;">Port of Huadu, Seaport - Large</div>`)[0];
+                popup_9a16a17829a0a3ed2033bb7b6c3e2ade.setContent(html_5a67564959eecf35597cdbfd7d9f0327);
+            
+        
+
+        marker_2177d94c7ca8e27d793b07278b0cd6b7.bindPopup(popup_9a16a17829a0a3ed2033bb7b6c3e2ade)
+        ;
+
+        
+    
+    
+            marker_2177d94c7ca8e27d793b07278b0cd6b7.bindTooltip(
+                `<div>
+                     Port of Huadu, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f40c7982d6894aca2399463339c49ba3 = L.marker(
+                [34.745278, 119.413333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_600c24d2ddc1abbadca14557c0c7b4a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_806ca20162a7dae999eb9174afc0e153 = $(`<div id="html_806ca20162a7dae999eb9174afc0e153" style="width: 100.0%; height: 100.0%;">Port of Lianyungang, Seaport - Large</div>`)[0];
+                popup_600c24d2ddc1abbadca14557c0c7b4a2.setContent(html_806ca20162a7dae999eb9174afc0e153);
+            
+        
+
+        marker_f40c7982d6894aca2399463339c49ba3.bindPopup(popup_600c24d2ddc1abbadca14557c0c7b4a2)
+        ;
+
+        
+    
+    
+            marker_f40c7982d6894aca2399463339c49ba3.bindTooltip(
+                `<div>
+                     Port of Lianyungang, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4932e3e0b7bd0534deac647b933ce52e = L.marker(
+                [29.866667, 121.555278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_63c566ba19aaf7bde6a799839f385247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fbe0631fabd1b0c5df4596893f7fe43 = $(`<div id="html_1fbe0631fabd1b0c5df4596893f7fe43" style="width: 100.0%; height: 100.0%;">Port of Ningbo, Seaport - Large</div>`)[0];
+                popup_63c566ba19aaf7bde6a799839f385247.setContent(html_1fbe0631fabd1b0c5df4596893f7fe43);
+            
+        
+
+        marker_4932e3e0b7bd0534deac647b933ce52e.bindPopup(popup_63c566ba19aaf7bde6a799839f385247)
+        ;
+
+        
+    
+    
+            marker_4932e3e0b7bd0534deac647b933ce52e.bindTooltip(
+                `<div>
+                     Port of Ningbo, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf46b683eac0c221eb94a697b28098b6 = L.marker(
+                [36.095833, 120.317222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_be69e3948a3f13fde2663169797c3396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91b7bfcea6aae59241ad7aafb98faf5e = $(`<div id="html_91b7bfcea6aae59241ad7aafb98faf5e" style="width: 100.0%; height: 100.0%;">Port of Qingdao, Seaport - Large</div>`)[0];
+                popup_be69e3948a3f13fde2663169797c3396.setContent(html_91b7bfcea6aae59241ad7aafb98faf5e);
+            
+        
+
+        marker_bf46b683eac0c221eb94a697b28098b6.bindPopup(popup_be69e3948a3f13fde2663169797c3396)
+        ;
+
+        
+    
+    
+            marker_bf46b683eac0c221eb94a697b28098b6.bindTooltip(
+                `<div>
+                     Port of Qingdao, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_645bbc0fe7df893e78ef5ec3474e891c = L.marker(
+                [31.221944, 121.489444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3b78267f1c728fdbbe164e6ccfcabab7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96abb076caeaa14205e498cadf73b238 = $(`<div id="html_96abb076caeaa14205e498cadf73b238" style="width: 100.0%; height: 100.0%;">Port of Shanghai, Seaport - Very Large</div>`)[0];
+                popup_3b78267f1c728fdbbe164e6ccfcabab7.setContent(html_96abb076caeaa14205e498cadf73b238);
+            
+        
+
+        marker_645bbc0fe7df893e78ef5ec3474e891c.bindPopup(popup_3b78267f1c728fdbbe164e6ccfcabab7)
+        ;
+
+        
+    
+    
+            marker_645bbc0fe7df893e78ef5ec3474e891c.bindTooltip(
+                `<div>
+                     Port of Shanghai, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae12eaaef7b38f3b63017074cd8ccc59 = L.marker(
+                [22.470833, 113.903333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9a6971fc657c05fe1bb3468ec8d04372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b871e328a83ba67aa435db0d7085caa = $(`<div id="html_3b871e328a83ba67aa435db0d7085caa" style="width: 100.0%; height: 100.0%;">Port of Shekou, Seaport - Large</div>`)[0];
+                popup_9a6971fc657c05fe1bb3468ec8d04372.setContent(html_3b871e328a83ba67aa435db0d7085caa);
+            
+        
+
+        marker_ae12eaaef7b38f3b63017074cd8ccc59.bindPopup(popup_9a6971fc657c05fe1bb3468ec8d04372)
+        ;
+
+        
+    
+    
+            marker_ae12eaaef7b38f3b63017074cd8ccc59.bindTooltip(
+                `<div>
+                     Port of Shekou, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b34dce5a1340cd3ef32f79af546c70f8 = L.marker(
+                [39.009444, 117.460278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3b84cdd66583f9f540e3efdba4ad447a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2110c70d10234ba83ca341fbf0fcc0 = $(`<div id="html_fa2110c70d10234ba83ca341fbf0fcc0" style="width: 100.0%; height: 100.0%;">Port of Tianjin, Seaport - Large</div>`)[0];
+                popup_3b84cdd66583f9f540e3efdba4ad447a.setContent(html_fa2110c70d10234ba83ca341fbf0fcc0);
+            
+        
+
+        marker_b34dce5a1340cd3ef32f79af546c70f8.bindPopup(popup_3b84cdd66583f9f540e3efdba4ad447a)
+        ;
+
+        
+    
+    
+            marker_b34dce5a1340cd3ef32f79af546c70f8.bindTooltip(
+                `<div>
+                     Port of Tianjin, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc468fad1e30baf3447e07ab210fd033 = L.marker(
+                [21.174167, 110.410556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3879cc921bf1daeaf2e6447594152172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6520c83e5ec4cde483d60584bf6ad304 = $(`<div id="html_6520c83e5ec4cde483d60584bf6ad304" style="width: 100.0%; height: 100.0%;">Port of Xiahai, Seaport - Large</div>`)[0];
+                popup_3879cc921bf1daeaf2e6447594152172.setContent(html_6520c83e5ec4cde483d60584bf6ad304);
+            
+        
+
+        marker_dc468fad1e30baf3447e07ab210fd033.bindPopup(popup_3879cc921bf1daeaf2e6447594152172)
+        ;
+
+        
+    
+    
+            marker_dc468fad1e30baf3447e07ab210fd033.bindTooltip(
+                `<div>
+                     Port of Xiahai, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94e2a1dfc6aa08728aedc20755173db3 = L.marker(
+                [22.574167, 114.267222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5121db7ebf20867e4cea0cd914755cea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_787c04872f99941811c9205f29712f65 = $(`<div id="html_787c04872f99941811c9205f29712f65" style="width: 100.0%; height: 100.0%;">Port of Yantian, Seaport - Large</div>`)[0];
+                popup_5121db7ebf20867e4cea0cd914755cea.setContent(html_787c04872f99941811c9205f29712f65);
+            
+        
+
+        marker_94e2a1dfc6aa08728aedc20755173db3.bindPopup(popup_5121db7ebf20867e4cea0cd914755cea)
+        ;
+
+        
+    
+    
+            marker_94e2a1dfc6aa08728aedc20755173db3.bindTooltip(
+                `<div>
+                     Port of Yantian, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a49839410f304897e9d35c9e60ad9d14 = L.marker(
+                [10.403333, -75.530833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_192061d68260fdce58142089db7a0372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7df397e1780ec761b2faecf45982afca = $(`<div id="html_7df397e1780ec761b2faecf45982afca" style="width: 100.0%; height: 100.0%;">Port of Cartagena, Seaport - Large</div>`)[0];
+                popup_192061d68260fdce58142089db7a0372.setContent(html_7df397e1780ec761b2faecf45982afca);
+            
+        
+
+        marker_a49839410f304897e9d35c9e60ad9d14.bindPopup(popup_192061d68260fdce58142089db7a0372)
+        ;
+
+        
+    
+    
+            marker_a49839410f304897e9d35c9e60ad9d14.bindTooltip(
+                `<div>
+                     Port of Cartagena, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_061b4df161670ec6aca49f25352ab462 = L.marker(
+                [23.1325, -82.341944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_88219047fcb119c5a25db94adafc4258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2b72555a7f1e0bc89fb4561753d4245 = $(`<div id="html_a2b72555a7f1e0bc89fb4561753d4245" style="width: 100.0%; height: 100.0%;">Port of Havana, Seaport - Large</div>`)[0];
+                popup_88219047fcb119c5a25db94adafc4258.setContent(html_a2b72555a7f1e0bc89fb4561753d4245);
+            
+        
+
+        marker_061b4df161670ec6aca49f25352ab462.bindPopup(popup_88219047fcb119c5a25db94adafc4258)
+        ;
+
+        
+    
+    
+            marker_061b4df161670ec6aca49f25352ab462.bindTooltip(
+                `<div>
+                     Port of Havana, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dcdcdb37294a8c18380ac9c65e6f953 = L.marker(
+                [20.001667, -75.860556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_bab5fc884412151273544f3d59e96741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e63297f75ebe90e30c6cc54b893bb488 = $(`<div id="html_e63297f75ebe90e30c6cc54b893bb488" style="width: 100.0%; height: 100.0%;">Port of Santiago de Cuba, Seaport - Large</div>`)[0];
+                popup_bab5fc884412151273544f3d59e96741.setContent(html_e63297f75ebe90e30c6cc54b893bb488);
+            
+        
+
+        marker_4dcdcdb37294a8c18380ac9c65e6f953.bindPopup(popup_bab5fc884412151273544f3d59e96741)
+        ;
+
+        
+    
+    
+            marker_4dcdcdb37294a8c18380ac9c65e6f953.bindTooltip(
+                `<div>
+                     Port of Santiago de Cuba, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caecb47c89a3a427c7c7969221d136d4 = L.marker(
+                [55.696111, 12.613333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_006a54bec8b5cad5fb31b4b90be748f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bad61f9cd4f07aea72012cf1c6a449f0 = $(`<div id="html_bad61f9cd4f07aea72012cf1c6a449f0" style="width: 100.0%; height: 100.0%;">Port of Copenhagen, Seaport - Large</div>`)[0];
+                popup_006a54bec8b5cad5fb31b4b90be748f9.setContent(html_bad61f9cd4f07aea72012cf1c6a449f0);
+            
+        
+
+        marker_caecb47c89a3a427c7c7969221d136d4.bindPopup(popup_006a54bec8b5cad5fb31b4b90be748f9)
+        ;
+
+        
+    
+    
+            marker_caecb47c89a3a427c7c7969221d136d4.bindTooltip(
+                `<div>
+                     Port of Copenhagen, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36609d6ad76cfce381a5133edbb61abf = L.marker(
+                [31.183056, 29.866667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_369bedd8b5b0e03d1e7eecd5f16e9b54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45fbd1fb030eb294e7d9f41ead813fb0 = $(`<div id="html_45fbd1fb030eb294e7d9f41ead813fb0" style="width: 100.0%; height: 100.0%;">Port of Alexandria, Seaport - Large</div>`)[0];
+                popup_369bedd8b5b0e03d1e7eecd5f16e9b54.setContent(html_45fbd1fb030eb294e7d9f41ead813fb0);
+            
+        
+
+        marker_36609d6ad76cfce381a5133edbb61abf.bindPopup(popup_369bedd8b5b0e03d1e7eecd5f16e9b54)
+        ;
+
+        
+    
+    
+            marker_36609d6ad76cfce381a5133edbb61abf.bindTooltip(
+                `<div>
+                     Port of Alexandria, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a9a5d62fd558c2c3d69d9892335c277 = L.marker(
+                [60.159444, 24.923333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a8fc9c6c38879a42fa7d514214c50a2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cbc6c2f0cc74d3936621e6903c5b84f = $(`<div id="html_9cbc6c2f0cc74d3936621e6903c5b84f" style="width: 100.0%; height: 100.0%;">Port of Helsinki, Seaport - Large</div>`)[0];
+                popup_a8fc9c6c38879a42fa7d514214c50a2d.setContent(html_9cbc6c2f0cc74d3936621e6903c5b84f);
+            
+        
+
+        marker_8a9a5d62fd558c2c3d69d9892335c277.bindPopup(popup_a8fc9c6c38879a42fa7d514214c50a2d)
+        ;
+
+        
+    
+    
+            marker_8a9a5d62fd558c2c3d69d9892335c277.bindTooltip(
+                `<div>
+                     Port of Helsinki, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68473911396a4acfed0e4abd8d786bdb = L.marker(
+                [48.380556, -4.474167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b6174ad95001aa26bc610ebc183bd5ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b5170f3e9e6850400c412e4e299506f = $(`<div id="html_7b5170f3e9e6850400c412e4e299506f" style="width: 100.0%; height: 100.0%;">Port of Brest, Deepwater Seaport - Large</div>`)[0];
+                popup_b6174ad95001aa26bc610ebc183bd5ce.setContent(html_7b5170f3e9e6850400c412e4e299506f);
+            
+        
+
+        marker_68473911396a4acfed0e4abd8d786bdb.bindPopup(popup_b6174ad95001aa26bc610ebc183bd5ce)
+        ;
+
+        
+    
+    
+            marker_68473911396a4acfed0e4abd8d786bdb.bindTooltip(
+                `<div>
+                     Port of Brest, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_091f5a9606a57cf37fd9e4cd03003bdd = L.marker(
+                [49.466944, 0.177778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_e9b22dac2d5d6f740c0a268097694bee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_957d38731d13dd6df942c3165331b09e = $(`<div id="html_957d38731d13dd6df942c3165331b09e" style="width: 100.0%; height: 100.0%;">Port of Le Havre, Deepwater Seaport - Large</div>`)[0];
+                popup_e9b22dac2d5d6f740c0a268097694bee.setContent(html_957d38731d13dd6df942c3165331b09e);
+            
+        
+
+        marker_091f5a9606a57cf37fd9e4cd03003bdd.bindPopup(popup_e9b22dac2d5d6f740c0a268097694bee)
+        ;
+
+        
+    
+    
+            marker_091f5a9606a57cf37fd9e4cd03003bdd.bindTooltip(
+                `<div>
+                     Port of Le Havre, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db354ca2227fe7e5cff3b752b2584cc1 = L.marker(
+                [43.323611, 5.352222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_04cb8a1c43a5081a296c228ad70dfe92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6105d9fa2f90fbecf10f2ff52ce1a4b = $(`<div id="html_f6105d9fa2f90fbecf10f2ff52ce1a4b" style="width: 100.0%; height: 100.0%;">Port of Marseille, Seaport - Large</div>`)[0];
+                popup_04cb8a1c43a5081a296c228ad70dfe92.setContent(html_f6105d9fa2f90fbecf10f2ff52ce1a4b);
+            
+        
+
+        marker_db354ca2227fe7e5cff3b752b2584cc1.bindPopup(popup_04cb8a1c43a5081a296c228ad70dfe92)
+        ;
+
+        
+    
+    
+            marker_db354ca2227fe7e5cff3b752b2584cc1.bindTooltip(
+                `<div>
+                     Port of Marseille, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb4b7e592c24342730cbabdaf385ed66 = L.marker(
+                [53.563611, 8.554722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_dac68f0e0ff7662a9d44c53ee6d51979 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c2c8c9fa3123a4d6dd5613e670f5f9 = $(`<div id="html_c8c2c8c9fa3123a4d6dd5613e670f5f9" style="width: 100.0%; height: 100.0%;">Port of Bremerhaven, Seaport - Large</div>`)[0];
+                popup_dac68f0e0ff7662a9d44c53ee6d51979.setContent(html_c8c2c8c9fa3123a4d6dd5613e670f5f9);
+            
+        
+
+        marker_bb4b7e592c24342730cbabdaf385ed66.bindPopup(popup_dac68f0e0ff7662a9d44c53ee6d51979)
+        ;
+
+        
+    
+    
+            marker_bb4b7e592c24342730cbabdaf385ed66.bindTooltip(
+                `<div>
+                     Port of Bremerhaven, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8dd9ebfdbb479b276b611ff55a0ea36 = L.marker(
+                [53.524722, 9.963333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8fec8e0e25e955d7f6da70948e915bbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a126efff51981db0c7ea22c5efb9ae49 = $(`<div id="html_a126efff51981db0c7ea22c5efb9ae49" style="width: 100.0%; height: 100.0%;">Port of Hamburg, Seaport - Very Large</div>`)[0];
+                popup_8fec8e0e25e955d7f6da70948e915bbf.setContent(html_a126efff51981db0c7ea22c5efb9ae49);
+            
+        
+
+        marker_b8dd9ebfdbb479b276b611ff55a0ea36.bindPopup(popup_8fec8e0e25e955d7f6da70948e915bbf)
+        ;
+
+        
+    
+    
+            marker_b8dd9ebfdbb479b276b611ff55a0ea36.bindTooltip(
+                `<div>
+                     Port of Hamburg, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24b6541d6a1228697398186666df554a = L.marker(
+                [53.882778, 10.725833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1859f49096195d16d2de7a17a8cf1db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6d509c829c456dd91ca6692d950843 = $(`<div id="html_4c6d509c829c456dd91ca6692d950843" style="width: 100.0%; height: 100.0%;">Port of Lubeck, Seaport - Large</div>`)[0];
+                popup_1859f49096195d16d2de7a17a8cf1db9.setContent(html_4c6d509c829c456dd91ca6692d950843);
+            
+        
+
+        marker_24b6541d6a1228697398186666df554a.bindPopup(popup_1859f49096195d16d2de7a17a8cf1db9)
+        ;
+
+        
+    
+    
+            marker_24b6541d6a1228697398186666df554a.bindTooltip(
+                `<div>
+                     Port of Lubeck, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3bbc08418f04c1e3ec06a93e942d749 = L.marker(
+                [37.941111, 23.633889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b2facd65e59f6aa92ba6d2e7e5112547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23c17fd75e8881dc0fd318a619fbc3fc = $(`<div id="html_23c17fd75e8881dc0fd318a619fbc3fc" style="width: 100.0%; height: 100.0%;">Port of Piraeus, Seaport - Large</div>`)[0];
+                popup_b2facd65e59f6aa92ba6d2e7e5112547.setContent(html_23c17fd75e8881dc0fd318a619fbc3fc);
+            
+        
+
+        marker_c3bbc08418f04c1e3ec06a93e942d749.bindPopup(popup_b2facd65e59f6aa92ba6d2e7e5112547)
+        ;
+
+        
+    
+    
+            marker_c3bbc08418f04c1e3ec06a93e942d749.bindTooltip(
+                `<div>
+                     Port of Piraeus, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0dde1681cb850b0dd91f5ab868916e7 = L.marker(
+                [22.321111, 114.159722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3b6aa80b8ee1bcaed06b49b1d3fe7411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bea04bf52f62282af59ab104d0f4a670 = $(`<div id="html_bea04bf52f62282af59ab104d0f4a670" style="width: 100.0%; height: 100.0%;">Port of Hong Kong, Deepwater Seaport - Very Large</div>`)[0];
+                popup_3b6aa80b8ee1bcaed06b49b1d3fe7411.setContent(html_bea04bf52f62282af59ab104d0f4a670);
+            
+        
+
+        marker_b0dde1681cb850b0dd91f5ab868916e7.bindPopup(popup_3b6aa80b8ee1bcaed06b49b1d3fe7411)
+        ;
+
+        
+    
+    
+            marker_b0dde1681cb850b0dd91f5ab868916e7.bindTooltip(
+                `<div>
+                     Port of Hong Kong, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b517ee8485836f07171c78391429adf1 = L.marker(
+                [22.331389, 114.128056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_275cf59344298fb2347837de660a8fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f41818df07d20d4943dd3dd9cb8be2 = $(`<div id="html_20f41818df07d20d4943dd3dd9cb8be2" style="width: 100.0%; height: 100.0%;">Hongkong International Terminals, Port Terminal - Large</div>`)[0];
+                popup_275cf59344298fb2347837de660a8fc5.setContent(html_20f41818df07d20d4943dd3dd9cb8be2);
+            
+        
+
+        marker_b517ee8485836f07171c78391429adf1.bindPopup(popup_275cf59344298fb2347837de660a8fc5)
+        ;
+
+        
+    
+    
+            marker_b517ee8485836f07171c78391429adf1.bindTooltip(
+                `<div>
+                     Hongkong International Terminals, Port Terminal - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daabcd5c6d17fe0adec14622a3b08c76 = L.marker(
+                [13.111111, 80.300833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_accf58a4b7647e7be98a3fdb7415b41f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e559495716720fd089d153062e25b919 = $(`<div id="html_e559495716720fd089d153062e25b919" style="width: 100.0%; height: 100.0%;">Port of Chennai, Seaport - Large</div>`)[0];
+                popup_accf58a4b7647e7be98a3fdb7415b41f.setContent(html_e559495716720fd089d153062e25b919);
+            
+        
+
+        marker_daabcd5c6d17fe0adec14622a3b08c76.bindPopup(popup_accf58a4b7647e7be98a3fdb7415b41f)
+        ;
+
+        
+    
+    
+            marker_daabcd5c6d17fe0adec14622a3b08c76.bindTooltip(
+                `<div>
+                     Port of Chennai, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2fc53f3f979f15229adac6b1ca3debd = L.marker(
+                [9.967778, 76.257222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_bb943648c7727be566a6a42fbcc0e24e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc551aaedb036095dd88c94dbe93f7db = $(`<div id="html_bc551aaedb036095dd88c94dbe93f7db" style="width: 100.0%; height: 100.0%;">Port of Cochin, Seaport - Large</div>`)[0];
+                popup_bb943648c7727be566a6a42fbcc0e24e.setContent(html_bc551aaedb036095dd88c94dbe93f7db);
+            
+        
+
+        marker_a2fc53f3f979f15229adac6b1ca3debd.bindPopup(popup_bb943648c7727be566a6a42fbcc0e24e)
+        ;
+
+        
+    
+    
+            marker_a2fc53f3f979f15229adac6b1ca3debd.bindTooltip(
+                `<div>
+                     Port of Cochin, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38b2e8123e619496265f87ee0d0c37bd = L.marker(
+                [18.951667, 72.949722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_286c64e444cd05da119402ce0a1d5cf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6fc276b69aadbc951d26c155f4a6ced = $(`<div id="html_a6fc276b69aadbc951d26c155f4a6ced" style="width: 100.0%; height: 100.0%;">Nhava Sheva, Seaport - Large</div>`)[0];
+                popup_286c64e444cd05da119402ce0a1d5cf9.setContent(html_a6fc276b69aadbc951d26c155f4a6ced);
+            
+        
+
+        marker_38b2e8123e619496265f87ee0d0c37bd.bindPopup(popup_286c64e444cd05da119402ce0a1d5cf9)
+        ;
+
+        
+    
+    
+            marker_38b2e8123e619496265f87ee0d0c37bd.bindTooltip(
+                `<div>
+                     Nhava Sheva, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_293218b9b32da9f61b4d944144286630 = L.marker(
+                [23.013611, 70.225556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ecfc7edc2fc268e3106657ad35d159bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a272243f1bff64ecacaca5104407da = $(`<div id="html_43a272243f1bff64ecacaca5104407da" style="width: 100.0%; height: 100.0%;">Port of Kandla, Seaport - Large</div>`)[0];
+                popup_ecfc7edc2fc268e3106657ad35d159bf.setContent(html_43a272243f1bff64ecacaca5104407da);
+            
+        
+
+        marker_293218b9b32da9f61b4d944144286630.bindPopup(popup_ecfc7edc2fc268e3106657ad35d159bf)
+        ;
+
+        
+    
+    
+            marker_293218b9b32da9f61b4d944144286630.bindTooltip(
+                `<div>
+                     Port of Kandla, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29fcf983a3b6ca3c123c827eb490b139 = L.marker(
+                [18.941944, 72.885278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1232e5895e4311b9206cb4286caa8d3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed964b7db4c2043dab1416a74a6d3a2 = $(`<div id="html_8ed964b7db4c2043dab1416a74a6d3a2" style="width: 100.0%; height: 100.0%;">Port of Mumbai, Deepwater Seaport - Large</div>`)[0];
+                popup_1232e5895e4311b9206cb4286caa8d3d.setContent(html_8ed964b7db4c2043dab1416a74a6d3a2);
+            
+        
+
+        marker_29fcf983a3b6ca3c123c827eb490b139.bindPopup(popup_1232e5895e4311b9206cb4286caa8d3d)
+        ;
+
+        
+    
+    
+            marker_29fcf983a3b6ca3c123c827eb490b139.bindTooltip(
+                `<div>
+                     Port of Mumbai, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68b32168a4bd5bdcdbdcd5cabdfa0456 = L.marker(
+                [20.270556, 86.671111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ffd5a3a0242b550dfc45acc40a5236a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeba0f4b9c39d076b8569669638fd234 = $(`<div id="html_eeba0f4b9c39d076b8569669638fd234" style="width: 100.0%; height: 100.0%;">Port of Paradip, Seaport - Large</div>`)[0];
+                popup_ffd5a3a0242b550dfc45acc40a5236a3.setContent(html_eeba0f4b9c39d076b8569669638fd234);
+            
+        
+
+        marker_68b32168a4bd5bdcdbdcd5cabdfa0456.bindPopup(popup_ffd5a3a0242b550dfc45acc40a5236a3)
+        ;
+
+        
+    
+    
+            marker_68b32168a4bd5bdcdbdcd5cabdfa0456.bindTooltip(
+                `<div>
+                     Port of Paradip, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f189feef8c9b6d9ab73e87b21aaa567 = L.marker(
+                [17.693333, 83.289444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_72c3ff130e7b35b61a4364df21dcfae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65c3c25f07615fcbb257d7c221242fbc = $(`<div id="html_65c3c25f07615fcbb257d7c221242fbc" style="width: 100.0%; height: 100.0%;">Port of Visakhapatnam, Seaport - Large</div>`)[0];
+                popup_72c3ff130e7b35b61a4364df21dcfae1.setContent(html_65c3c25f07615fcbb257d7c221242fbc);
+            
+        
+
+        marker_2f189feef8c9b6d9ab73e87b21aaa567.bindPopup(popup_72c3ff130e7b35b61a4364df21dcfae1)
+        ;
+
+        
+    
+    
+            marker_2f189feef8c9b6d9ab73e87b21aaa567.bindTooltip(
+                `<div>
+                     Port of Visakhapatnam, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ade080718aa9db10f1eee60d4162e0e8 = L.marker(
+                [-6.105556, 106.860556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9d5b415c976072ceab08d0191d66e1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d7410f6845d705c8f7bd02ae9f04d22 = $(`<div id="html_1d7410f6845d705c8f7bd02ae9f04d22" style="width: 100.0%; height: 100.0%;">Port of Jakarta, Seaport - Large</div>`)[0];
+                popup_9d5b415c976072ceab08d0191d66e1fa.setContent(html_1d7410f6845d705c8f7bd02ae9f04d22);
+            
+        
+
+        marker_ade080718aa9db10f1eee60d4162e0e8.bindPopup(popup_9d5b415c976072ceab08d0191d66e1fa)
+        ;
+
+        
+    
+    
+            marker_ade080718aa9db10f1eee60d4162e0e8.bindTooltip(
+                `<div>
+                     Port of Jakarta, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4ce10c5382f98f5dc715ed63f3ec9b6 = L.marker(
+                [-6.101389, 106.894444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9b0c3497dd85579f7a812c900d64f715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ed2c3b6b551be51421b4cbfdb74169a = $(`<div id="html_4ed2c3b6b551be51421b4cbfdb74169a" style="width: 100.0%; height: 100.0%;">Port of Tanjung Priok, Seaport - Large</div>`)[0];
+                popup_9b0c3497dd85579f7a812c900d64f715.setContent(html_4ed2c3b6b551be51421b4cbfdb74169a);
+            
+        
+
+        marker_f4ce10c5382f98f5dc715ed63f3ec9b6.bindPopup(popup_9b0c3497dd85579f7a812c900d64f715)
+        ;
+
+        
+    
+    
+            marker_f4ce10c5382f98f5dc715ed63f3ec9b6.bindTooltip(
+                `<div>
+                     Port of Tanjung Priok, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0454688b5deece7d157126f446e63e3 = L.marker(
+                [30.448611, 49.075278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_4cc428fcb82313210b3d615e3ebc02af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b42811e5fcebd8a1619a9be746074642 = $(`<div id="html_b42811e5fcebd8a1619a9be746074642" style="width: 100.0%; height: 100.0%;">Imam  Khomeini  Port, Seaport - Large</div>`)[0];
+                popup_4cc428fcb82313210b3d615e3ebc02af.setContent(html_b42811e5fcebd8a1619a9be746074642);
+            
+        
+
+        marker_c0454688b5deece7d157126f446e63e3.bindPopup(popup_4cc428fcb82313210b3d615e3ebc02af)
+        ;
+
+        
+    
+    
+            marker_c0454688b5deece7d157126f446e63e3.bindTooltip(
+                `<div>
+                     Imam  Khomeini  Port, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80f61611a2263bbea0047554c2d3d45d = L.marker(
+                [44.404722, 8.916389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_cc294f01dfeef4300b35d2d6378cb35d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa33357aebb70170f5bb5a0082bc541 = $(`<div id="html_0fa33357aebb70170f5bb5a0082bc541" style="width: 100.0%; height: 100.0%;">Port of Genoa, Seaport - Large</div>`)[0];
+                popup_cc294f01dfeef4300b35d2d6378cb35d.setContent(html_0fa33357aebb70170f5bb5a0082bc541);
+            
+        
+
+        marker_80f61611a2263bbea0047554c2d3d45d.bindPopup(popup_cc294f01dfeef4300b35d2d6378cb35d)
+        ;
+
+        
+    
+    
+            marker_80f61611a2263bbea0047554c2d3d45d.bindTooltip(
+                `<div>
+                     Port of Genoa, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac68ed4f97171060be628c8fa81944c7 = L.marker(
+                [44.087222, 9.850556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_980b6dee5852e0de21f934fcee190c3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24fa49973e00856216cbaa4ef170b580 = $(`<div id="html_24fa49973e00856216cbaa4ef170b580" style="width: 100.0%; height: 100.0%;">Port of La Spezia, Seaport - Large</div>`)[0];
+                popup_980b6dee5852e0de21f934fcee190c3a.setContent(html_24fa49973e00856216cbaa4ef170b580);
+            
+        
+
+        marker_ac68ed4f97171060be628c8fa81944c7.bindPopup(popup_980b6dee5852e0de21f934fcee190c3a)
+        ;
+
+        
+    
+    
+            marker_ac68ed4f97171060be628c8fa81944c7.bindTooltip(
+                `<div>
+                     Port of La Spezia, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dc9e5fa5ea0921f7f1bdeaf20bc8a9f = L.marker(
+                [43.555833, 10.303056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d0b3efdfb0980121591030223aa959a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c6dc317ddf3767a9c971b49028dc3cd = $(`<div id="html_3c6dc317ddf3767a9c971b49028dc3cd" style="width: 100.0%; height: 100.0%;">Port of Livorno, Seaport - Large</div>`)[0];
+                popup_d0b3efdfb0980121591030223aa959a9.setContent(html_3c6dc317ddf3767a9c971b49028dc3cd);
+            
+        
+
+        marker_5dc9e5fa5ea0921f7f1bdeaf20bc8a9f.bindPopup(popup_d0b3efdfb0980121591030223aa959a9)
+        ;
+
+        
+    
+    
+            marker_5dc9e5fa5ea0921f7f1bdeaf20bc8a9f.bindTooltip(
+                `<div>
+                     Port of Livorno, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0e4b604ffe553a3adfea11a95875059 = L.marker(
+                [45.453056, 12.244722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1c6b0088aa62fca777dbef183b83a108 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81c3faa10ae9b9adc1f3c1c09ec89a28 = $(`<div id="html_81c3faa10ae9b9adc1f3c1c09ec89a28" style="width: 100.0%; height: 100.0%;">Porto Marghera, Seaport - Large</div>`)[0];
+                popup_1c6b0088aa62fca777dbef183b83a108.setContent(html_81c3faa10ae9b9adc1f3c1c09ec89a28);
+            
+        
+
+        marker_d0e4b604ffe553a3adfea11a95875059.bindPopup(popup_1c6b0088aa62fca777dbef183b83a108)
+        ;
+
+        
+    
+    
+            marker_d0e4b604ffe553a3adfea11a95875059.bindTooltip(
+                `<div>
+                     Porto Marghera, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dcb4c54aa67cc9031be3c3538e12599 = L.marker(
+                [40.836667, 14.274167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_432284c8aa1d1eafde5589c11cfa48f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a52b48cd41adfa7189c867b3d5d2b8 = $(`<div id="html_d4a52b48cd41adfa7189c867b3d5d2b8" style="width: 100.0%; height: 100.0%;">Port of Napoli, Seaport - Large</div>`)[0];
+                popup_432284c8aa1d1eafde5589c11cfa48f6.setContent(html_d4a52b48cd41adfa7189c867b3d5d2b8);
+            
+        
+
+        marker_5dcb4c54aa67cc9031be3c3538e12599.bindPopup(popup_432284c8aa1d1eafde5589c11cfa48f6)
+        ;
+
+        
+    
+    
+            marker_5dcb4c54aa67cc9031be3c3538e12599.bindTooltip(
+                `<div>
+                     Port of Napoli, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b65cd152d0bfb56d6aab3d97b7bca9d4 = L.marker(
+                [45.4475, 12.283056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ef840aa32ee6cfae8814684d3d2b2fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14cec1121bfd06845e3278bd3c3c1b2f = $(`<div id="html_14cec1121bfd06845e3278bd3c3c1b2f" style="width: 100.0%; height: 100.0%;">Port of Venice, Seaport - Large</div>`)[0];
+                popup_ef840aa32ee6cfae8814684d3d2b2fc0.setContent(html_14cec1121bfd06845e3278bd3c3c1b2f);
+            
+        
+
+        marker_b65cd152d0bfb56d6aab3d97b7bca9d4.bindPopup(popup_ef840aa32ee6cfae8814684d3d2b2fc0)
+        ;
+
+        
+    
+    
+            marker_b65cd152d0bfb56d6aab3d97b7bca9d4.bindTooltip(
+                `<div>
+                     Port of Venice, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_305cd6c18d73c3a78cbb661107c6a8d1 = L.marker(
+                [35.562222, 140.064444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d28612683582ca6474a2cee33dbee2e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_371a3cc35616d26dfc881eddc1ce66f5 = $(`<div id="html_371a3cc35616d26dfc881eddc1ce66f5" style="width: 100.0%; height: 100.0%;">Port of Chiba, Seaport - Very Large</div>`)[0];
+                popup_d28612683582ca6474a2cee33dbee2e1.setContent(html_371a3cc35616d26dfc881eddc1ce66f5);
+            
+        
+
+        marker_305cd6c18d73c3a78cbb661107c6a8d1.bindPopup(popup_d28612683582ca6474a2cee33dbee2e1)
+        ;
+
+        
+    
+    
+            marker_305cd6c18d73c3a78cbb661107c6a8d1.bindTooltip(
+                `<div>
+                     Port of Chiba, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_424e682fa2fe2a28f5c5796e2bf378d5 = L.marker(
+                [35.670278, 139.981389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_547fea9e413a135e2d45d1d6e3532c19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_416db8c212cbb23de1a7283b3ed1ad8f = $(`<div id="html_416db8c212cbb23de1a7283b3ed1ad8f" style="width: 100.0%; height: 100.0%;">Port of Funabashi, Seaport - Large</div>`)[0];
+                popup_547fea9e413a135e2d45d1d6e3532c19.setContent(html_416db8c212cbb23de1a7283b3ed1ad8f);
+            
+        
+
+        marker_424e682fa2fe2a28f5c5796e2bf378d5.bindPopup(popup_547fea9e413a135e2d45d1d6e3532c19)
+        ;
+
+        
+    
+    
+            marker_424e682fa2fe2a28f5c5796e2bf378d5.bindTooltip(
+                `<div>
+                     Port of Funabashi, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30f61a832b84b426f14dc7d97be6ddc2 = L.marker(
+                [33.639167, 130.386944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9a438a23c720fc8e6b00c8fe9f90a60b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_175040fac356e1556b2022d3745136d8 = $(`<div id="html_175040fac356e1556b2022d3745136d8" style="width: 100.0%; height: 100.0%;">Port of Hakata, Seaport - Large</div>`)[0];
+                popup_9a438a23c720fc8e6b00c8fe9f90a60b.setContent(html_175040fac356e1556b2022d3745136d8);
+            
+        
+
+        marker_30f61a832b84b426f14dc7d97be6ddc2.bindPopup(popup_9a438a23c720fc8e6b00c8fe9f90a60b)
+        ;
+
+        
+    
+    
+            marker_30f61a832b84b426f14dc7d97be6ddc2.bindTooltip(
+                `<div>
+                     Port of Hakata, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d83da245753b97bcc850062d64fa59c8 = L.marker(
+                [35.506389, 139.749722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1838e3bb42fd9e2ba99a959b332dad07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8c4d446f9b43ae267b2cfa5c362166 = $(`<div id="html_5a8c4d446f9b43ae267b2cfa5c362166" style="width: 100.0%; height: 100.0%;">Port of Kawasaki, Seaport - Very Large</div>`)[0];
+                popup_1838e3bb42fd9e2ba99a959b332dad07.setContent(html_5a8c4d446f9b43ae267b2cfa5c362166);
+            
+        
+
+        marker_d83da245753b97bcc850062d64fa59c8.bindPopup(popup_1838e3bb42fd9e2ba99a959b332dad07)
+        ;
+
+        
+    
+    
+            marker_d83da245753b97bcc850062d64fa59c8.bindTooltip(
+                `<div>
+                     Port of Kawasaki, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c401d12380c77a66a7ee7789f6b18ff = L.marker(
+                [34.864722, 136.951111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_1ba6a43ac7ba24c0cd14465d1b55cfb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21662b4218eeb4469865b8d253979b1a = $(`<div id="html_21662b4218eeb4469865b8d253979b1a" style="width: 100.0%; height: 100.0%;">Port of Kinuura, Seaport - Large</div>`)[0];
+                popup_1ba6a43ac7ba24c0cd14465d1b55cfb6.setContent(html_21662b4218eeb4469865b8d253979b1a);
+            
+        
+
+        marker_5c401d12380c77a66a7ee7789f6b18ff.bindPopup(popup_1ba6a43ac7ba24c0cd14465d1b55cfb6)
+        ;
+
+        
+    
+    
+            marker_5c401d12380c77a66a7ee7789f6b18ff.bindTooltip(
+                `<div>
+                     Port of Kinuura, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a263267d087bea73c1008f2914c01ad = L.marker(
+                [35.354444, 139.856111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8d0fbe387f2960922d9a4f7d14370180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_917db9d288671218e23e8c9af3627957 = $(`<div id="html_917db9d288671218e23e8c9af3627957" style="width: 100.0%; height: 100.0%;">Port of Kisarazu, Seaport - Large</div>`)[0];
+                popup_8d0fbe387f2960922d9a4f7d14370180.setContent(html_917db9d288671218e23e8c9af3627957);
+            
+        
+
+        marker_8a263267d087bea73c1008f2914c01ad.bindPopup(popup_8d0fbe387f2960922d9a4f7d14370180)
+        ;
+
+        
+    
+    
+            marker_8a263267d087bea73c1008f2914c01ad.bindTooltip(
+                `<div>
+                     Port of Kisarazu, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72bcb75c385ef0a929230728ae64980e = L.marker(
+                [33.9225, 130.856667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_36684450cdb4b309024c6cb28e74dcdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5b00821b4587888a917c7ca703c63f1 = $(`<div id="html_e5b00821b4587888a917c7ca703c63f1" style="width: 100.0%; height: 100.0%;">Port of Kitakyushu, Seaport - Large</div>`)[0];
+                popup_36684450cdb4b309024c6cb28e74dcdd.setContent(html_e5b00821b4587888a917c7ca703c63f1);
+            
+        
+
+        marker_72bcb75c385ef0a929230728ae64980e.bindPopup(popup_36684450cdb4b309024c6cb28e74dcdd)
+        ;
+
+        
+    
+    
+            marker_72bcb75c385ef0a929230728ae64980e.bindTooltip(
+                `<div>
+                     Port of Kitakyushu, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e053e02066f115eb516b60c897cc1dd = L.marker(
+                [34.684167, 135.240833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9b173300fcd43c94218ce83d0b0fd254 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f69ed45ad11b30593ee0454e105ab1f = $(`<div id="html_2f69ed45ad11b30593ee0454e105ab1f" style="width: 100.0%; height: 100.0%;">Port of Kobe, Seaport - Large</div>`)[0];
+                popup_9b173300fcd43c94218ce83d0b0fd254.setContent(html_2f69ed45ad11b30593ee0454e105ab1f);
+            
+        
+
+        marker_6e053e02066f115eb516b60c897cc1dd.bindPopup(popup_9b173300fcd43c94218ce83d0b0fd254)
+        ;
+
+        
+    
+    
+            marker_6e053e02066f115eb516b60c897cc1dd.bindTooltip(
+                `<div>
+                     Port of Kobe, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee10875f2324cf41d83b6a829be86bd0 = L.marker(
+                [33.524167, 133.561111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5d00b2bf2797688e8ecc9992bcb700f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2debf3edac273995eac6b1864c1b48c0 = $(`<div id="html_2debf3edac273995eac6b1864c1b48c0" style="width: 100.0%; height: 100.0%;">Port of Kochi, Deepwater Seaport - Very Large</div>`)[0];
+                popup_5d00b2bf2797688e8ecc9992bcb700f3.setContent(html_2debf3edac273995eac6b1864c1b48c0);
+            
+        
+
+        marker_ee10875f2324cf41d83b6a829be86bd0.bindPopup(popup_5d00b2bf2797688e8ecc9992bcb700f3)
+        ;
+
+        
+    
+    
+            marker_ee10875f2324cf41d83b6a829be86bd0.bindTooltip(
+                `<div>
+                     Port of Kochi, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab374a9b34deb6d823e3fe3fd21a8007 = L.marker(
+                [33.908333, 130.8775],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3c669a2d29426d883f81f3f773716c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c735d6be191628d5fa3f871060056fc = $(`<div id="html_2c735d6be191628d5fa3f871060056fc" style="width: 100.0%; height: 100.0%;">Port of Kokura, Deepwater Seaport - Very Large</div>`)[0];
+                popup_3c669a2d29426d883f81f3f773716c74.setContent(html_2c735d6be191628d5fa3f871060056fc);
+            
+        
+
+        marker_ab374a9b34deb6d823e3fe3fd21a8007.bindPopup(popup_3c669a2d29426d883f81f3f773716c74)
+        ;
+
+        
+    
+    
+            marker_ab374a9b34deb6d823e3fe3fd21a8007.bindTooltip(
+                `<div>
+                     Port of Kokura, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b8764647d7f0d6ebdcb02d146e61093 = L.marker(
+                [32.740278, 129.865],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8f7caea28e54963a6dc80d0100f4e1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65663e96e64b26a5ac58167fefb07b26 = $(`<div id="html_65663e96e64b26a5ac58167fefb07b26" style="width: 100.0%; height: 100.0%;">Port of Nagasaki, Seaport - Large</div>`)[0];
+                popup_8f7caea28e54963a6dc80d0100f4e1d5.setContent(html_65663e96e64b26a5ac58167fefb07b26);
+            
+        
+
+        marker_2b8764647d7f0d6ebdcb02d146e61093.bindPopup(popup_8f7caea28e54963a6dc80d0100f4e1d5)
+        ;
+
+        
+    
+    
+            marker_2b8764647d7f0d6ebdcb02d146e61093.bindTooltip(
+                `<div>
+                     Port of Nagasaki, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c73550818b3e35f23a570e3e3f9254f3 = L.marker(
+                [35.045, 136.848056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_22cc007f03da2704730f790236a75d02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db01aefd416103e93743b0a76a31a90 = $(`<div id="html_8db01aefd416103e93743b0a76a31a90" style="width: 100.0%; height: 100.0%;">Port of Nagoya, Seaport - Very Large</div>`)[0];
+                popup_22cc007f03da2704730f790236a75d02.setContent(html_8db01aefd416103e93743b0a76a31a90);
+            
+        
+
+        marker_c73550818b3e35f23a570e3e3f9254f3.bindPopup(popup_22cc007f03da2704730f790236a75d02)
+        ;
+
+        
+    
+    
+            marker_c73550818b3e35f23a570e3e3f9254f3.bindTooltip(
+                `<div>
+                     Port of Nagoya, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f55b18bb09fa40172a2afde2b9170445 = L.marker(
+                [37.955, 139.129444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5eac5fd23bb5dbc8e3bb96b07b9ffa32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9bfea346255e394dede158b53ea378f = $(`<div id="html_d9bfea346255e394dede158b53ea378f" style="width: 100.0%; height: 100.0%;">Port of Niigata, Seaport - Large</div>`)[0];
+                popup_5eac5fd23bb5dbc8e3bb96b07b9ffa32.setContent(html_d9bfea346255e394dede158b53ea378f);
+            
+        
+
+        marker_f55b18bb09fa40172a2afde2b9170445.bindPopup(popup_5eac5fd23bb5dbc8e3bb96b07b9ffa32)
+        ;
+
+        
+    
+    
+            marker_f55b18bb09fa40172a2afde2b9170445.bindTooltip(
+                `<div>
+                     Port of Niigata, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8797109d8fd8af9460e3d9c7ae5d8a9e = L.marker(
+                [33.970833, 133.265],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_78d3c795b9423c836803595a544d40da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7357e98924b94f43a4070f15a583e983 = $(`<div id="html_7357e98924b94f43a4070f15a583e983" style="width: 100.0%; height: 100.0%;">Port of Niihama, Seaport - Large</div>`)[0];
+                popup_78d3c795b9423c836803595a544d40da.setContent(html_7357e98924b94f43a4070f15a583e983);
+            
+        
+
+        marker_8797109d8fd8af9460e3d9c7ae5d8a9e.bindPopup(popup_78d3c795b9423c836803595a544d40da)
+        ;
+
+        
+    
+    
+            marker_8797109d8fd8af9460e3d9c7ae5d8a9e.bindTooltip(
+                `<div>
+                     Port of Niihama, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce161c27357b2ca899fb2598a7b33ac9 = L.marker(
+                [34.635833, 135.434167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_91ec9c582c9c9211dc239dcc795dfc05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51d96c0e25f3b743830918d14101def1 = $(`<div id="html_51d96c0e25f3b743830918d14101def1" style="width: 100.0%; height: 100.0%;">Port of Osaka, Seaport - Large</div>`)[0];
+                popup_91ec9c582c9c9211dc239dcc795dfc05.setContent(html_51d96c0e25f3b743830918d14101def1);
+            
+        
+
+        marker_ce161c27357b2ca899fb2598a7b33ac9.bindPopup(popup_91ec9c582c9c9211dc239dcc795dfc05)
+        ;
+
+        
+    
+    
+            marker_ce161c27357b2ca899fb2598a7b33ac9.bindTooltip(
+                `<div>
+                     Port of Osaka, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54c0a6e0f30c1029d42216fba0f3fc0c = L.marker(
+                [35.624722, 139.791389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ca7828d0636da9689f2408a916032358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6869fea752a62c25b05942b9e538dd3 = $(`<div id="html_c6869fea752a62c25b05942b9e538dd3" style="width: 100.0%; height: 100.0%;">Port of Tokyo, Seaport - Very Large</div>`)[0];
+                popup_ca7828d0636da9689f2408a916032358.setContent(html_c6869fea752a62c25b05942b9e538dd3);
+            
+        
+
+        marker_54c0a6e0f30c1029d42216fba0f3fc0c.bindPopup(popup_ca7828d0636da9689f2408a916032358)
+        ;
+
+        
+    
+    
+            marker_54c0a6e0f30c1029d42216fba0f3fc0c.bindTooltip(
+                `<div>
+                     Port of Tokyo, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46858acca78e51f52a65850627f420d6 = L.marker(
+                [34.223056, 135.133056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ca75856085098d4a9e6796725fcbf22b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90f9c8608181239ea7ee6d8712a4ca58 = $(`<div id="html_90f9c8608181239ea7ee6d8712a4ca58" style="width: 100.0%; height: 100.0%;">Port of Wakayama, Seaport - Large</div>`)[0];
+                popup_ca75856085098d4a9e6796725fcbf22b.setContent(html_90f9c8608181239ea7ee6d8712a4ca58);
+            
+        
+
+        marker_46858acca78e51f52a65850627f420d6.bindPopup(popup_ca75856085098d4a9e6796725fcbf22b)
+        ;
+
+        
+    
+    
+            marker_46858acca78e51f52a65850627f420d6.bindTooltip(
+                `<div>
+                     Port of Wakayama, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96029752f0f0581bed956f98d7d5d5d0 = L.marker(
+                [35.436389, 139.667778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_39fbb0f981085dade3941e39a123587f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6813bd43356865a84e763a744e2963b0 = $(`<div id="html_6813bd43356865a84e763a744e2963b0" style="width: 100.0%; height: 100.0%;">Port of Yokohama, Seaport - Very Large</div>`)[0];
+                popup_39fbb0f981085dade3941e39a123587f.setContent(html_6813bd43356865a84e763a744e2963b0);
+            
+        
+
+        marker_96029752f0f0581bed956f98d7d5d5d0.bindPopup(popup_39fbb0f981085dade3941e39a123587f)
+        ;
+
+        
+    
+    
+            marker_96029752f0f0581bed956f98d7d5d5d0.bindTooltip(
+                `<div>
+                     Port of Yokohama, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34993536839c9af320d1d4eb5b6f22ca = L.marker(
+                [38.720278, 125.395833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_005d4c7a5eab1e65a9aabc6fb391ca17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd18936b5b93c0f8c296e8338b5a6212 = $(`<div id="html_fd18936b5b93c0f8c296e8338b5a6212" style="width: 100.0%; height: 100.0%;">Port of Nampo, Seaport - Large</div>`)[0];
+                popup_005d4c7a5eab1e65a9aabc6fb391ca17.setContent(html_fd18936b5b93c0f8c296e8338b5a6212);
+            
+        
+
+        marker_34993536839c9af320d1d4eb5b6f22ca.bindPopup(popup_005d4c7a5eab1e65a9aabc6fb391ca17)
+        ;
+
+        
+    
+    
+            marker_34993536839c9af320d1d4eb5b6f22ca.bindTooltip(
+                `<div>
+                     Port of Nampo, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a43fd57549ae131583d00b206262c921 = L.marker(
+                [35.109444, 129.059444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_840c8db7dafecaccfc8fa4ae8a53527a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3665aa940cf6607003cb72620c384aee = $(`<div id="html_3665aa940cf6607003cb72620c384aee" style="width: 100.0%; height: 100.0%;">Port of Busan, Seaport - Large</div>`)[0];
+                popup_840c8db7dafecaccfc8fa4ae8a53527a.setContent(html_3665aa940cf6607003cb72620c384aee);
+            
+        
+
+        marker_a43fd57549ae131583d00b206262c921.bindPopup(popup_840c8db7dafecaccfc8fa4ae8a53527a)
+        ;
+
+        
+    
+    
+            marker_a43fd57549ae131583d00b206262c921.bindTooltip(
+                `<div>
+                     Port of Busan, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed37f6fa62122ca2e6073786d00ca065 = L.marker(
+                [35.959722, 126.590833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b71991b41e4d8803cf62f74fc9672bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_644b9ab7ad7499914f62aa9ecbb78e95 = $(`<div id="html_644b9ab7ad7499914f62aa9ecbb78e95" style="width: 100.0%; height: 100.0%;">Port of Gunsan (Kunsan), Seaport - Large</div>`)[0];
+                popup_b71991b41e4d8803cf62f74fc9672bc2.setContent(html_644b9ab7ad7499914f62aa9ecbb78e95);
+            
+        
+
+        marker_ed37f6fa62122ca2e6073786d00ca065.bindPopup(popup_b71991b41e4d8803cf62f74fc9672bc2)
+        ;
+
+        
+    
+    
+            marker_ed37f6fa62122ca2e6073786d00ca065.bindTooltip(
+                `<div>
+                     Port of Gunsan (Kunsan), Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f792a72c25f2e9191c3886fb339ff70 = L.marker(
+                [34.888333, 127.678611],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a998bf7f0d117cfbc1f527890a65bc9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e5c1d4699bee6b69f084bed4f967f1 = $(`<div id="html_88e5c1d4699bee6b69f084bed4f967f1" style="width: 100.0%; height: 100.0%;">Port of Gwangyang, Seaport - Large</div>`)[0];
+                popup_a998bf7f0d117cfbc1f527890a65bc9b.setContent(html_88e5c1d4699bee6b69f084bed4f967f1);
+            
+        
+
+        marker_7f792a72c25f2e9191c3886fb339ff70.bindPopup(popup_a998bf7f0d117cfbc1f527890a65bc9b)
+        ;
+
+        
+    
+    
+            marker_7f792a72c25f2e9191c3886fb339ff70.bindTooltip(
+                `<div>
+                     Port of Gwangyang, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f88524578a5333ae78668ad56885fc12 = L.marker(
+                [37.474167, 126.6175],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_953e6017fc58793352f6fb4138856b18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3c8a86a6a2c4d9071b7262e6999eae6 = $(`<div id="html_c3c8a86a6a2c4d9071b7262e6999eae6" style="width: 100.0%; height: 100.0%;">Port of Incheon, Seaport - Large</div>`)[0];
+                popup_953e6017fc58793352f6fb4138856b18.setContent(html_c3c8a86a6a2c4d9071b7262e6999eae6);
+            
+        
+
+        marker_f88524578a5333ae78668ad56885fc12.bindPopup(popup_953e6017fc58793352f6fb4138856b18)
+        ;
+
+        
+    
+    
+            marker_f88524578a5333ae78668ad56885fc12.bindTooltip(
+                `<div>
+                     Port of Incheon, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ae96a7e9a5686aa8ffed96a57622de8 = L.marker(
+                [35.164167, 128.626111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a846ab4ed8f01485707a8a9b54dd4289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1352b38473bcc5612f46292ea8b02c2 = $(`<div id="html_a1352b38473bcc5612f46292ea8b02c2" style="width: 100.0%; height: 100.0%;">Port of Masan, Seaport - Large</div>`)[0];
+                popup_a846ab4ed8f01485707a8a9b54dd4289.setContent(html_a1352b38473bcc5612f46292ea8b02c2);
+            
+        
+
+        marker_2ae96a7e9a5686aa8ffed96a57622de8.bindPopup(popup_a846ab4ed8f01485707a8a9b54dd4289)
+        ;
+
+        
+    
+    
+            marker_2ae96a7e9a5686aa8ffed96a57622de8.bindTooltip(
+                `<div>
+                     Port of Masan, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63f93d6719dd14a8f6237f22c9de37e3 = L.marker(
+                [34.776111, 126.383056],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3ea7e8a3dd27a64c5040f6ea8610b9c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d23374706280c9458293c865467a935c = $(`<div id="html_d23374706280c9458293c865467a935c" style="width: 100.0%; height: 100.0%;">Port of Mokpo, Seaport - Large</div>`)[0];
+                popup_3ea7e8a3dd27a64c5040f6ea8610b9c0.setContent(html_d23374706280c9458293c865467a935c);
+            
+        
+
+        marker_63f93d6719dd14a8f6237f22c9de37e3.bindPopup(popup_3ea7e8a3dd27a64c5040f6ea8610b9c0)
+        ;
+
+        
+    
+    
+            marker_63f93d6719dd14a8f6237f22c9de37e3.bindTooltip(
+                `<div>
+                     Port of Mokpo, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18a89ca006b5050d24bf0afd88906990 = L.marker(
+                [35.499722, 129.386667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_629b1ae21d613534bb80aee57d89513f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b07189386edc98c805d2fc0b7e4633bf = $(`<div id="html_b07189386edc98c805d2fc0b7e4633bf" style="width: 100.0%; height: 100.0%;">Port of Ulsan, Seaport - Very Large</div>`)[0];
+                popup_629b1ae21d613534bb80aee57d89513f.setContent(html_b07189386edc98c805d2fc0b7e4633bf);
+            
+        
+
+        marker_18a89ca006b5050d24bf0afd88906990.bindPopup(popup_629b1ae21d613534bb80aee57d89513f)
+        ;
+
+        
+    
+    
+            marker_18a89ca006b5050d24bf0afd88906990.bindTooltip(
+                `<div>
+                     Port of Ulsan, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78e03ea5cd581e3d9ca496e3da82a23e = L.marker(
+                [57.007778, 24.090833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_0be1144c35b8ad074ed45042ed9346c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_084d589bea7abc9464b2b1325dfb5489 = $(`<div id="html_084d589bea7abc9464b2b1325dfb5489" style="width: 100.0%; height: 100.0%;">Freeport of Riga, Seaport - Large</div>`)[0];
+                popup_0be1144c35b8ad074ed45042ed9346c3.setContent(html_084d589bea7abc9464b2b1325dfb5489);
+            
+        
+
+        marker_78e03ea5cd581e3d9ca496e3da82a23e.bindPopup(popup_0be1144c35b8ad074ed45042ed9346c3)
+        ;
+
+        
+    
+    
+            marker_78e03ea5cd581e3d9ca496e3da82a23e.bindTooltip(
+                `<div>
+                     Freeport of Riga, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_213a9017889bcb10e28af396fb602ade = L.marker(
+                [33.905, 35.521111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_208ab14c4aedb9357b13b04478de9510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e666a501f6ef5aecd5ddc28033a8d96 = $(`<div id="html_4e666a501f6ef5aecd5ddc28033a8d96" style="width: 100.0%; height: 100.0%;">Port of Beirut, Seaport - Large</div>`)[0];
+                popup_208ab14c4aedb9357b13b04478de9510.setContent(html_4e666a501f6ef5aecd5ddc28033a8d96);
+            
+        
+
+        marker_213a9017889bcb10e28af396fb602ade.bindPopup(popup_208ab14c4aedb9357b13b04478de9510)
+        ;
+
+        
+    
+    
+            marker_213a9017889bcb10e28af396fb602ade.bindTooltip(
+                `<div>
+                     Port of Beirut, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c72d439feccc2af1fe0a19e3e6be293b = L.marker(
+                [55.687222, 21.134722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a4db73a3c9192cefb3d2f44112fe17f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ba45658074c348248d4bcdef606416 = $(`<div id="html_09ba45658074c348248d4bcdef606416" style="width: 100.0%; height: 100.0%;">Klaipeda State Seaport, Seaport - Large</div>`)[0];
+                popup_a4db73a3c9192cefb3d2f44112fe17f3.setContent(html_09ba45658074c348248d4bcdef606416);
+            
+        
+
+        marker_c72d439feccc2af1fe0a19e3e6be293b.bindPopup(popup_a4db73a3c9192cefb3d2f44112fe17f3)
+        ;
+
+        
+    
+    
+            marker_c72d439feccc2af1fe0a19e3e6be293b.bindTooltip(
+                `<div>
+                     Klaipeda State Seaport, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b54698af2a0e7a8cc3a41a77bef29ec8 = L.marker(
+                [35.895278, 14.511944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_dcd0a8923be9c6793e1d04d61afd0d6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e9e5d17e82a7aad072bb86e30ea252d = $(`<div id="html_0e9e5d17e82a7aad072bb86e30ea252d" style="width: 100.0%; height: 100.0%;">Port of Valletta, Seaport - Large</div>`)[0];
+                popup_dcd0a8923be9c6793e1d04d61afd0d6a.setContent(html_0e9e5d17e82a7aad072bb86e30ea252d);
+            
+        
+
+        marker_b54698af2a0e7a8cc3a41a77bef29ec8.bindPopup(popup_dcd0a8923be9c6793e1d04d61afd0d6a)
+        ;
+
+        
+    
+    
+            marker_b54698af2a0e7a8cc3a41a77bef29ec8.bindTooltip(
+                `<div>
+                     Port of Valletta, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_517b4a85c427c92e8a7018c0338faf3d = L.marker(
+                [19.208333, -96.133889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_0c454f359c199d643d7fe827c0cfd42f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_682fc4804ff4d4a4826df96285879984 = $(`<div id="html_682fc4804ff4d4a4826df96285879984" style="width: 100.0%; height: 100.0%;">Port of Veracruz, Seaport - Large</div>`)[0];
+                popup_0c454f359c199d643d7fe827c0cfd42f.setContent(html_682fc4804ff4d4a4826df96285879984);
+            
+        
+
+        marker_517b4a85c427c92e8a7018c0338faf3d.bindPopup(popup_0c454f359c199d643d7fe827c0cfd42f)
+        ;
+
+        
+    
+    
+            marker_517b4a85c427c92e8a7018c0338faf3d.bindTooltip(
+                `<div>
+                     Port of Veracruz, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca6161da1662316cd1b39568175f704b = L.marker(
+                [52.413056, 4.828333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_e4574ddf51a9fa0f3ca4ecca4af26be4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48cfe59cf8830702a7ffb654f783c5cb = $(`<div id="html_48cfe59cf8830702a7ffb654f783c5cb" style="width: 100.0%; height: 100.0%;">Port of Amsterdam, Seaport - Very Large</div>`)[0];
+                popup_e4574ddf51a9fa0f3ca4ecca4af26be4.setContent(html_48cfe59cf8830702a7ffb654f783c5cb);
+            
+        
+
+        marker_ca6161da1662316cd1b39568175f704b.bindPopup(popup_e4574ddf51a9fa0f3ca4ecca4af26be4)
+        ;
+
+        
+    
+    
+            marker_ca6161da1662316cd1b39568175f704b.bindTooltip(
+                `<div>
+                     Port of Amsterdam, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a204290f9fd60ed9837f23630b7e5fc = L.marker(
+                [51.927222, 4.298333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_07020fc216be0f15e122bcc01598b762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e085a596693950ed2bb10628388f0e3 = $(`<div id="html_7e085a596693950ed2bb10628388f0e3" style="width: 100.0%; height: 100.0%;">Port of Rotterdam, Deepwater Seaport - Very Large</div>`)[0];
+                popup_07020fc216be0f15e122bcc01598b762.setContent(html_7e085a596693950ed2bb10628388f0e3);
+            
+        
+
+        marker_2a204290f9fd60ed9837f23630b7e5fc.bindPopup(popup_07020fc216be0f15e122bcc01598b762)
+        ;
+
+        
+    
+    
+            marker_2a204290f9fd60ed9837f23630b7e5fc.bindTooltip(
+                `<div>
+                     Port of Rotterdam, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a35d502d72b5822e6d8442b60f1bc81 = L.marker(
+                [51.396944, 3.722222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d3aacddd1c013d3ae964e71b41d0fd00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b17a1488890371b5d39434518e4464b = $(`<div id="html_8b17a1488890371b5d39434518e4464b" style="width: 100.0%; height: 100.0%;">Zeeland Seaports, Seaport - Large</div>`)[0];
+                popup_d3aacddd1c013d3ae964e71b41d0fd00.setContent(html_8b17a1488890371b5d39434518e4464b);
+            
+        
+
+        marker_1a35d502d72b5822e6d8442b60f1bc81.bindPopup(popup_d3aacddd1c013d3ae964e71b41d0fd00)
+        ;
+
+        
+    
+    
+            marker_1a35d502d72b5822e6d8442b60f1bc81.bindTooltip(
+                `<div>
+                     Zeeland Seaports, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_291c0ff6a18073dd83fb6b6ef23fdd1a = L.marker(
+                [-36.836389, 174.771111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_bd09c5cd773550bf2f69a116effbfd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c51a480312e2ba3d818fa3eb698d5b6 = $(`<div id="html_8c51a480312e2ba3d818fa3eb698d5b6" style="width: 100.0%; height: 100.0%;">Ports of Auckland, Seaport - Large</div>`)[0];
+                popup_bd09c5cd773550bf2f69a116effbfd65.setContent(html_8c51a480312e2ba3d818fa3eb698d5b6);
+            
+        
+
+        marker_291c0ff6a18073dd83fb6b6ef23fdd1a.bindPopup(popup_bd09c5cd773550bf2f69a116effbfd65)
+        ;
+
+        
+    
+    
+            marker_291c0ff6a18073dd83fb6b6ef23fdd1a.bindTooltip(
+                `<div>
+                     Ports of Auckland, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a0d2e0207ec1bce0c2774c1a0b46f4c = L.marker(
+                [63.113333, 7.755],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_38a0373f4453198c7556838155772374 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfdcf471f1a01053ad0c240dd6368ece = $(`<div id="html_cfdcf471f1a01053ad0c240dd6368ece" style="width: 100.0%; height: 100.0%;">Port of Kristiansund, Seaport - Large</div>`)[0];
+                popup_38a0373f4453198c7556838155772374.setContent(html_cfdcf471f1a01053ad0c240dd6368ece);
+            
+        
+
+        marker_6a0d2e0207ec1bce0c2774c1a0b46f4c.bindPopup(popup_38a0373f4453198c7556838155772374)
+        ;
+
+        
+    
+    
+            marker_6a0d2e0207ec1bce0c2774c1a0b46f4c.bindTooltip(
+                `<div>
+                     Port of Kristiansund, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40a3d81cf3f5ac989659189b67f172dd = L.marker(
+                [24.835, 66.977778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b423ea45474df29ac65cb99a7ddd4c2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_067b0e8be1e002cf727350c4d30cd124 = $(`<div id="html_067b0e8be1e002cf727350c4d30cd124" style="width: 100.0%; height: 100.0%;">Port of Karachi, Seaport - Large</div>`)[0];
+                popup_b423ea45474df29ac65cb99a7ddd4c2b.setContent(html_067b0e8be1e002cf727350c4d30cd124);
+            
+        
+
+        marker_40a3d81cf3f5ac989659189b67f172dd.bindPopup(popup_b423ea45474df29ac65cb99a7ddd4c2b)
+        ;
+
+        
+    
+    
+            marker_40a3d81cf3f5ac989659189b67f172dd.bindTooltip(
+                `<div>
+                     Port of Karachi, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c28ed886aacaf8f5bd9dbba0de3d406f = L.marker(
+                [-12.045278, -77.146667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_77deb2b8d16ca29c65960cd10876b00c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe5c12034da99246e07cd3b38f56ee56 = $(`<div id="html_fe5c12034da99246e07cd3b38f56ee56" style="width: 100.0%; height: 100.0%;">Port of Callao, Seaport - Large</div>`)[0];
+                popup_77deb2b8d16ca29c65960cd10876b00c.setContent(html_fe5c12034da99246e07cd3b38f56ee56);
+            
+        
+
+        marker_c28ed886aacaf8f5bd9dbba0de3d406f.bindPopup(popup_77deb2b8d16ca29c65960cd10876b00c)
+        ;
+
+        
+    
+    
+            marker_c28ed886aacaf8f5bd9dbba0de3d406f.bindTooltip(
+                `<div>
+                     Port of Callao, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47d3fc19013899db5b2268bfddc78699 = L.marker(
+                [14.524167, 120.949167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c4f229286162aa0ed340d195bfb20d32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ee6d6dce26d17e9077089022044577 = $(`<div id="html_79ee6d6dce26d17e9077089022044577" style="width: 100.0%; height: 100.0%;">Port of Manila, Seaport - Very Large</div>`)[0];
+                popup_c4f229286162aa0ed340d195bfb20d32.setContent(html_79ee6d6dce26d17e9077089022044577);
+            
+        
+
+        marker_47d3fc19013899db5b2268bfddc78699.bindPopup(popup_c4f229286162aa0ed340d195bfb20d32)
+        ;
+
+        
+    
+    
+            marker_47d3fc19013899db5b2268bfddc78699.bindTooltip(
+                `<div>
+                     Port of Manila, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ebfc5c83ada0c9228e22c879cb4d915 = L.marker(
+                [54.393333, 18.67],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d81aadc4759aa1e9dcef4e55c9c0d457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c77d0dfbb67b15c295270be819f81d6 = $(`<div id="html_6c77d0dfbb67b15c295270be819f81d6" style="width: 100.0%; height: 100.0%;">Port of Gdansk, Seaport - Large</div>`)[0];
+                popup_d81aadc4759aa1e9dcef4e55c9c0d457.setContent(html_6c77d0dfbb67b15c295270be819f81d6);
+            
+        
+
+        marker_9ebfc5c83ada0c9228e22c879cb4d915.bindPopup(popup_d81aadc4759aa1e9dcef4e55c9c0d457)
+        ;
+
+        
+    
+    
+            marker_9ebfc5c83ada0c9228e22c879cb4d915.bindTooltip(
+                `<div>
+                     Port of Gdansk, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1149b5fe2c3b7d94e999e36ffb3e94c6 = L.marker(
+                [54.533333, 18.541389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a622018ced73947e5fe38e63e74c2fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e63c66afefab04a2d6a7e2d3d3aed81b = $(`<div id="html_e63c66afefab04a2d6a7e2d3d3aed81b" style="width: 100.0%; height: 100.0%;">Port of Gdynia, Seaport - Large</div>`)[0];
+                popup_a622018ced73947e5fe38e63e74c2fc4.setContent(html_e63c66afefab04a2d6a7e2d3d3aed81b);
+            
+        
+
+        marker_1149b5fe2c3b7d94e999e36ffb3e94c6.bindPopup(popup_a622018ced73947e5fe38e63e74c2fc4)
+        ;
+
+        
+    
+    
+            marker_1149b5fe2c3b7d94e999e36ffb3e94c6.bindTooltip(
+                `<div>
+                     Port of Gdynia, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ddf393f63dfc527ab4a2b0d575fad86 = L.marker(
+                [37.9425, -8.8675],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5b7b26d742ca09ccc57607647cdfc3fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b839087f983eb21651146e6d7a6d001 = $(`<div id="html_7b839087f983eb21651146e6d7a6d001" style="width: 100.0%; height: 100.0%;">Port of Sines, Seaport - Large</div>`)[0];
+                popup_5b7b26d742ca09ccc57607647cdfc3fd.setContent(html_7b839087f983eb21651146e6d7a6d001);
+            
+        
+
+        marker_5ddf393f63dfc527ab4a2b0d575fad86.bindPopup(popup_5b7b26d742ca09ccc57607647cdfc3fd)
+        ;
+
+        
+    
+    
+            marker_5ddf393f63dfc527ab4a2b0d575fad86.bindTooltip(
+                `<div>
+                     Port of Sines, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b0598467e9e1f7189f7def67a131fec = L.marker(
+                [64.5425, 40.56],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_45bc05f7732d02a9e47b014c5de830a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_221d7f33e33234cd31e440c3b80ce06b = $(`<div id="html_221d7f33e33234cd31e440c3b80ce06b" style="width: 100.0%; height: 100.0%;">Port of Arkhangelsk, Seaport - Large</div>`)[0];
+                popup_45bc05f7732d02a9e47b014c5de830a6.setContent(html_221d7f33e33234cd31e440c3b80ce06b);
+            
+        
+
+        marker_1b0598467e9e1f7189f7def67a131fec.bindPopup(popup_45bc05f7732d02a9e47b014c5de830a6)
+        ;
+
+        
+    
+    
+            marker_1b0598467e9e1f7189f7def67a131fec.bindTooltip(
+                `<div>
+                     Port of Arkhangelsk, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b3d6e5c2cd369cd98ad985f5aaf6444 = L.marker(
+                [54.7, 20.458611],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_158326aeb4030f99c32cfee05ae12095 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd91d8f934f5911a1aefa2f429d5d8a7 = $(`<div id="html_cd91d8f934f5911a1aefa2f429d5d8a7" style="width: 100.0%; height: 100.0%;">Port of Kaliningrad, Seaport - Large</div>`)[0];
+                popup_158326aeb4030f99c32cfee05ae12095.setContent(html_cd91d8f934f5911a1aefa2f429d5d8a7);
+            
+        
+
+        marker_6b3d6e5c2cd369cd98ad985f5aaf6444.bindPopup(popup_158326aeb4030f99c32cfee05ae12095)
+        ;
+
+        
+    
+    
+            marker_6b3d6e5c2cd369cd98ad985f5aaf6444.bindTooltip(
+                `<div>
+                     Port of Kaliningrad, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63e8ef664ed7fb6599efb601fa95032c = L.marker(
+                [44.715, 37.806944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_457ca347279cab490d34c3f00b0b72dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70ee06bd31bbd2a972bb1013c1dfaa92 = $(`<div id="html_70ee06bd31bbd2a972bb1013c1dfaa92" style="width: 100.0%; height: 100.0%;">Port of Novorossiysk, Seaport - Large</div>`)[0];
+                popup_457ca347279cab490d34c3f00b0b72dc.setContent(html_70ee06bd31bbd2a972bb1013c1dfaa92);
+            
+        
+
+        marker_63e8ef664ed7fb6599efb601fa95032c.bindPopup(popup_457ca347279cab490d34c3f00b0b72dc)
+        ;
+
+        
+    
+    
+            marker_63e8ef664ed7fb6599efb601fa95032c.bindTooltip(
+                `<div>
+                     Port of Novorossiysk, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bb45424cc716d501cd0b9117d916967 = L.marker(
+                [59.927222, 30.23],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d67cb1971d9584e23d0008107471360d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd4d1a6d8d20b99c3fa8467a72903e0 = $(`<div id="html_9bd4d1a6d8d20b99c3fa8467a72903e0" style="width: 100.0%; height: 100.0%;">Port of St. Petersburg, Seaport - Very Large</div>`)[0];
+                popup_d67cb1971d9584e23d0008107471360d.setContent(html_9bd4d1a6d8d20b99c3fa8467a72903e0);
+            
+        
+
+        marker_5bb45424cc716d501cd0b9117d916967.bindPopup(popup_d67cb1971d9584e23d0008107471360d)
+        ;
+
+        
+    
+    
+            marker_5bb45424cc716d501cd0b9117d916967.bindTooltip(
+                `<div>
+                     Port of St. Petersburg, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fd9ea08491fd7bd9cfd2b2061552e54 = L.marker(
+                [43.094444, 131.890278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_34e39176f4c01d47a8c58a71e056edce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d234254d5a2ffec987daf67314534ff7 = $(`<div id="html_d234254d5a2ffec987daf67314534ff7" style="width: 100.0%; height: 100.0%;">Port of Vladivostok, Seaport - Large</div>`)[0];
+                popup_34e39176f4c01d47a8c58a71e056edce.setContent(html_d234254d5a2ffec987daf67314534ff7);
+            
+        
+
+        marker_1fd9ea08491fd7bd9cfd2b2061552e54.bindPopup(popup_34e39176f4c01d47a8c58a71e056edce)
+        ;
+
+        
+    
+    
+            marker_1fd9ea08491fd7bd9cfd2b2061552e54.bindTooltip(
+                `<div>
+                     Port of Vladivostok, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95cbec580fad2653808879308fd1d7db = L.marker(
+                [1.292778, 103.725278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_69bb6df65b9c03f13d01e998c5bf9105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88f38ccd85c29749c41cf67219939b34 = $(`<div id="html_88f38ccd85c29749c41cf67219939b34" style="width: 100.0%; height: 100.0%;">Port of Singapore, Deepwater Seaport - Very Large</div>`)[0];
+                popup_69bb6df65b9c03f13d01e998c5bf9105.setContent(html_88f38ccd85c29749c41cf67219939b34);
+            
+        
+
+        marker_95cbec580fad2653808879308fd1d7db.bindPopup(popup_69bb6df65b9c03f13d01e998c5bf9105)
+        ;
+
+        
+    
+    
+            marker_95cbec580fad2653808879308fd1d7db.bindTooltip(
+                `<div>
+                     Port of Singapore, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d11a8c46f067d37f896c69c47cd403d = L.marker(
+                [-29.881111, 31.027222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c8ad994d2601eac6c9353daa893987d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb0df2cc74072fcbccba6bd8833b32b5 = $(`<div id="html_fb0df2cc74072fcbccba6bd8833b32b5" style="width: 100.0%; height: 100.0%;">Port of Durban, Seaport - Large</div>`)[0];
+                popup_c8ad994d2601eac6c9353daa893987d0.setContent(html_fb0df2cc74072fcbccba6bd8833b32b5);
+            
+        
+
+        marker_7d11a8c46f067d37f896c69c47cd403d.bindPopup(popup_c8ad994d2601eac6c9353daa893987d0)
+        ;
+
+        
+    
+    
+            marker_7d11a8c46f067d37f896c69c47cd403d.bindTooltip(
+                `<div>
+                     Port of Durban, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_552e27677a58e2a6eec69cb057dd6856 = L.marker(
+                [41.340278, 2.164722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_2a67168153e98fda99b72d9824c4ff6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0973b9000431dfa175f660435dbfa56 = $(`<div id="html_f0973b9000431dfa175f660435dbfa56" style="width: 100.0%; height: 100.0%;">Port of Barcelona, Seaport - Very Large</div>`)[0];
+                popup_2a67168153e98fda99b72d9824c4ff6a.setContent(html_f0973b9000431dfa175f660435dbfa56);
+            
+        
+
+        marker_552e27677a58e2a6eec69cb057dd6856.bindPopup(popup_2a67168153e98fda99b72d9824c4ff6a)
+        ;
+
+        
+    
+    
+            marker_552e27677a58e2a6eec69cb057dd6856.bindTooltip(
+                `<div>
+                     Port of Barcelona, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2738fb43895ba5e26e17112ffdf1027b = L.marker(
+                [36.52, -6.263889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_ab60d24e8837b96ce10f47d4e2882c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1111a28e8e8c065719c52d05f44d0fa = $(`<div id="html_e1111a28e8e8c065719c52d05f44d0fa" style="width: 100.0%; height: 100.0%;">Port of the Bay of Cadiz, Seaport - Large</div>`)[0];
+                popup_ab60d24e8837b96ce10f47d4e2882c7a.setContent(html_e1111a28e8e8c065719c52d05f44d0fa);
+            
+        
+
+        marker_2738fb43895ba5e26e17112ffdf1027b.bindPopup(popup_ab60d24e8837b96ce10f47d4e2882c7a)
+        ;
+
+        
+    
+    
+            marker_2738fb43895ba5e26e17112ffdf1027b.bindTooltip(
+                `<div>
+                     Port of the Bay of Cadiz, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_429f2fdd13330c8ca90113cf7dedc081 = L.marker(
+                [43.476667, -8.215833],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_f427cdf67009a8310f2f9a617a12e4ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e6b2e555a1af95c83cf9132af26e75 = $(`<div id="html_08e6b2e555a1af95c83cf9132af26e75" style="width: 100.0%; height: 100.0%;">Puerto de Ferrol, Seaport - Large</div>`)[0];
+                popup_f427cdf67009a8310f2f9a617a12e4ff.setContent(html_08e6b2e555a1af95c83cf9132af26e75);
+            
+        
+
+        marker_429f2fdd13330c8ca90113cf7dedc081.bindPopup(popup_f427cdf67009a8310f2f9a617a12e4ff)
+        ;
+
+        
+    
+    
+            marker_429f2fdd13330c8ca90113cf7dedc081.bindTooltip(
+                `<div>
+                     Puerto de Ferrol, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c454c8e8ada9cf879be9ab8d416fd0b = L.marker(
+                [41.094167, 1.2225],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c96d38eb6c95c0b623e1c2269bf16aeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0bf21aaf0c6d4fbda9ddb4dd9c02a61 = $(`<div id="html_c0bf21aaf0c6d4fbda9ddb4dd9c02a61" style="width: 100.0%; height: 100.0%;">Port of Tarragona, Seaport - Large</div>`)[0];
+                popup_c96d38eb6c95c0b623e1c2269bf16aeb.setContent(html_c0bf21aaf0c6d4fbda9ddb4dd9c02a61);
+            
+        
+
+        marker_9c454c8e8ada9cf879be9ab8d416fd0b.bindPopup(popup_c96d38eb6c95c0b623e1c2269bf16aeb)
+        ;
+
+        
+    
+    
+            marker_9c454c8e8ada9cf879be9ab8d416fd0b.bindTooltip(
+                `<div>
+                     Port of Tarragona, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_003a019094fa8fee64b127c6a50f86af = L.marker(
+                [39.444167, -0.319444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d5a044b0107bbd4111a1a94c7d0740f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94bfa7e15172bdc815f65d7dcf26cd8 = $(`<div id="html_a94bfa7e15172bdc815f65d7dcf26cd8" style="width: 100.0%; height: 100.0%;">Port of Valencia, Seaport - Large</div>`)[0];
+                popup_d5a044b0107bbd4111a1a94c7d0740f3.setContent(html_a94bfa7e15172bdc815f65d7dcf26cd8);
+            
+        
+
+        marker_003a019094fa8fee64b127c6a50f86af.bindPopup(popup_d5a044b0107bbd4111a1a94c7d0740f3)
+        ;
+
+        
+    
+    
+            marker_003a019094fa8fee64b127c6a50f86af.bindTooltip(
+                `<div>
+                     Port of Valencia, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4abbb2c19797936d6bbff2bbb3318582 = L.marker(
+                [6.951389, 79.850278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5bb9800930bf08db3a034c0aa80ff469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8df37cbe9f4203402c2bdded034f2396 = $(`<div id="html_8df37cbe9f4203402c2bdded034f2396" style="width: 100.0%; height: 100.0%;">Port of Colombo, Seaport - Large</div>`)[0];
+                popup_5bb9800930bf08db3a034c0aa80ff469.setContent(html_8df37cbe9f4203402c2bdded034f2396);
+            
+        
+
+        marker_4abbb2c19797936d6bbff2bbb3318582.bindPopup(popup_5bb9800930bf08db3a034c0aa80ff469)
+        ;
+
+        
+    
+    
+            marker_4abbb2c19797936d6bbff2bbb3318582.bindTooltip(
+                `<div>
+                     Port of Colombo, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ea79316c1c2f7d7670e1f3f6a5075c2 = L.marker(
+                [55.625556, 13.0025],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_5c0437a1c2794e62d7cd69c6230f11ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d923b12ad53192e46631aa752b23505 = $(`<div id="html_8d923b12ad53192e46631aa752b23505" style="width: 100.0%; height: 100.0%;">Copenhagen Malmo Port, Deepwater Seaport - Very Large</div>`)[0];
+                popup_5c0437a1c2794e62d7cd69c6230f11ca.setContent(html_8d923b12ad53192e46631aa752b23505);
+            
+        
+
+        marker_7ea79316c1c2f7d7670e1f3f6a5075c2.bindPopup(popup_5c0437a1c2794e62d7cd69c6230f11ca)
+        ;
+
+        
+    
+    
+            marker_7ea79316c1c2f7d7670e1f3f6a5075c2.bindTooltip(
+                `<div>
+                     Copenhagen Malmo Port, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c6a28d9e4a898d0631e07da02a6cd96 = L.marker(
+                [25.148333, 121.755556],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_dc4d61689ea5fcade8d35f4d45a240de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d55ecc8625ad8ba956948cfe3b8675 = $(`<div id="html_d9d55ecc8625ad8ba956948cfe3b8675" style="width: 100.0%; height: 100.0%;">Port of Keelung, Seaport - Large</div>`)[0];
+                popup_dc4d61689ea5fcade8d35f4d45a240de.setContent(html_d9d55ecc8625ad8ba956948cfe3b8675);
+            
+        
+
+        marker_6c6a28d9e4a898d0631e07da02a6cd96.bindPopup(popup_dc4d61689ea5fcade8d35f4d45a240de)
+        ;
+
+        
+    
+    
+            marker_6c6a28d9e4a898d0631e07da02a6cd96.bindTooltip(
+                `<div>
+                     Port of Keelung, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c19f7bd1c4b67f5a6fae4065defdb37a = L.marker(
+                [-6.834444, 39.299167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_286baafea11ae1cc313d26b9fc0c75aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ad0ed8aed931a1fc12aa0692f30c4d5 = $(`<div id="html_7ad0ed8aed931a1fc12aa0692f30c4d5" style="width: 100.0%; height: 100.0%;">Port of Dar es Salaam, Seaport - Large</div>`)[0];
+                popup_286baafea11ae1cc313d26b9fc0c75aa.setContent(html_7ad0ed8aed931a1fc12aa0692f30c4d5);
+            
+        
+
+        marker_c19f7bd1c4b67f5a6fae4065defdb37a.bindPopup(popup_286baafea11ae1cc313d26b9fc0c75aa)
+        ;
+
+        
+    
+    
+            marker_c19f7bd1c4b67f5a6fae4065defdb37a.bindTooltip(
+                `<div>
+                     Port of Dar es Salaam, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b4484e7256a53edd926df06dee7aa0c = L.marker(
+                [13.073889, 100.895278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_aa05b543c275667becc7dd3d0920c470 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd586b220d5efb82c604cfce56c003e2 = $(`<div id="html_bd586b220d5efb82c604cfce56c003e2" style="width: 100.0%; height: 100.0%;">Port of Laem Chabang, Seaport - Large</div>`)[0];
+                popup_aa05b543c275667becc7dd3d0920c470.setContent(html_bd586b220d5efb82c604cfce56c003e2);
+            
+        
+
+        marker_7b4484e7256a53edd926df06dee7aa0c.bindPopup(popup_aa05b543c275667becc7dd3d0920c470)
+        ;
+
+        
+    
+    
+            marker_7b4484e7256a53edd926df06dee7aa0c.bindTooltip(
+                `<div>
+                     Port of Laem Chabang, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71b6360f530c66799c01c411459c66d6 = L.marker(
+                [41.012778, 28.999167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3d676be2d229c664184665b2f46d19c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49d6d452863165362be656601992893a = $(`<div id="html_49d6d452863165362be656601992893a" style="width: 100.0%; height: 100.0%;">Port of Istanbul, Deepwater Seaport - Very Large</div>`)[0];
+                popup_3d676be2d229c664184665b2f46d19c7.setContent(html_49d6d452863165362be656601992893a);
+            
+        
+
+        marker_71b6360f530c66799c01c411459c66d6.bindPopup(popup_3d676be2d229c664184665b2f46d19c7)
+        ;
+
+        
+    
+    
+            marker_71b6360f530c66799c01c411459c66d6.bindTooltip(
+                `<div>
+                     Port of Istanbul, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c150a1997d525c85285ce282e64dd41b = L.marker(
+                [46.95, 31.971667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_4d2d397747c42e3ac4be362a0c4feae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc3abc3b334aa8aedf6415fe4871e5da = $(`<div id="html_fc3abc3b334aa8aedf6415fe4871e5da" style="width: 100.0%; height: 100.0%;">Port of Nikolaev, Seaport - Large</div>`)[0];
+                popup_4d2d397747c42e3ac4be362a0c4feae5.setContent(html_fc3abc3b334aa8aedf6415fe4871e5da);
+            
+        
+
+        marker_c150a1997d525c85285ce282e64dd41b.bindPopup(popup_4d2d397747c42e3ac4be362a0c4feae5)
+        ;
+
+        
+    
+    
+            marker_c150a1997d525c85285ce282e64dd41b.bindTooltip(
+                `<div>
+                     Port of Nikolaev, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4b29c46180782aed69b10713cc57a15 = L.marker(
+                [44.618889, 33.546111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c7a9b4f726e12d9d383a9dd10d8cea89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc9107504079b6f9244b5d2f3b061980 = $(`<div id="html_fc9107504079b6f9244b5d2f3b061980" style="width: 100.0%; height: 100.0%;">Port of Sevastopol, Seaport - Large</div>`)[0];
+                popup_c7a9b4f726e12d9d383a9dd10d8cea89.setContent(html_fc9107504079b6f9244b5d2f3b061980);
+            
+        
+
+        marker_b4b29c46180782aed69b10713cc57a15.bindPopup(popup_c7a9b4f726e12d9d383a9dd10d8cea89)
+        ;
+
+        
+    
+    
+            marker_b4b29c46180782aed69b10713cc57a15.bindTooltip(
+                `<div>
+                     Port of Sevastopol, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_190eec31f1327fe2324e02269202a4f3 = L.marker(
+                [51.954444, 1.302222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_9f5cc1b131e37731f2ceed7ae0a9b634 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fd48f6570f49ab493d2e5e0b96755b7 = $(`<div id="html_2fd48f6570f49ab493d2e5e0b96755b7" style="width: 100.0%; height: 100.0%;">Felixstowe Port, Seaport - Large</div>`)[0];
+                popup_9f5cc1b131e37731f2ceed7ae0a9b634.setContent(html_2fd48f6570f49ab493d2e5e0b96755b7);
+            
+        
+
+        marker_190eec31f1327fe2324e02269202a4f3.bindPopup(popup_9f5cc1b131e37731f2ceed7ae0a9b634)
+        ;
+
+        
+    
+    
+            marker_190eec31f1327fe2324e02269202a4f3.bindTooltip(
+                `<div>
+                     Felixstowe Port, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96285b907faf36d06d31d0a041840744 = L.marker(
+                [53.627222, -0.191667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_fe09913d60e4230e13afaa6e4f5c10cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b73a62655a21f4d5966d66e20834f6f7 = $(`<div id="html_b73a62655a21f4d5966d66e20834f6f7" style="width: 100.0%; height: 100.0%;">Port of Immingham, Seaport - Large</div>`)[0];
+                popup_fe09913d60e4230e13afaa6e4f5c10cd.setContent(html_b73a62655a21f4d5966d66e20834f6f7);
+            
+        
+
+        marker_96285b907faf36d06d31d0a041840744.bindPopup(popup_fe09913d60e4230e13afaa6e4f5c10cd)
+        ;
+
+        
+    
+    
+            marker_96285b907faf36d06d31d0a041840744.bindTooltip(
+                `<div>
+                     Port of Immingham, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7314f5eb7962fa58d9b08602f0357a64 = L.marker(
+                [55.9825, -3.174722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_43825a859de23ab265054d91781802ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912e9bfaa5a768ad3226979c9269506e = $(`<div id="html_912e9bfaa5a768ad3226979c9269506e" style="width: 100.0%; height: 100.0%;">Port of Leith, Seaport - Large</div>`)[0];
+                popup_43825a859de23ab265054d91781802ce.setContent(html_912e9bfaa5a768ad3226979c9269506e);
+            
+        
+
+        marker_7314f5eb7962fa58d9b08602f0357a64.bindPopup(popup_43825a859de23ab265054d91781802ce)
+        ;
+
+        
+    
+    
+            marker_7314f5eb7962fa58d9b08602f0357a64.bindTooltip(
+                `<div>
+                     Port of Leith, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93a2d9c873d8f215b73637c62e5b1d9b = L.marker(
+                [53.436389, -3.011389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_2347d09a915a417701f2895d67401683 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c0b3961992332d87b114d7b06ef5897 = $(`<div id="html_3c0b3961992332d87b114d7b06ef5897" style="width: 100.0%; height: 100.0%;">Port of Liverpool, Seaport - Large</div>`)[0];
+                popup_2347d09a915a417701f2895d67401683.setContent(html_3c0b3961992332d87b114d7b06ef5897);
+            
+        
+
+        marker_93a2d9c873d8f215b73637c62e5b1d9b.bindPopup(popup_2347d09a915a417701f2895d67401683)
+        ;
+
+        
+    
+    
+            marker_93a2d9c873d8f215b73637c62e5b1d9b.bindTooltip(
+                `<div>
+                     Port of Liverpool, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bcf81fd60ec69f4f0918cf0bd615396 = L.marker(
+                [50.9025, -1.428889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b5b756a3ad335433d183031dfa52b96d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b90f5d5ca38f50082e513d294fc1f377 = $(`<div id="html_b90f5d5ca38f50082e513d294fc1f377" style="width: 100.0%; height: 100.0%;">Port of Southampton, Seaport - Large</div>`)[0];
+                popup_b5b756a3ad335433d183031dfa52b96d.setContent(html_b90f5d5ca38f50082e513d294fc1f377);
+            
+        
+
+        marker_4bcf81fd60ec69f4f0918cf0bd615396.bindPopup(popup_b5b756a3ad335433d183031dfa52b96d)
+        ;
+
+        
+    
+    
+            marker_4bcf81fd60ec69f4f0918cf0bd615396.bindTooltip(
+                `<div>
+                     Port of Southampton, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd619ef3be4af8c3238472239485efa6 = L.marker(
+                [39.2325, -76.558889],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_cd21acbd3268dcfb2a46f8841ab59a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_625a55bef1c6a688f92a7b5fc358739a = $(`<div id="html_625a55bef1c6a688f92a7b5fc358739a" style="width: 100.0%; height: 100.0%;">Port of Baltimore, Deepwater Seaport - Very Large</div>`)[0];
+                popup_cd21acbd3268dcfb2a46f8841ab59a54.setContent(html_625a55bef1c6a688f92a7b5fc358739a);
+            
+        
+
+        marker_bd619ef3be4af8c3238472239485efa6.bindPopup(popup_cd21acbd3268dcfb2a46f8841ab59a54)
+        ;
+
+        
+    
+    
+            marker_bd619ef3be4af8c3238472239485efa6.bindTooltip(
+                `<div>
+                     Port of Baltimore, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33b7f5e621ef5acc40fe809c624b4ba2 = L.marker(
+                [42.363611, -71.036667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_472c26a98473c92aaad6f8a55307eb62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a17d054ba168fab61f2446383b97d56 = $(`<div id="html_0a17d054ba168fab61f2446383b97d56" style="width: 100.0%; height: 100.0%;">Port of Boston, Deepwater Seaport - Very Large</div>`)[0];
+                popup_472c26a98473c92aaad6f8a55307eb62.setContent(html_0a17d054ba168fab61f2446383b97d56);
+            
+        
+
+        marker_33b7f5e621ef5acc40fe809c624b4ba2.bindPopup(popup_472c26a98473c92aaad6f8a55307eb62)
+        ;
+
+        
+    
+    
+            marker_33b7f5e621ef5acc40fe809c624b4ba2.bindTooltip(
+                `<div>
+                     Port of Boston, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b464c18690bc339b9584a4d588f6c58 = L.marker(
+                [47.557222, -122.637778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_de288345c7b193038e1c232339b3f36d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c18e7a7626f84d2d5f7066dc148558 = $(`<div id="html_c5c18e7a7626f84d2d5f7066dc148558" style="width: 100.0%; height: 100.0%;">Port of Bremerton, Seaport - Large</div>`)[0];
+                popup_de288345c7b193038e1c232339b3f36d.setContent(html_c5c18e7a7626f84d2d5f7066dc148558);
+            
+        
+
+        marker_1b464c18690bc339b9584a4d588f6c58.bindPopup(popup_de288345c7b193038e1c232339b3f36d)
+        ;
+
+        
+    
+    
+            marker_1b464c18690bc339b9584a4d588f6c58.bindTooltip(
+                `<div>
+                     Port of Bremerton, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38b94dec5968c3619fa079552b40de7c = L.marker(
+                [41.1725, -73.181944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_0d415b52af5b1eb21d38249361533e4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd240535e34eaeff14c883f63ba0815 = $(`<div id="html_0dd240535e34eaeff14c883f63ba0815" style="width: 100.0%; height: 100.0%;">Port of Bridgeport, Seaport - Large</div>`)[0];
+                popup_0d415b52af5b1eb21d38249361533e4f.setContent(html_0dd240535e34eaeff14c883f63ba0815);
+            
+        
+
+        marker_38b94dec5968c3619fa079552b40de7c.bindPopup(popup_0d415b52af5b1eb21d38249361533e4f)
+        ;
+
+        
+    
+    
+            marker_38b94dec5968c3619fa079552b40de7c.bindTooltip(
+                `<div>
+                     Port of Bridgeport, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43553840b968f61ddc2b764b410a0603 = L.marker(
+                [32.822222, -79.9275],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_e2e9c84cd50b649366dfc73158734a9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52d42eb1f4aeb591acd11298395cbcb9 = $(`<div id="html_52d42eb1f4aeb591acd11298395cbcb9" style="width: 100.0%; height: 100.0%;">Port Charleston, Deepwater Seaport - Very Large</div>`)[0];
+                popup_e2e9c84cd50b649366dfc73158734a9a.setContent(html_52d42eb1f4aeb591acd11298395cbcb9);
+            
+        
+
+        marker_43553840b968f61ddc2b764b410a0603.bindPopup(popup_e2e9c84cd50b649366dfc73158734a9a)
+        ;
+
+        
+    
+    
+            marker_43553840b968f61ddc2b764b410a0603.bindTooltip(
+                `<div>
+                     Port Charleston, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a968fc407a971e477f37847ab622c4e7 = L.marker(
+                [41.689444, -87.566111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_46799a6d8879dc40a293457f47b1f8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8efcbce4f73451eca2deffe50c399ab7 = $(`<div id="html_8efcbce4f73451eca2deffe50c399ab7" style="width: 100.0%; height: 100.0%;">Port of Chicago, Seaport - Large</div>`)[0];
+                popup_46799a6d8879dc40a293457f47b1f8d5.setContent(html_8efcbce4f73451eca2deffe50c399ab7);
+            
+        
+
+        marker_a968fc407a971e477f37847ab622c4e7.bindPopup(popup_46799a6d8879dc40a293457f47b1f8d5)
+        ;
+
+        
+    
+    
+            marker_a968fc407a971e477f37847ab622c4e7.bindTooltip(
+                `<div>
+                     Port of Chicago, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4da91c5a2b530692ade0776c1e6669bb = L.marker(
+                [27.812778, -97.407222],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_0a31c54b6eae5016a29a07093d4ada11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30df7079f398f424ec139c18f73bbd8b = $(`<div id="html_30df7079f398f424ec139c18f73bbd8b" style="width: 100.0%; height: 100.0%;">Port of Corpus Christi, Seaport - Large</div>`)[0];
+                popup_0a31c54b6eae5016a29a07093d4ada11.setContent(html_30df7079f398f424ec139c18f73bbd8b);
+            
+        
+
+        marker_4da91c5a2b530692ade0776c1e6669bb.bindPopup(popup_0a31c54b6eae5016a29a07093d4ada11)
+        ;
+
+        
+    
+    
+            marker_4da91c5a2b530692ade0776c1e6669bb.bindTooltip(
+                `<div>
+                     Port of Corpus Christi, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e94cc1e177191d081acd10b546be7e37 = L.marker(
+                [40.669722, -74.150278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_e37670309fe26ed9614f7887963f1546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cd72320e4ce1ba7dafec4db12b0e83d = $(`<div id="html_5cd72320e4ce1ba7dafec4db12b0e83d" style="width: 100.0%; height: 100.0%;">Port of Elizabeth, Seaport - Large</div>`)[0];
+                popup_e37670309fe26ed9614f7887963f1546.setContent(html_5cd72320e4ce1ba7dafec4db12b0e83d);
+            
+        
+
+        marker_e94cc1e177191d081acd10b546be7e37.bindPopup(popup_e37670309fe26ed9614f7887963f1546)
+        ;
+
+        
+    
+    
+            marker_e94cc1e177191d081acd10b546be7e37.bindTooltip(
+                `<div>
+                     Port of Elizabeth, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e081ff64488584dfa5f30e0beead124 = L.marker(
+                [21.309444, -157.877778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_f6598fbd2f2f0358096caf61ddf31b6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33641dc23465b4e386670803ff57f8a7 = $(`<div id="html_33641dc23465b4e386670803ff57f8a7" style="width: 100.0%; height: 100.0%;">Honolulu Harbor, Oahu, Seaport - Large</div>`)[0];
+                popup_f6598fbd2f2f0358096caf61ddf31b6d.setContent(html_33641dc23465b4e386670803ff57f8a7);
+            
+        
+
+        marker_9e081ff64488584dfa5f30e0beead124.bindPopup(popup_f6598fbd2f2f0358096caf61ddf31b6d)
+        ;
+
+        
+    
+    
+            marker_9e081ff64488584dfa5f30e0beead124.bindTooltip(
+                `<div>
+                     Honolulu Harbor, Oahu, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a28578deb06f9d985812b387de0e8336 = L.marker(
+                [21.351944, -157.964722],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_52c01e1fbff701f0d8e9e6aebff674e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51803ce1629f9c0a11eb446f5d4bef5b = $(`<div id="html_51803ce1629f9c0a11eb446f5d4bef5b" style="width: 100.0%; height: 100.0%;">Pearl Harbor, Deepwater Seaport - Very Large</div>`)[0];
+                popup_52c01e1fbff701f0d8e9e6aebff674e8.setContent(html_51803ce1629f9c0a11eb446f5d4bef5b);
+            
+        
+
+        marker_a28578deb06f9d985812b387de0e8336.bindPopup(popup_52c01e1fbff701f0d8e9e6aebff674e8)
+        ;
+
+        
+    
+    
+            marker_a28578deb06f9d985812b387de0e8336.bindTooltip(
+                `<div>
+                     Pearl Harbor, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1e7ac1fbac61ae28969e9f365ff6f77 = L.marker(
+                [29.739167, -95.203333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_69c9d4ced27f5a857ca0453f95b2c3ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a2920696c2874a7a4eee7c7814a11a1 = $(`<div id="html_1a2920696c2874a7a4eee7c7814a11a1" style="width: 100.0%; height: 100.0%;">Port of Houston, Seaport - Very Large</div>`)[0];
+                popup_69c9d4ced27f5a857ca0453f95b2c3ee.setContent(html_1a2920696c2874a7a4eee7c7814a11a1);
+            
+        
+
+        marker_c1e7ac1fbac61ae28969e9f365ff6f77.bindPopup(popup_69c9d4ced27f5a857ca0453f95b2c3ee)
+        ;
+
+        
+    
+    
+            marker_c1e7ac1fbac61ae28969e9f365ff6f77.bindTooltip(
+                `<div>
+                     Port of Houston, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_905e6c87580d4fccc97dda1efbef7339 = L.marker(
+                [30.380833, -81.564444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_7139d6fc916fea63028404a479a9ff3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e2ad69f4b1e19efbad6a3012992ebc0 = $(`<div id="html_8e2ad69f4b1e19efbad6a3012992ebc0" style="width: 100.0%; height: 100.0%;">Port of Jacksonville, Seaport - Large</div>`)[0];
+                popup_7139d6fc916fea63028404a479a9ff3e.setContent(html_8e2ad69f4b1e19efbad6a3012992ebc0);
+            
+        
+
+        marker_905e6c87580d4fccc97dda1efbef7339.bindPopup(popup_7139d6fc916fea63028404a479a9ff3e)
+        ;
+
+        
+    
+    
+            marker_905e6c87580d4fccc97dda1efbef7339.bindTooltip(
+                `<div>
+                     Port of Jacksonville, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dfd907769b6b810f392f22a464b51e3 = L.marker(
+                [33.748889, -118.201111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_a6e50ae9dd060da4e2ae718c4049433a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_207051706f163dd0f7b4140f4e6d266d = $(`<div id="html_207051706f163dd0f7b4140f4e6d266d" style="width: 100.0%; height: 100.0%;">Port of Long Beach, Deepwater Seaport - Very Large</div>`)[0];
+                popup_a6e50ae9dd060da4e2ae718c4049433a.setContent(html_207051706f163dd0f7b4140f4e6d266d);
+            
+        
+
+        marker_4dfd907769b6b810f392f22a464b51e3.bindPopup(popup_a6e50ae9dd060da4e2ae718c4049433a)
+        ;
+
+        
+    
+    
+            marker_4dfd907769b6b810f392f22a464b51e3.bindTooltip(
+                `<div>
+                     Port of Long Beach, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d115723ced1fc4002a3fec9b0cbf926e = L.marker(
+                [33.731944, -118.265278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_8a6e4dfeb835571e37ef71851791ffba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57388d6a6c811a8f997a88bd26cc5a40 = $(`<div id="html_57388d6a6c811a8f997a88bd26cc5a40" style="width: 100.0%; height: 100.0%;">Port of Los Angeles, Deepwater Seaport - Very Large</div>`)[0];
+                popup_8a6e4dfeb835571e37ef71851791ffba.setContent(html_57388d6a6c811a8f997a88bd26cc5a40);
+            
+        
+
+        marker_d115723ced1fc4002a3fec9b0cbf926e.bindPopup(popup_8a6e4dfeb835571e37ef71851791ffba)
+        ;
+
+        
+    
+    
+            marker_d115723ced1fc4002a3fec9b0cbf926e.bindTooltip(
+                `<div>
+                     Port of Los Angeles, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f079ff7fd628680b772ea01eb8cf2c1 = L.marker(
+                [30.711389, -88.040278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_b63dfff5ef1ec419133c75f3a6a9740b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3271e5c937046c6c7abacd887c2e814f = $(`<div id="html_3271e5c937046c6c7abacd887c2e814f" style="width: 100.0%; height: 100.0%;">Port of Mobile, Deepwater Seaport - Large</div>`)[0];
+                popup_b63dfff5ef1ec419133c75f3a6a9740b.setContent(html_3271e5c937046c6c7abacd887c2e814f);
+            
+        
+
+        marker_5f079ff7fd628680b772ea01eb8cf2c1.bindPopup(popup_b63dfff5ef1ec419133c75f3a6a9740b)
+        ;
+
+        
+    
+    
+            marker_5f079ff7fd628680b772ea01eb8cf2c1.bindTooltip(
+                `<div>
+                     Port of Mobile, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78f93fd4312adca59c036aad969da847 = L.marker(
+                [41.286389, -72.915],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d7e6b6f9ed90cae8f7d92adbfb31ef73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0237c4622247a53d870173267fa072e = $(`<div id="html_b0237c4622247a53d870173267fa072e" style="width: 100.0%; height: 100.0%;">Port of New Haven, Seaport - Large</div>`)[0];
+                popup_d7e6b6f9ed90cae8f7d92adbfb31ef73.setContent(html_b0237c4622247a53d870173267fa072e);
+            
+        
+
+        marker_78f93fd4312adca59c036aad969da847.bindPopup(popup_d7e6b6f9ed90cae8f7d92adbfb31ef73)
+        ;
+
+        
+    
+    
+            marker_78f93fd4312adca59c036aad969da847.bindTooltip(
+                `<div>
+                     Port of New Haven, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f438e743efeda134c68d8e8199fadd59 = L.marker(
+                [40.688333, -74.028611],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_76e4cfc0eb54f528ec3a238c8487d2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e31a0bdb700cd6a2d26b521942c9a9 = $(`<div id="html_24e31a0bdb700cd6a2d26b521942c9a9" style="width: 100.0%; height: 100.0%;">Port of New York, Deepwater Seaport - Very Large</div>`)[0];
+                popup_76e4cfc0eb54f528ec3a238c8487d2c5.setContent(html_24e31a0bdb700cd6a2d26b521942c9a9);
+            
+        
+
+        marker_f438e743efeda134c68d8e8199fadd59.bindPopup(popup_76e4cfc0eb54f528ec3a238c8487d2c5)
+        ;
+
+        
+    
+    
+            marker_f438e743efeda134c68d8e8199fadd59.bindTooltip(
+                `<div>
+                     Port of New York, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5176735590ac297ea38a5aa0d0ad87d = L.marker(
+                [40.7, -74.139444],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_4083f90af77f0ae0ba0cc594a3ba8aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c654db2ee07b1e115384a205f409e0a = $(`<div id="html_5c654db2ee07b1e115384a205f409e0a" style="width: 100.0%; height: 100.0%;">Port of Newark, Deepwater Seaport - Very Large</div>`)[0];
+                popup_4083f90af77f0ae0ba0cc594a3ba8aa7.setContent(html_5c654db2ee07b1e115384a205f409e0a);
+            
+        
+
+        marker_f5176735590ac297ea38a5aa0d0ad87d.bindPopup(popup_4083f90af77f0ae0ba0cc594a3ba8aa7)
+        ;
+
+        
+    
+    
+            marker_f5176735590ac297ea38a5aa0d0ad87d.bindTooltip(
+                `<div>
+                     Port of Newark, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c022dc0e7812841f44f35ad5eeb29c00 = L.marker(
+                [36.980556, -76.431667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_4ca8c72c332ff7fe93565ce2a704f74d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef976685040432969f75f11b9a64f782 = $(`<div id="html_ef976685040432969f75f11b9a64f782" style="width: 100.0%; height: 100.0%;">Port of Newport News, Deepwater Seaport - Large</div>`)[0];
+                popup_4ca8c72c332ff7fe93565ce2a704f74d.setContent(html_ef976685040432969f75f11b9a64f782);
+            
+        
+
+        marker_c022dc0e7812841f44f35ad5eeb29c00.bindPopup(popup_4ca8c72c332ff7fe93565ce2a704f74d)
+        ;
+
+        
+    
+    
+            marker_c022dc0e7812841f44f35ad5eeb29c00.bindTooltip(
+                `<div>
+                     Port of Newport News, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3bdc1d30cf522a0ee5a657cebf99307 = L.marker(
+                [36.901944, -76.297778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_21c5a1765731bb1cc01c284b8e4da45a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83b640bf7fa11fc1509366702cf50091 = $(`<div id="html_83b640bf7fa11fc1509366702cf50091" style="width: 100.0%; height: 100.0%;">Port of Norfolk, Deepwater Seaport - Very Large</div>`)[0];
+                popup_21c5a1765731bb1cc01c284b8e4da45a.setContent(html_83b640bf7fa11fc1509366702cf50091);
+            
+        
+
+        marker_d3bdc1d30cf522a0ee5a657cebf99307.bindPopup(popup_21c5a1765731bb1cc01c284b8e4da45a)
+        ;
+
+        
+    
+    
+            marker_d3bdc1d30cf522a0ee5a657cebf99307.bindTooltip(
+                `<div>
+                     Port of Norfolk, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34424c8711088f95202754c7b3454b20 = L.marker(
+                [37.799444, -122.301944],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_e66a6a0564412f78a930d965687fca9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3102439e6994b79d53ceab3c416ff5f = $(`<div id="html_d3102439e6994b79d53ceab3c416ff5f" style="width: 100.0%; height: 100.0%;">Port of Oakland, Deepwater Seaport - Very Large</div>`)[0];
+                popup_e66a6a0564412f78a930d965687fca9e.setContent(html_d3102439e6994b79d53ceab3c416ff5f);
+            
+        
+
+        marker_34424c8711088f95202754c7b3454b20.bindPopup(popup_e66a6a0564412f78a930d965687fca9e)
+        ;
+
+        
+    
+    
+            marker_34424c8711088f95202754c7b3454b20.bindTooltip(
+                `<div>
+                     Port of Oakland, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fc69c45774b4080496ec77a00f8ab37 = L.marker(
+                [29.733889, -95.196389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d7848bbe74d854b292ccbc74faa25336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7661c44b9319085a14da407d1adf1073 = $(`<div id="html_7661c44b9319085a14da407d1adf1073" style="width: 100.0%; height: 100.0%;">Port of Pasadena, Seaport - Large</div>`)[0];
+                popup_d7848bbe74d854b292ccbc74faa25336.setContent(html_7661c44b9319085a14da407d1adf1073);
+            
+        
+
+        marker_2fc69c45774b4080496ec77a00f8ab37.bindPopup(popup_d7848bbe74d854b292ccbc74faa25336)
+        ;
+
+        
+    
+    
+            marker_2fc69c45774b4080496ec77a00f8ab37.bindTooltip(
+                `<div>
+                     Port of Pasadena, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8084b41cbd69c1fae084034177f95d7 = L.marker(
+                [40.503611, -74.273333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_21a67ec0e652a76507c31a46f53dcab7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9462d11ca079d07dbdae37580f05f2a1 = $(`<div id="html_9462d11ca079d07dbdae37580f05f2a1" style="width: 100.0%; height: 100.0%;">Port of Perth Amboy, Seaport - Large</div>`)[0];
+                popup_21a67ec0e652a76507c31a46f53dcab7.setContent(html_9462d11ca079d07dbdae37580f05f2a1);
+            
+        
+
+        marker_e8084b41cbd69c1fae084034177f95d7.bindPopup(popup_21a67ec0e652a76507c31a46f53dcab7)
+        ;
+
+        
+    
+    
+            marker_e8084b41cbd69c1fae084034177f95d7.bindTooltip(
+                `<div>
+                     Port of Perth Amboy, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00679dfe011c3cd39a8b595a31723929 = L.marker(
+                [36.816667, -76.291111],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_2cf32c59ad6653e07587aa1e11396ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44d7c61976e474d2028ce1927bb63ca = $(`<div id="html_c44d7c61976e474d2028ce1927bb63ca" style="width: 100.0%; height: 100.0%;">Port of Portsmouth, Deepwater Seaport - Large</div>`)[0];
+                popup_2cf32c59ad6653e07587aa1e11396ba8.setContent(html_c44d7c61976e474d2028ce1927bb63ca);
+            
+        
+
+        marker_00679dfe011c3cd39a8b595a31723929.bindPopup(popup_2cf32c59ad6653e07587aa1e11396ba8)
+        ;
+
+        
+    
+    
+            marker_00679dfe011c3cd39a8b595a31723929.bindTooltip(
+                `<div>
+                     Port of Portsmouth, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0802dd82491fbf016beb09b73517d13a = L.marker(
+                [37.913889, -122.364167],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_81500b8ddeb056e3e424749f8417ddfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d551a112c22978990a9a77efe3889316 = $(`<div id="html_d551a112c22978990a9a77efe3889316" style="width: 100.0%; height: 100.0%;">Port of Richmond, Deepwater Seaport - Large</div>`)[0];
+                popup_81500b8ddeb056e3e424749f8417ddfa.setContent(html_d551a112c22978990a9a77efe3889316);
+            
+        
+
+        marker_0802dd82491fbf016beb09b73517d13a.bindPopup(popup_81500b8ddeb056e3e424749f8417ddfa)
+        ;
+
+        
+    
+    
+            marker_0802dd82491fbf016beb09b73517d13a.bindTooltip(
+                `<div>
+                     Port of Richmond, Deepwater Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_732ab7fe80f0aefdbb915e7ba2357dd2 = L.marker(
+                [32.684444, -117.161389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c309c3019f6065c8d2deea500eb9ec09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a383407805da374f8b41cc9de345328 = $(`<div id="html_7a383407805da374f8b41cc9de345328" style="width: 100.0%; height: 100.0%;">Port of San Diego, Deepwater Seaport - Very Large</div>`)[0];
+                popup_c309c3019f6065c8d2deea500eb9ec09.setContent(html_7a383407805da374f8b41cc9de345328);
+            
+        
+
+        marker_732ab7fe80f0aefdbb915e7ba2357dd2.bindPopup(popup_c309c3019f6065c8d2deea500eb9ec09)
+        ;
+
+        
+    
+    
+            marker_732ab7fe80f0aefdbb915e7ba2357dd2.bindTooltip(
+                `<div>
+                     Port of San Diego, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffc1de03c309669badf7edb52dabb8f4 = L.marker(
+                [37.788611, -122.401389],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_531cfad31b1dec495e1e7edaaf8ca212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a9f321d56d1b8b27de5a3ef420596e8 = $(`<div id="html_5a9f321d56d1b8b27de5a3ef420596e8" style="width: 100.0%; height: 100.0%;">Port of San Francisco, Deepwater Seaport - Very Large</div>`)[0];
+                popup_531cfad31b1dec495e1e7edaaf8ca212.setContent(html_5a9f321d56d1b8b27de5a3ef420596e8);
+            
+        
+
+        marker_ffc1de03c309669badf7edb52dabb8f4.bindPopup(popup_531cfad31b1dec495e1e7edaaf8ca212)
+        ;
+
+        
+    
+    
+            marker_ffc1de03c309669badf7edb52dabb8f4.bindTooltip(
+                `<div>
+                     Port of San Francisco, Deepwater Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39ed14c9d498851e12dd0d1cb29959d0 = L.marker(
+                [47.602222, -122.365278],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_d39a56fa8d5e44bb93b5cada34ff2f00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b910df28cfe1811e32a853d9fa406e3 = $(`<div id="html_6b910df28cfe1811e32a853d9fa406e3" style="width: 100.0%; height: 100.0%;">Port of Seattle, Seaport - Very Large</div>`)[0];
+                popup_d39a56fa8d5e44bb93b5cada34ff2f00.setContent(html_6b910df28cfe1811e32a853d9fa406e3);
+            
+        
+
+        marker_39ed14c9d498851e12dd0d1cb29959d0.bindPopup(popup_d39a56fa8d5e44bb93b5cada34ff2f00)
+        ;
+
+        
+    
+    
+            marker_39ed14c9d498851e12dd0d1cb29959d0.bindTooltip(
+                `<div>
+                     Port of Seattle, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83d20ede86b295694a50295d5c24838f = L.marker(
+                [47.267222, -122.406667],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_c80872cb7986b4a3153bb45eb8532f8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c55d575107f9a81edf0eb2b9145b1a6 = $(`<div id="html_1c55d575107f9a81edf0eb2b9145b1a6" style="width: 100.0%; height: 100.0%;">Port of Tacoma, Seaport - Very Large</div>`)[0];
+                popup_c80872cb7986b4a3153bb45eb8532f8d.setContent(html_1c55d575107f9a81edf0eb2b9145b1a6);
+            
+        
+
+        marker_83d20ede86b295694a50295d5c24838f.bindPopup(popup_c80872cb7986b4a3153bb45eb8532f8d)
+        ;
+
+        
+    
+    
+            marker_83d20ede86b295694a50295d5c24838f.bindTooltip(
+                `<div>
+                     Port of Tacoma, Seaport - Very Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1993e22acf2e58a6b44792db15b19bfc = L.marker(
+                [27.93, -82.437778],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_3415d9a29c322fa944d9992ff97d0d2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc083968eef32569e572c90465345f9 = $(`<div id="html_5dc083968eef32569e572c90465345f9" style="width: 100.0%; height: 100.0%;">Tampa Port Authority, Seaport - Large</div>`)[0];
+                popup_3415d9a29c322fa944d9992ff97d0d2e.setContent(html_5dc083968eef32569e572c90465345f9);
+            
+        
+
+        marker_1993e22acf2e58a6b44792db15b19bfc.bindPopup(popup_3415d9a29c322fa944d9992ff97d0d2e)
+        ;
+
+        
+    
+    
+            marker_1993e22acf2e58a6b44792db15b19bfc.bindTooltip(
+                `<div>
+                     Tampa Port Authority, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58e12b3466b6d2249db6ef36a7591263 = L.marker(
+                [29.375, -94.898333],
+                {}
+            ).addTo(marker_cluster_7a99020cbba5eb0d53408141ac4c81e2);
+        
+    
+        var popup_f245f310fadb982e02e1335afcde3c36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d3f139664cbc16e92d28e8ac08130e7 = $(`<div id="html_4d3f139664cbc16e92d28e8ac08130e7" style="width: 100.0%; height: 100.0%;">Port of Texas City, Seaport - Large</div>`)[0];
+                popup_f245f310fadb982e02e1335afcde3c36.setContent(html_4d3f139664cbc16e92d28e8ac08130e7);
+            
+        
+
+        marker_58e12b3466b6d2249db6ef36a7591263.bindPopup(popup_f245f310fadb982e02e1335afcde3c36)
+        ;
+
+        
+    
+    
+            marker_58e12b3466b6d2249db6ef36a7591263.bindTooltip(
+                `<div>
+                     Port of Texas City, Seaport - Large
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": true, "position": "topright", "title": "FULL SCREEN ON", "titleCancel": "FULL SCREEN OFF"}
+            ).addTo(map_8c75fe7b673af794247582ab058cbd5d);
+        
+</script>
+</html>
