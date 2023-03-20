@@ -1,0 +1,100 @@
+---
+title: "Build Whale Text Dataset"
+output: html_notebook
+---
+
+Create a dataframe with 2 columns, Region and Text. Extract the text for each region, either 'FP' or 'EC' and append as text string to the Text column for that region.
+
+```{r}
+#load and read text data
+data <- readLines("garlandTextData.txt")
+head(data)
+```
+
+All the rows into a dataframe by region and text
+```{r}
+#create an empty data frame with columns 'Region' and 'Text'
+df <- data.frame(Region = character(), Text = character(), stringsAsFactors = FALSE)
+
+#loop through each line of text
+for (i in 1:length(data)) {
+  
+  #split the text by commas
+  split_text <- strsplit(data[i], ", ")[[1]]
+  
+  #get the region
+  region <- substr(split_text[3], 1, 2)
+  
+  #get the text after the 4th comma
+  text <- paste(split_text[5:length(split_text)], collapse = ", ")
+  
+  #check if the region is 'FP' or 'EC', and append the text to the data frame accordingly
+  if (region == "FP") {
+    df[nrow(df) + 1,] <- c("FP", text)
+  } else if (region == "EC") {
+    df[nrow(df) + 1,] <- c("EC", text)
+  }
+}
+
+```
+
+```{r}
+#print the data frame
+df
+
+```
+
+```{r}
+#save this version as csv file
+write.csv(df, file="WhaleTextFull.csv", row.names=FALSE)
+```
+
+
+Only 2 regions with all the text for each 
+```{r}
+#load and read text data
+data <- readLines("garlandTextData.txt")
+head(data)
+
+#create an empty data frame with columns 'Region' and 'Text'
+df <- data.frame(Region = character(), Text = character(), stringsAsFactors = FALSE)
+
+#loop through each line of text
+for (i in 1:length(data)) {
+  
+  #split the text by commas
+  split_text <- strsplit(data[i], ", ")[[1]]
+  
+  #get the region
+  region <- substr(split_text[3], 1, 2)
+  
+  #get the text after the 4th comma
+  text <- paste(split_text[5:length(split_text)], collapse = ", ")
+  
+  #check if the region is 'FP' or 'EC', and append the text to the data frame accordingly
+  if (region == "FP") {
+    if (!"FP" %in% df$Region) {
+      df[nrow(df) + 1,] <- c("FP", text)
+    } else {
+      df[df$Region == "FP", "Text"] <- paste(df[df$Region == "FP", "Text"], text, sep = " ")
+    }
+  } else if (region == "EC") {
+    if (!"EC" %in% df$Region) {
+      df[nrow(df) + 1,] <- c("EC", text)
+    } else {
+      df[df$Region == "EC", "Text"] <- paste(df[df$Region == "EC", "Text"], text, sep = " ")
+    }
+  }
+}
+
+#print the data frame
+df
+
+```
+
+
+```{r}
+#save df as csv file
+write.csv(df, file="WhaleText.csv", row.names=FALSE)
+```
+
