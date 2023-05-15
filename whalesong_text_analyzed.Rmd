@@ -1,0 +1,377 @@
+---
+title: "Whale Text Analyzed - Garland data"
+output: html_notebook
+---
+
+```{r}
+#Import packages
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(readr)
+library(tidyverse)
+library(stringr)
+library(text2vec)
+library(glmnet)
+library(tm)
+library(tidytext)
+library(topicmodels)
+library(SnowballC)
+library(lda)
+library(widyr)
+library(randomForest)
+```
+
+```{r}
+#load and read text data
+df <- read.csv(file="WhaleText.csv")
+head(df)
+```
+
+```{r}
+#load and read full text data
+df_full <- read.csv(file="WhaleTextFull.csv")
+head(df_full)
+saveRDS(df_full, file="WhaleTextFull.rds")
+```
+
+```{r}
+#tokenize text with tidyverse
+df %>%
+  unnest_tokens(output="sound",
+                input=Text,
+                token="words") %>%
+  count(sound, sort=TRUE) #look at top 10 words
+```
+
+```{r}
+#sound count per region, sorted most to least common 
+sounds <- df %>%
+  unnest_tokens(output="sound",
+                input=Text,
+                token="words") %>%
+  count(Region, sound, sort=TRUE) #look at top 10 words
+sounds 
+```
+```{r}
+#number of samples per region
+table(sounds$Region)
+```
+
+```{r}
+#top occuring sounds
+df %>%
+  unnest_tokens(sounds, Text) %>%
+  count(sounds, sort=TRUE)
+```
+
+```{r}
+#Occurrences of Top Sounds per Region
+## FP seems much more diverse in sounds
+
+#filter on word 's'
+sounds_with_s <- sounds %>%
+  filter(sound=="s")
+sounds_with_s
+
+#filter on word 'gr'
+sounds_with_gr <- sounds %>%
+  filter(sound=="gr")
+sounds_with_gr
+
+#filter on word 'sq'
+sounds_with_sq <- sounds %>%
+  filter(sound=="sq")
+sounds_with_sq
+
+#filter on word 'w'
+sounds_with_w <- sounds %>%
+  filter(sound=="w")
+sounds_with_w
+
+#filter on word 'am'
+sounds_with_am <- sounds %>%
+  filter(sound=="am")
+sounds_with_am
+
+#filter on word 'hq'
+sounds_with_hq <- sounds %>%
+  filter(sound=="hq")
+sounds_with_hq
+
+#filter on word 'asq'
+sounds_with_asq <- sounds %>%
+  filter(sound=="asq")
+sounds_with_asq
+
+#filter on word 'agr'
+sounds_with_agr <- sounds %>%
+  filter(sound=="agr")
+sounds_with_agr
+
+#filter on word 'ba'
+sounds_with_ba <- sounds %>%
+  filter(sound=="ba")
+sounds_with_ba
+
+#filter on word 'ahq'
+sounds_with_ahq <- sounds %>%
+  filter(sound=="ahq")
+sounds_with_ahq
+```
+
+
+```{r}
+#find all mentions of a token and what comes after
+#look at 'gr'
+df %>%
+  unnest_tokens(output="GR", input=Text,
+                token="regex", pattern="gr")%>%
+  slice(2:n()) #sequence of #s from 2-#rows in df. slice() selects rows
+```
+
+```{r}
+#create corpus
+corpus <- VCorpus(VectorSource(df$Text))
+corpus
+
+#meta(corpus, 'tokens') <- df$tokens
+#head(meta(corpus))
+```
+
+```{r}
+#TFIDF #Tokenize #Counts
+sound_weights <- df %>%
+  unnest_tokens(output="sound", token = "words", input=Text) %>%
+  count(Region, sound, sort=TRUE) %>%
+  bind_tf_idf(sound, Region, n)
+sound_weights  
+```
+
+```{r}
+#find highest TFIDF values
+sound_weights %>%
+  arrange(desc(tf_idf))
+```
+A high TF-IDF value means that a term (word) is relatively important in a document compared to other documents in the corpus. High TF-IDF values can be useful for identifying key terms or features in a document.
+
+In this case, the sound with the highest TFIDF is 'mbd' from EC. The second highest is 'gt' from FP.
+
+
+```{r}
+#find lowest non-zero TFIDF values
+sound_weights %>% 
+  filter(tf_idf != 0) %>% 
+  arrange(tf_idf)
+```
+A low TF-IDF value means that a term has a low discriminative power and is likely to occur frequently across multiple documents in the corpus. Terms with low TF-IDF values may include common words like "the," "a," and "an," etc. A low TF-IDF values indicate that a term is less relevant for understanding the content of a particular document or for identifying patterns across the corpus.
+
+In this case, the lowest value is 'what', which is a human comment made within the sound data. This shows that 'what' is not very valuable in providing insight into/distinguishing patterns across the documents.
+
+Look At Full Dataset - with each row/sentence
+```{r}
+#df_full
+#TFIDF #Tokenize #Counts
+sound_weights_full <- df_full %>%
+  unnest_tokens(output="sound", token = "words", input=Text) %>%
+  count(Region, sound, sort=TRUE) %>%
+  bind_tf_idf(sound, Region, n)
+sound_weights_full  
+```
+
+```{r}
+# COSINE SIMILARITY on COUNTS
+sound_weights %>% 
+  pairwise_similarity(Region, sound, n) %>% 
+  arrange(desc(similarity))
+```
+
+```{r}
+# COSINE SIMILARITY on TFIDF
+sound_weights %>% 
+  pairwise_similarity(Region, sound, tf_idf) %>% 
+  arrange(desc(similarity))
+```
+
+```{r}
+# COSINE SIMILARITY on COUNTS
+sound_weights_full %>% 
+  pairwise_similarity(Region, sound, n) %>% 
+  arrange(desc(similarity))
+```
+
+```{r}
+# COSINE SIMILARITY on TFIDF
+sound_weights_full %>% 
+  pairwise_similarity(Region, sound, tf_idf) %>% 
+  arrange(desc(similarity))
+```
+
+
+If the tfidf cosine similarity between 2 documents is 0, it means that the documents are completely dissimilar. The cosine similarity between two vectors ranges from -1 to 1, where -1 means that the vectors are completely dissimilar and 1 means that they are identical. A cosine similarity of 0 indicates that the vectors are orthogonal and have no relationship to each other. Cosine similarity measures the similarity between two vectors, in this case, the vectors of word frequencies or TF-IDF scores. A value of 0 for cosine similarity means that the two vectors are orthogonal, i.e., they have no similarity or correlation with each other.
+
+If you are getting a cosine similarity of 0 for TF-IDF, it could mean that the two documents have no overlapping vocabulary or that the vocabulary in the two documents is completely different. This can happen if the documents are on completely different topics or if one document is much longer than the other.
+
+On the other hand, if you are getting a high cosine similarity for total counts but not for TF-IDF, it could be because the total counts are dominated by very common words that occur frequently in both documents, but these words may not be very informative for distinguishing the documents. In contrast, TF-IDF weights the words based on their importance in distinguishing the documents, so the resulting vectors may be more informative for similarity measurement.
+
+
+
+
+```{r}
+#make sentences from df_full
+sentences <- df_full %>% 
+  unnest_tokens(output = "sentences", token = "sentences", input = Text)
+sentences
+```
+
+```{r}
+#number of samples per region
+table(sentences$Region)
+```
+
+
+```{r}
+#get 75 sentences for each region
+whale_sentences <- 
+  rbind(sentences[sentences$Region == "FP", ][c(1:600), ],
+        sentences[sentences$Region == "EC", ][c(1:600), ])
+whale_sentences$sentence_id <- c(1:dim(whale_sentences)[1])
+whale_sentences
+```
+
+```{r}
+#process data
+whale_tokens <- whale_sentences %>% 
+  unnest_tokens(output = "song", token = "words", input= sentences)
+```
+
+```{r}
+#make a document-term matrix with tfidf weights 
+whale_matrix <- whale_tokens %>% 
+  count(sentence_id, song) %>% 
+  cast_dtm(document = sentence_id, term = song, 
+           value = n, weighting = tm::weightTfIdf)
+whale_matrix
+```
+sparcity = how many words in matrix are = 0. 90%. can use removeSparseTerms() if needed 
+unique terms = 39
+
+```{r}
+#reduce sparcity
+less_sparse_matrix <- removeSparseTerms(whale_matrix, sparse =.98)
+less_sparse_matrix
+```
+
+```{r}
+# Replace 'FP' with 0 and 'EC' with 1
+whale_sentences$Region_num <- ifelse(whale_sentences$Region == 'FP', 0, 
+                                      ifelse(whale_sentences$Region == 'EC', 1, NA))
+whale_sentences
+```
+
+
+```{r}
+#split data into test and train
+set.seed(1111)
+sample_size <- floor(0.80 * nrow(whale_matrix))
+train_ind <- sample(nrow(whale_matrix), size = sample_size)
+train <- whale_matrix[train_ind, ]
+test <- whale_matrix[-train_ind, ]
+```
+
+```{r}
+#split data into test and train
+set.seed(1111)
+sample_size <- floor(0.80 * nrow(less_sparse_matrix))
+train_ind <- sample(nrow(less_sparse_matrix), size = sample_size)
+train <- less_sparse_matrix[train_ind, ]
+test <- less_sparse_matrix[-train_ind, ]
+```
+
+**Should not use Random Forest - should do logistic regression.
+**This is just an example
+```{r}
+#Random Forest model for classification
+#x = df of dtm for each word in each sentence
+#y = binary classifier - EC or FP
+rfc <- randomForest(x = as.data.frame(as.matrix(train)),
+                    y = whale_sentences$Region_num[train_ind], nTree=10)
+rfc
+```
+
+```{r}
+#Test set predictions
+y_pred <- predict(rfc, newdata = as.data.frame(as.matrix(test)))
+
+```
+
+```{r}
+#table(whale_sentences[-train_ind, ]$Region, y_pred)
+```
+
+Topic Modeling 
+```{r}
+#prepare data
+whale_tokens <- df %>% 
+  unnest_tokens(output="song", token = "words", input=Text)
+#DTM
+whale_matrix <- whale_tokens %>% 
+  count(Region, song) %>% 
+  cast_dtm(document=Region, term=song, value=n,
+           weighting=tm::weightTf)
+#LDA
+whale_lda <- LDA(whale_matrix, k=4, method='Gibbs', control=list(seed=1111))
+whale_lda
+
+#Extract beta matrix 
+#words related to single topic have higher beta value
+whale_beta <- tidy(whale_lda, matrix="beta")
+whale_beta
+
+#look at words in topic #1, arrange in desc order
+whale_beta %>% 
+  filter(topic == 1) %>% 
+  arrange(-beta)
+
+#look at words in topic #2, arrange in desc order
+whale_beta %>% 
+  filter(topic == 2) %>% 
+  arrange(-beta)
+
+#look at words in topic #3, arrange in desc order
+whale_beta %>% 
+  filter(topic == 3) %>% 
+  arrange(-beta)
+
+#extract beta and gamma matrices
+whale_betas <- tidy(whale_lda, matrix="beta")
+whale_gammas <- tidy(whale_lda, matrix="gamma")
+
+#look at topic 1 gammas
+#gamma = top topics per Region
+whale_gammas %>% 
+  filter(topic == 1) %>% 
+  arrange(-gamma)
+
+#look at topic 2 gammas
+whale_gammas %>% 
+  filter(topic == 2) %>% 
+  arrange(-gamma)
+
+whale_gammas %>% 
+  filter(topic == 3) %>% 
+  arrange(-gamma)
+
+whale_gammas %>% 
+  filter(topic == 4) %>% 
+  arrange(-gamma)
+
+whale_beta %>% 
+  filter(topic == 4) %>% 
+  arrange(-beta)
+```
+
+```{r}
+
+```
+

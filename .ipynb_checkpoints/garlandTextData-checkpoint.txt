@@ -1,0 +1,1457 @@
+f, f, FP_2016_5, f, am, am, hq, hq, hq, sq, hq, sq, hq, sq, am, ac(s)
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_1, f, lm, as, aws, aws, aws
+f, f, FP_2016_1, f, lm-as, aws, aws(s), aws
+f, f, FP_2016_1, f, lm-as, aws, aws(s), aws
+f, f, FP_2016_1, f, lm-as, aws, nws, aws
+f, f, FP_2016_1, f, lm-as, aws, aws, nws
+f, f, FP_2016_1, f, lm-as, aws, nws, nws
+f, f, FP_2016_2a, f, gw(l), gw-agr, ahq, agr, ahq
+f, f, FP_2016_2b, f, agr, agr, asq, agr, asq
+f, f, FP_2016_3, f, agr, gu, gr-w, sn, asq, sq, agr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, sq, agr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, ahq, gr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, ngr-w, ba, asq, asq, gr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, ac(s), ahq, gr-w, ac(s)
+f, f, FP_2016_3, f, agr-w, gu, gr-w, ba, asq, asq, gr-w, ac(s)
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_5, f, am(s), am(s), sq, sq, sq, am, am, sq, sq, sq, sq, sq, sq, sq, sq, am(s), ahq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, sq, sq, hq, sq, am, ahq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, ahq, sq, hq, sq, ahq, sq, am, asq
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_6, f, am, am, asq, am, ahq
+f, f, FP_2016_6, f, am, pe-am, asq, am, as(s)
+f, f, FP_2016_6, f, am, pe-am, sn, asq, asq, am, as(s)
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_1, f, lm-as, nws, aws, nws
+f, f, FP_2016_1, f, lm-as, nws, nws, ws
+f, f, FP_2016_2a, f, gw(l), gw-agr, asq, agr, ahq
+f, f, FP_2016_2b, f, agr, agr, asq, agr, ahq
+f, f, FP_2016_3, f, agr, gu, agr, sn, asq, agr-w, asq
+f, f, FP_2016_3, f, agr-w, gu, gr-w, sn, asq, asq, gr-w, ahq
+f, f, FP_2016_3, f, agr-w, gu, gr-w, sn, asq, ahq, gr-w, ac(s)
+f, f, FP_2016_3, f, gr(s)-w, gu, gr(s)-w, sn, ahq, asq, gr-w, ahq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_2a, f, gw(l), gw-gr, sq, agr, ahq
+f, f, FP_2016_2b, f, agr, agr, asq, sq, agr, asq
+f, f, FP_2016_3, f, agr-w, gu, gr-w, sn, asq, sq, gr-w, ac(s)
+f, f, FP_2016_3, f, agr-w, gu, gr-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, as(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, sq, asq, gr-w, as(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, as(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, am, asq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am, am, sq, sq, sq, hq, sq, hq, sq, am, sq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, am, ahq
+f, f, FP_2016_6, f, am, am, ahq, am, ac(s)
+f, f, FP_2016_6, f, am, am, aws(s), am, aws(s)
+f, f, FP_2016_6, f, am(s), am(l), aws(s), am, as(s)
+f, f, FP_2016_6, f, am, pe-am(l), as(s), am, ahq
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_1, f, lm-as, modws, aws(s), nws
+f, f, FP_2016_1, f, lm-as, nws, nws, aws
+f, f, FP_2016_1, f, lm-as, nws, nws, aws
+f, f, FP_2016_1, f, lm-as, nws, aws, ws
+f, f, FP_2016_1, f, lm-as, ws, nws, nws
+f, f, FP_2016_2a, f, gw(l), gw-agr, ahq, agr, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, as(s), gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr(s)-w, sn, asq, asq, gr(s)-w, as(s)
+f, f, FP_2016_3, f, gr(s)-w, gr(s)-w, sn, asq, asq, gr(s)-w, asq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, sq, hq, sq, hq, sq, sq, sq, am(s), sq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq, sq, hq, sq, am, asq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, ahq
+f, f, FP_2016_7a, f, am(s), am(s), as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_1, f, lm, as, modws, aws(s), aws(s)
+f, f, FP_2016_1, f, lm-as, nws, nws, nws
+f, f, FP_2016_1, f, lm-as, ws, aws, ws
+f, f, FP_2016_4, f, hs(l), ba, lb, lb, gt, lb, gt
+f, f, FP_2016_5, f, am(s), am(s), sq, sq, sq, sq, sq
+f, f, FP_2016_5, f, am, am, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, asq
+f, f, FP_2016_5, f, am, am, sq, sq, sq, hq, sq, hq, sq, hq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, sq, hq, sq, am, asq
+f, f, FP_2016_7a, f, am, am(s), as-ahq, asq
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_1, f, am-as, aws(s), aws, aws
+f, f, FP_2016_1, f, lm-as, ws, aws, ws
+f, f, FP_2016_2a, f, gw(l), gw-agr, ahq, gw(s)-agr, asq
+f, f, FP_2016_2b, f, agr, gu, agr, asq, agr, asq
+f, f, FP_2016_2b, f, agr, gu, agr, asq, asq, agr, asq
+f, f, FP_2016_3, f, gr-w, gu, ngr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2016_3, f, agr-w, gu, agr(s)-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, gt, lb, gt, lb
+f, f, FP_2016_5, f, hs, am(s), am(s), sq, sq, am, am(s), hq, sq, sq, sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, hq, sq, hq, sq, sq, sq, am, ahq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, sq, hq, sq, hq, sq, hq, sq, am, asq
+f, f, FP_2016_7a, f, gu-am(s), am(s), as
+f, f, FP_2016_7a, f, pe-am, am(s), as
+f, f, FP_2016_1, f, lm, as, modws, aws(s), nws(s)
+f, f, FP_2016_1, f, lm-as, aws, aws(s), aws
+f, f, FP_2016_1, f, lm-as, aws, aws, nws
+f, f, FP_2016_2a, f, gw(l), gw-agr, asq, agr, asq
+f, f, FP_2016_2b, f, agr, gw-agr, asq, sq, agr, asq
+f, f, FP_2016_3, f, agr-w, gu, agr, asq, ngr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq
+f, f, FP_2016_5, f, pe-am, pe-am, sq, hq, sq, sq, sq, sq, pe-am, sq
+f, f, FP_2016_5, f, pe-am, pe-am, sq, sq, sq, sq, hq, sq
+f, f, FP_2016_5, f, pe-am, pe-am, sq, hq, sq, hq, sq, sq, hq, sq, hq, sq, hq, pe-am, asq
+f, f, FP_2016_5, f, pe-am, pe-am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, sq, pe-am, asq
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7b, f, am, am, as, am, as(s)
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7b, f, am, am, as, pe-am, aws(s)
+f, f, FP_2016_6, f, am, gu, am, ac(s), am, ac(s)
+f, f, FP_2016_6, f, am, gu-am, ac(s), am, ac(s)
+f, f, FP_2016_6, f, am, pe-am, sn, asq, am, asq
+f, f, FP_2016_3, f, gr-am, gu, agr, sn, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, ac(s), gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, ac(s)
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_2a, f, gw(l), gw-gr, sq, agr, asq
+f, f, FP_2016_2b, f, agr, gu-am, asq, agr, asq
+f, f, FP_2016_2b, f, agr, gu-agr, sn, asq, asq
+f, f, FP_2016_3, f, gu-agr(s)-am(s), gu-am, sq, sq, sq, sq, sq
+f, f, FP_2016_3, f, gu-am, gu-am, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, gu-am, asq
+f, f, FP_2016_3, f, gu-am, gu-am, hq, sq, sq, hq, sq, hq, sq, hq, hq, sq, gu-am
+f, f, FP_2016_3, f, gu-am, sq, sq, sq, hq, sq, sq, gu-am, asq, gu-am
+f, f, FP_2016_7a, f, gu-am, am(s), as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, ac(s)
+f, f, FP_2016_7b, f, am, pe-am, ac(s), am, ac(s)
+f, f, FP_2016_7b, f, am, gu-am, ac(s), am, ac(s)
+f, f, FP_2016_7b, f, am, p-am, aws(s), p-am, ac(s)
+f, f, FP_2016_7b, f, am, gu-am(l), aws(s), am, ac(s)
+f, f, FP_2016_3, f, am, gu-am, sn, asq, am, asq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_5, f, am(s), am(s), sq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, asq,
+f, f, FP_2016_7a, f, am(s), am(s), as
+f, f, FP_2016_7a, f, am, am, as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_1, f, lm-as, nws, aws, ws(s)
+f, f, FP_2016_1, f, lm-as, aws, aws(s), aws
+f, f, FP_2016_1, f, lm-as, nws, aws(s), aws
+f, f, FP_2016_2a, f, gw(l), gw-agr, asq, agr, asq
+f, f, FP_2016_2b, f, agr, agr, asq, gw-agr, asq
+f, f, FP_2016_2b, f, agr, gu-agr, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu-ngr-w, sn, asq, gr-w, ac(s)
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu-gr-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb
+f, f, FP_2016_8, f, gw(l)-be, lb
+f, f, FP_2016_2a, f, gw(l), gw-agr, asq, agr, sn
+f, f, FP_2016_2b, f, agr, agr(l), asq, agr, asq
+f, f, FP_2016_2b, f, agr, agr(l), asq, gr-w, asq
+f, f, FP_2016_3, f, asq, am, gu, am, sn, asq, am, asq
+f, f, FP_2016_6, f, am, pe-am, sn, asq, am, asq
+f, f, FP_2016_6, f, am, pe-am, sn, asq
+f, f, FP_2016_5, f, am, am(s), hq, sq, hq, sq
+f, f, FP_2016_5, f, am, am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am(s), asq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am(s), asq
+f, f, FP_2016_7c, f, am(s), am(s), as, hq, sq, hq, sq
+f, f, FP_2016_7c, f, am(s), am(s), as, hq, sq, hq, sq
+f, f, FP_2016_7a, f, am, am(s), sq
+f, f, FP_2016_1, f, lm-as, modws, aws(s), nws
+f, f, FP_2016_1, f, lm-as, aws, aws(s), uws(s)
+f, f, FP_2016_1, f, lm-as, nws(l), aws(s), aws
+f, f, FP_2016_1, f, lm-as, aws, aws, aws
+f, f, FP_2016_2a, f, gw(l), gw-gr, sq, gw-gr, asq
+f, f, FP_2016_3, f, agr, agr, sn, asq, sq, agr-w, asq
+f, f, FP_2016_3, f, gr-w, gu-agr, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, agr, gu-gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, ba, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_2a, f, gw(l), gw-gr, sq, agr, sq, sq
+f, f, FP_2016_3, f, agr, p(s), agr, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, gr-w, p-gr-w, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, agr, p(s), agr, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, agr, p-am, sn, asq, sq, agr, asq
+f, f, FP_2016_5, f, am, am(s), hq, sq, hq, sq, hq, sq, hq, sq, am(s), sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq, sq
+f, f, FP_2016_5, f, am, am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_7a, f, am(s), am(s), as
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7c, f, am, am(s), as, hq, sq
+f, f, FP_2016_1, f, lm-as, nws, aws(s), nws
+f, f, FP_2016_1, f, lm-as, aws, aws, modws(s)
+f, f, FP_2016_2a, f, gw(l), gw(l)-gr(s), sq, agr, sq
+f, f, FP_2016_3, f, agr, p(s), agr, sn, sq, agr, sq
+f, f, FP_2016_3, f, gr, gu, gr, sn, asq, agr, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, agr, asq
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, lb
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am(s), sq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), sq, hq, sq, hq, sq, hq, sq, hq, sq, am(s), asq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am(s), am(s), hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am(s), asq
+f, f, FP_2016_7a, f, am, am(s), as
+f, f, FP_2016_7c, f, am, am(s), as, hq, sq
+f, f, FP_2016_7c, f, am, am(s), as, sq
+f, f, FP_2016_7c, f, am, am(s), as, hq, sq
+f, f, FP_2016_1, f, lm-as, aws(s), aws(s), nws
+f, f, FP_2016_1, f, lm-as, nws, aws, aws
+f, f, FP_2016_1, f, lm-as, nws, aws(s), aws
+f, f, FP_2016_2a, f, gw(l), gw-gr, sq, agr, sq
+f, f, FP_2016_2b, f, agr, agr, asq, agr, asq
+f, f, FP_2016_2b, f, agr, agr, asq, asq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq, asq
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, ba, gt
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, ba, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2016_4, f, hs, ba, lb, lb
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_8, f, gw(l)-be, z
+f, f, FP_2016_2a, f, gw(l), gr(l), hq, agr, asq
+f, f, FP_2016_2b, f, agr, p, gr-w, sn, asq, sq, gr-w, asq
+f, f, FP_2016_3, f, gr-w, p, gr-w, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, gr-w, p, gr-w, sn, asq, asq, agr, asq
+f, f, FP_2016_3, f, am, p, am, sn, asq, am, asq
+f, f, FP_2016_3, f, am, p, am, sn, asq, am, asq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, sq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, asq
+f, f, FP_2016_5, f, am, am, sq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am, am, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2016_7a, f, am(s), am, as, hq
+f, f, FP_2016_7a, f, am(s), am(s), as, hq, hq
+f, f, FP_2016_7a, f, am, am(s), as, sq
+f, f, FP_2016_7a, f, am, am(s), as, hq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, ahq
+f, f, FP_2017_3, f, gr(s)-w, gu, mgr(s)-w, sn, ahq, asq, ngr(s)-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, asq, gr-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr-w, sn, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr(s)-w, asq, asq, am(s), asq
+f, f, FP_2017_5, f, mm(s), am(s), sq, hq, sq, mm(s), sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, am(s), sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq, hq, am, asq
+f, f, FP_2017_7b, f, am, mm(s), ac, mm, asq
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_7b, f, am, am(s), ac, am
+f, f, FP_2017_1, f, lm, as, nws, nws(s), nws
+f, f, FP_2017_1, f, lm, as, dws, aws(s), nws
+f, f, FP_2017_1, f, lm, as, nws, aws(s), ws
+f, f, FP_2017_1, f, lm, as, ws, ws(s), ws
+f, f, FP_2017_2a, f, gw(l), gw-ngr, asq, gw(s)-agr, ahq
+f, f, FP_2017_2b, f, ngr, gw(s)-agr, ahq, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, ahq, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, ahq, asq, gr-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, sq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, asq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2017_5, f, am(s), am(s), sq, sq, am(s), sq, am(s), sq
+f, f, FP_2017_5, f, am(s), am(s), sq, hq, sq, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, sq, hq, sq, am(s), sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq, hq, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq, hq, sq, am, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq, hq, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, hq, hq, am, ahq
+f, f, FP_2017_7b, f, am, am(s), ac, sq, am
+f, f, FP_2017_7a, f, am, mm(s), ac
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_7a, f, am, am(s), ac
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_7b, f, am, am(s), ac, am, ahq
+f, f, FP_2017_7a, f, am, am(s), ac
+f, f, FP_2017_1, f, lm, as, nws, nws(s), ws
+f, f, FP_2017_1, f, lm, as, ws, nws(s), ws
+f, f, FP_2017_1, f, lm, as, nws, aws(s), aws(s)
+f, f, FP_2017_1, f, lm, as, ws, aws(s), aws
+f, f, FP_2017_2a, f, gw(l), gw-gr, ahq, agr, ahq
+f, f, FP_2017_3, f, agr, gu, gr-w, ahq, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, gr-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, ahq, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr(s)-w, sn, ahq, gr(s)-w, ahq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, ahq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, ahq, asq, gr(s)-w, ahq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, asq, asq, gr(s)-w, asq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, asq, asq, gr(s)-w, ahq
+f, f, FP_2017_3, f, gr(s)-w, gu, gr(s)-w, sn, ahq, ahq, gr(s)-w, ahq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, hq, sq, hq, sq, hq, sq, am(s), sq
+f, f, FP_2017_5, f, am(s), nm(s), hq, hq, hq, sq, hq, sq
+f, f, FP_2017_7a, f, am(s), am(s), ac
+f, f, FP_2017_7b, f, am(s), am(s), ac, am, asq
+f, f, FP_2017_7a, f, am(s), am(s), ac
+f, f, FP_2017_7b, f, am, am(s), am(s), as
+f, f, FP_2017_7a, f, am, am(s), ac
+f, f, FP_2017_7a, f, am(s), am(s), as
+f, f, FP_2017_7a, f, am, am(s), as
+f, f, FP_2017_7b, f, am(s), am(s), as, am, asq
+f, f, FP_2017_7a, f, am, am(s), as
+f, f, FP_2017_7b, f, am, am(s), as, am, ahq
+f, f, FP_2017_7a, f, am, um(s), as(l)
+f, f, FP_2017_7b, f, am, am(s), as, am, ahq
+f, f, FP_2017_7a, f, am, am(s), as
+f, f, FP_2017_7a, f, am, am(s), as
+f, f, FP_2017_7a, f, am, am(s), ac
+f, f, FP_2017_7b, f, am, am(s), ac, ahq, aws(s), ahq
+f, f, FP_2017_1, f, lm, as, ws, nws(s), nws
+f, f, FP_2017_1, f, lm, as, nws, nws(s), ws
+f, f, FP_2017_1, f, lm, as, dws, ws(s), ws(s)
+f, f, FP_2017_2a, f, gw(l), gw-gr, ahq, agr, ahq
+f, f, FP_2017_2b, f, agr, gr, ahq, asq, gr, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, ahq, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, asq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, whats the sound at 24:26?, gu, gr(s)-w, sn, asq, asq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, asq, gr-w, ahq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, ahq, asq, gr-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2017_3, f, gr-w, gu, gr-w, ahq, asq, gr-w, ahq
+f, f, FP_2017_5, f, am(s), sq, hq, sq, am(s), sq
+f, f, FP_2017_5, f, am(s), am(s), hq, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, hq, sq, am, sq
+f, f, FP_2017_5, f, am(s), am(s), hq, sq, hq, hq, hq
+f, f, FP_2017_5, f, am, am(s), hq, sq, hq, sq, sq, hq, am, asq
+f, f, FP_2017_7b, f, am, am(s), ac, sq, am, ahq
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_7a, f, am, am(s), ac
+f, f, FP_2017_7b, f, am, am(s), ac, am, ahq
+f, f, FP_2017_7b, f, am, am(s), ac, am, asq
+f, f, FP_2017_1, f, lm, as, aws(s), nws(s), nws(s)
+f, f, FP_2017_1, f, lm, as, ws, nws, aws
+f, f, FP_2017_1, f, lm, as, uws, nws, ws
+f, f, FP_2017_1, f, lm, as, nws, aws(s), uws
+f, f, FP_2017_2a, f, gw(l), gw-gr, ahq, agr, ahq
+f, f, FP_2017_9a, f, dgr, agr(s)-dws(s), ngr, ngr, agr(s), dhq, ngr, ngr, agr(s)-dws(s), sq
+f, f, FP_2017_9a, f, dgr, agr(s)-dws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s), dsq, sq
+f, f, FP_2017_9a, f, dgr, agr(s), uws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s), dsq, dgr
+f, f, FP_2017_10, f, ngr, agr(s), dws(s), sq, sq, sq, agr(s)-dws(s), sq, sq, agr(s)-dws(s), ahq
+f, f, FP_2017_11, f, dgr, agr(s)-uws(s)-dsq, ba, ba, agr(s)-uws, ba, ba, agr(s)-uws(s), dsq, asq
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, lb, agr(s)-uws(s), ba, ba, agr(s)-uws(s), dsq
+f, f, FP_2017_12, f, dm, nc(s), ac(s), dsq, mm(s), modhc, dsq
+f, f, FP_2017_12, f, dm, am(s), ac, dsq, am, ac
+f, f, FP_2017_12, f, dm, am, ac, dsq, am, ac, dsq
+f, f, FP_2017_12, f, dm, am, ac, dsq, am, ac, dsq
+f, f, FP_2017_12, f, dm, am, ac, dsq, am, ac, dsq
+f, f, FP_2017_13, f, dgr, ti(a), ti(a), ti(a)(s), ti(a)
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a), dsq
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a), dsq
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a)
+f, f, FP_2017_14, f, dgr, sc(l), sc(l)
+f, f, FP_2017_14, f, dm, sc(l), sc(l)
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, ba, agr(s)-dws(s), ba, ba, agr(s)-dws(s), dhq
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, ba, agr(s)-dws(s), lb, ba, agr(s), dhq
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, lb, agr(s)-dws(s), lb, ba, lb, agr(s)-dws(s), dsq
+f, f, FP_2017_12, f, dm, ac(s), ac, dsq, am, ac, dsq
+f, f, FP_2017_12, f, dm, ac, ac, dsq, ac, ac, dsq
+f, f, FP_2017_12, f, dm, am, ac, dsq, ac, dsq
+f, f, FP_2017_12, f, dm, ac, ac, dsq, ac, ac, dsq
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a)
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a)
+f, f, FP_2017_13, f, dm, ti(a), ti(a), ti(a), ti(a), sq
+f, f, FP_2017_13, f, dm(l), ti(a), ti(a), ti(a), ti(a)
+f, f, FP_2017_9a, f, dm, agr(s)-uws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s)
+f, f, FP_2017_9a, f, dm, agr(s)-uws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s), dsq
+f, f, FP_2017_9a, f, dm, agr(s)-uws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s), sq
+f, f, FP_2017_9a, f, dm(l), agr(s)-uws(s), ngr, ngr, agr(s)-uws(s), ngr, ngr, agr(s)-dws(s)
+f, f, FP_2017_9b, f, lm, hs(s), gr(s)-aws(s), agr-ba, agr-ba, ngr(s)-aws(s), agr-ba, agr-ba, ngr(s)-hq
+f, f, FP_2017_9b, f, lm, ngr(s)-uws, agr-ba, agr-ba, agr(s)-uws(s), agr-ba, agr-ba, agr(s)-uws(s)
+f, f, FP_2017_15, f, gr(l), hs, gr(s)-uws, ngr(s)-uws(s)
+f, f, FP_2017_15, f, lm, hs, gr(s)-aws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, gr(s)-aws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, nws, gr(s)-uws(s)
+f, f, FP_2017_15, f, lm, hs, uws, gr(s)-uws(s)
+f, f, FP_2017_15, f, lm, hs, gr(s)-uws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, gr(s)-uws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, uws, gr(s)-uws
+f, f, FP_2017_15, f, lm, hs, uws, aws
+f, f, FP_2017_15, f, gr(l)-hs, gr(s)-uws, gr(s)-uws
+f, f, FP_2017_15, f, lm, hs, gr(s)-uws, gr(s)-uws
+f, f, FP_2017_15, f, lm, hs, gr(s)-modws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, gr(s)-uws, gr(s)-uws(s)
+f, f, FP_2017_15, f, lm, hs, am(s)-aws, gr(s)-uws
+f, f, FP_2017_15, f, lm, hs, am(s)-uws, gr(s)-uws
+f, f, FP_2017_15, f, lm, hs, aws, agr(s)-aws
+f, f, FP_2017_15, f, lm, hs, aws, gr(s)-aws
+f, f, FP_2017_15, f, lm, hs, am(s)-uws, gr(s)-uws
+f, f, FP_2017_10, f, gr(s)-modws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, ba, gr(s)-dws(s), dsq, ba, ba, agr(s)-dws(s), dsq
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, ba, agr(s)-dws(s), agr(s)-uws(s), lb, lb, agr(s)-dws(s), dsq
+f, f, FP_2017_11, f, dm, agr(s)-uws, lb, lb, agr(s)-uws, am(s), lb, ba, agr(s)-dws(s), dsq
+f, f, FP_2017_12, f, dm, am(s), ac, sq, nm(s), ac, dsq
+f, f, FP_2017_12, f, dm, ac, am, dsq, ac, ac, dsq
+f, f, FP_2017_12, f, dm, modhc(s), ac, dsq, ac, ac, dsq
+f, f, FP_2017_13, f, dm, ti(a), ti(a), dsq, ti(a), ti(a), dhq
+f, f, FP_2017_13, f, dm, ti(a), ti(a), pe, ti(a), ti(a), ti(a)
+f, f, FP_2017_14, f, dm, sc(l), sc(l)
+f, f, FP_2017_10, f, agr(s)-dws(s), sq, sq, sq, sq, agr(s), sq
+f, f, FP_2017_10, f, agr(s)-uws(s), dsq, sq, sq, sq, sq, agr(s)-uws(s), dsq
+f, f, FP_2017_11, f, dm, agr(s)-dws(s), ba, lb, agr(s)-uws, uws, lb, ba, agr(s)-dws(s), dhq
+f, f, FP_2017_11, f, dm, agr(s)-uws, uws, lb, lb, agr(s)-uws, lb, lb, agr(s)-uws(s), dsq
+f, f, FP_2017_11, f, dm, agr(s)-uws, lb, ba, agr(s)-uws, ba, ba, agr(s)-dws(s), dhq
+f, f, FP_2017_12, f, dm, am(s), ac(s), dsq, ac, am, dsq
+f, f, FP_2017_12, f, dm, am, as, dsq, ac, ac, dsq
+f, f, FP_2017_12, f, dm, ac, ac, dsq, ac, ac, dsq
+f, f, FP_2017_12, f, dm, ac, ac, dsq, ac, as, dsq
+f, f, FP_2017_12, f, dm, ac, as, dsq, ac, ac, dsq
+f, f, FP_2017_11, f, dm, agr(s), dws(s), lb, lb, agr(s), dws(s), lb, lb, agr(s), dws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, agr(s)-uws(s), ba, lb, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, lb, agr(s)-uws, lb, lb, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-aws(s), ba, ba, agr(s)-aws(s), lb, lb, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-aws(s), ba, lb, agr(s)-uws(s), ba, lb, agr(s), aws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-aws(s), lb, lb, agr(s)-uws(s), lb, lb, agr(s)-aws(s)
+f, f, FP_2017_10, f, agr(s), uws(s), sq, sq, sq, sq, agr(s), nws(s), sq, sq, sq, sq, gr(s)-uws
+f, f, FP_2017_10, f, dm, agr(s), dws(s), sq, sq, sq, sq, agr(s), dws(s), sq, sq, sq, sq, agr(s), dws(s)
+f, f, FP_2017_10, f, dm, agr(s)-nws(s), sq, sq, sq, sq, agr(s)-nws(s), sq, sq, sq, sq, agr(s)-nws(s)
+f, f, FP_2017_10, f, dm, agr(s)-dws(s), sq, sq, sq, sq, agr(s)-modws(s), sq, sq, sq, sq, agr(s), modws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, agr(s), uws(s), ba, ba, agr(s)-uws
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-aws(s), ba, ba, agr(s)-aws(s), ba, ba, agr(s)-uws
+f, f, FP_2017_11, f, dm, agr(s)-uws, ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws
+f, f, FP_2017_11, f, dm, agr(s)-uws, ba, ba, agr(s)-uws, ba, lb, agr(s)-uws
+f, f, FP_2017_16, f, dm, agr(s)-dws(s), ti(a), ti(a), agr(s)-nws(s), ti(a), ti(a), am(s), dhq
+f, f, FP_2017_16, f, dm, agr(s)-modws(s), ti(a), ti(a), am(s), dhq, ti(a), ti(a), am(s), dhq
+f, f, FP_2017_16, f, dm, agr(s)-nws(s), ti(a), ti(a), gr(s), modws(s), ti(a), ti(a), agr(s), hq, dhq
+f, f, FP_2017_16, f, dm, agr(s)-dws(s), ti(a), ti(a), agr(s), dhq, ti(a), ti(a), agr(s), dws(s)
+f, f, FP_2017_16, f, dm, agr(s), dhq, ti(a), ti(a), agr(s), dhq, ti(a), ti(a), agr(s), dhq
+f, f, FP_2017_16, f, dm, agr(s), dhq, ti(a), ti(a), agr(s), dws(s), ti(a), ti(a), am(s), dws(s)
+f, f, FP_2017_16, f, dm, agr(s)-nws(s), ti(a), ti(a), agr(s), dhq, ti(a), ti(a), am(s)-dws(s)
+f, f, FP_2017_16, f, dm, agr(s), dhq, ti(a), ti(a), agr(s), dhq, ti(a), ti(a), am(s), nws(s)
+f, f, FP_2017_16, f, dm, agr(s)-dws(s), ti(a), ti(a), am(s), dhq, ti(a), ti(a), agr(s)-dws(s)
+f, f, FP_2017_16, f, dm, agr(s), dws(s), ti(a), ti(a), agr(s), nws(s), ti(a), ti(a), agr(s), dws(s)
+f, f, FP_2017_11, f, dm, agr(s)-aws(s), ba, ba, agr(s)-aws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, am(s)-uws, ba, ba, gr(s)-aws, ba, ba, am(s)-uws
+f, f, FP_2017_11, f, dm, agr(s), aws(s), ba, ba, agr(s), aws(s), ba, ba, agr(s), aws
+f, f, FP_2017_11, f, dm(l), ngr(s)-aws(s), ba, ba, gr(s)-aws(s), ba, ba, gr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, lb, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, lb, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-aws(s), ba, lb, agr(s)-uws(s), ba, lb, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, ba, agr(s)-aws(s), ba, ba, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, lb, agr(s)-uws(s), ba, lb, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, agr(s)-aws(s), ba, ba, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, lb, agr(s)-aws(s), lb, lb, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, lb, agr(s)-uws(s), lb, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-aws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-aws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-aws(s), ba, ba, agr(s)-aws(s), ba, ba, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm(l), agr(s)-uws(s), ba, ba, agr(s)-uws(s), ba, ba, agr(s)-uws(s)
+f, f, FP_2017_10, f, agr(s)-hq, sq, sq, sq, sq, m(s)-uws(s), gr(s)-uws(s), sq, sq, sq, sq, gr(s)-dws(s)
+f, f, FP_2017_10, f, gr(s)-dws(s), sq, sq, sq, sq, gr(s)-dws(s), sq, sq, sq, sq, am(s)-dws(s)
+f, f, FP_2017_10, f, gr(s)-nws(s), sq, sq, sq, sq, gr(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_10, f, dm, agr(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_10, f, dm, agr(s)-uws(s), sq, sq, sq, agr(s)-uws(s), sq, sq, sq, sq, agr(s)-uws(s)
+f, f, FP_2017_10, f, dm, am(s)-dws(s), sq, sq, sq, sq, agr(s)-uws(s), sq, sq, sq, sq, agr(s)-uws(s)
+f, f, FP_2017_10, f, dm, agr(s)-uws(s), sq, sq, sq, sq, agr(s)-uws(s), sq, sq, sq, sq, agr(s)-uws(s)
+f, f, FP_2017_10, f, dm, agr(s)-uws(s), sq, sq, sq, sq, agr(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_11, f, dm, am(s)-uws(s), agr, agr-w, agr(s)-uws, agr, gr-w, am(s)-uws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, am(s)-uws, ba, ba, am(s)-aws
+f, f, FP_2017_11, f, dm(l), agr(s)-aws(s), ba, ba, am(s)-uws, ba, ba, am(s)-uws(s)
+f, f, FP_2017_11, f, dm, am(s)-uws(s), ba, ba, am(s)-aws(s), ba, ba, am(s)-aws, sq
+f, f, FP_2017_10, f, dm, am(s)-uws(s), sq, sq, sq, agr(s)-modws(s), sq, sq, agr(s)-dws(s)
+f, f, FP_2017_10, f, dm, am(s), dws(s), sq, sq, sq, sq, agr(s), dws(s), sq, sq, sq, sq, am(s), dws(s)
+f, f, FP_2017_10, f, dm, am(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_10, f, dm, agr(s)-dws(s), sq, sq, sq, sq, am(s)-dws(s), sq, sq, sq, sq, am(s), dws(s)
+f, f, FP_2017_10, f, dm, agr(s)-dws(s), sq, sq, sq, sq, am(s)-dws(s), sq, sq, sq, sq, agr(s)-dws(s)
+f, f, FP_2017_11, f, dm, agr(s)-uws(s), ba, ba, am(s)-uws(s), ba, ba, am(s)-uws(s)
+f, f, FP_2017_11, f, dm(l), am(s)-uws(s), ba, ba, ugr(s)-aws(s), ba, ba, am(s)-uws
+f, f, FP_2017_11, f, dm(l), am(s)-uws(s), ba, ba, ngr(s)-aws(s), ba, ba, agr(s)-aws(s)
+f, f, FP_2017_11, f, dm(l), am(s)-uws(s), ba, ba, am(s)-uws(s), ba, ba, agr(s)-uws
+f, f, FP_2017_16, f, dm, am(s)-dws(s), ti(a), ti(a), gr(s), dws(s), ti(a), ti(a), agr(s), dws(s)
+f, f, FP_2017_16, f, dm, am(s), dws(s), ti(a), ti(a), am(s)-dws(s), ti(a), ti(a), am(s)-dws(s)
+f, f, FP_2017_16, f, dm, agr(s), dhq, ti(a), ti(a), sq, dhq, ti(a), ti(a), gr(s), dhq
+f, f, FP_2017_16, f, dm, agr(s)-dws(s), ti(a), ti(a), sq, dws(s), ti(a), ti(a), am(s), dhq
+f, f, FP_2017_16, f, dm, agr(s), dws(s), ti(a), ti(a), am(s), dhq, dws(s)
+f, f, FP_2017_16, f, dm, agr(s)-dws(s), sq, sq, sq, agr(s)-dws(s), sq, sq, sq, sq, gr(s)-dws(s)
+f, f, FP_2017_16, f, dm, am(s)-dws(s), sq, sq, sq, sq, am(s)-dws(s), sq, sq, sq, sq, am(s)-dws(s)
+f, f, FP_2017_16, f, dm, am(s)-uws(s), sq, sq, sq, sq, am(s)-uws(s), sq, sq, sq, sq, am(s)-uws(s)
+f, f, FP_2018_8, f, gw(l)-be, z
+f, f, FP_2018_8, f, gw(l)-be, p
+f, f, FP_2018_2a, f, gw(l), gw-gr, ahq
+f, f, FP_2018_22, f, agr, asq, asq
+f, f, FP_2018_22, f, gr, aws(s), asq
+f, f, FP_2018_22, f, ngr, aws(s), asq
+f, f, FP_2018_22, f, gr, aws(s), asq
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, ac(s), asq, gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, ac(s), ac(s), gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, agr, sn, ac(s), ac(s), agr, ac(s)
+f, f, FP_2018_23, f, dgr(s)-um, m, um, as, as(s), gr(s)-um, ac(s)
+f, f, FP_2018_23, f, gr(s)-um, m, am, as, ns(s), gr(s)-um, ac(s)
+f, f, FP_2018_23, f, ngr-um, m, m, as, nc(s), gr-am, as(s)
+f, f, FP_2018_3, f, ngr(s)-am(s), p, agr, sn, ac(s), ac(s), agr, ac(s)
+f, f, FP_2018_3, f, agr, p, agr, sn, ac(s), ac(s), agr, as(s)
+f, f, FP_2018_3, f, agr, p, gr-w, sn, as(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, p, gr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, p, gr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, p, gr-w, as(s), as(s), ngr-am, as(s)
+f, f, FP_2018_23, f, gr(s)-mm, ti, ngr(s)-am, as(s), as(s), gr(s)-am, as(s)
+f, f, FP_2018_23, f, ngr(s)-mm, p, gr-um, ac, ac(s), gr-um, as(s)
+f, f, FP_2018_23, f, gr(s)-mm, p, gr-am, as, nc(s), gr-am, as
+f, f, FP_2018_23, f, gr(s)-um, ti, gr(s)-am, as, ns(s), gr-am, as
+f, f, FP_2018_23, f, gr(s)-am, ti, am, as, asq, gr-am, as
+f, f, FP_2018_23, f, gr-am, ti, gr(s)-mm, nc, ac(s), gr(s)-am, as
+f, f, FP_2018_23, f, gr(s)-am, ti(n), ngr-mm, ns, ac(s), gr(s)-um, ac(s)
+f, f, FP_2018_23, f, ngr-mm, ti, gr(s)-am, as, as(s), gr(s)-am, ac(s)
+f, f, FP_2018_23, f, gr(s)-um, ti(n), dgr(s)-am, ac, ahq, gr(s)-mm, ac(s)
+f, f, FP_2018_23, f, gr-am, ti(n), mgr(s)-mm, ac, ac(s), dgr(s)-mm, as(s)
+f, f, FP_2018_23, f, gr(s)-am, ti, gr(s)-am, as, as(s), ngr-mm, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, as(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, as(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), ac(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), ac(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, dgr(s)-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, dgr-w, sn, ac(s), asq, ngr-w, ac(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), ac(s), ngr-w, ac(s)
+f, f, FP_2018_3, f, ngr-w, gu, dgr-w, sn, as(s), as(s), ngr-w, ac(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), asq, gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, as(s), sq, ngr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, ac(s), asq, ngr-w, ac(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, as(s), asq, ngr-w, asq
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ac(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), dgr-w, as(s)
+f, f, FP_2018_3, f, dgr-w, gu, dgr-w, sn, as(s), as(s), gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq, gr-w
+f, f, FP_2018_2a, f, gw(l), gw-gr, ahq, gw-gr, ahq
+f, f, FP_2018_3, f, gr, gw, agr, sn, ahq, ahq, ngr-w, asq
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, sq, asq, gr-w, asq
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, sq, ahq, gr-w, asq
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, asq, ahq, gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, as(s), asq, gr-w, asq
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, ns(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, as(s), asq, gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, ac(s), asq, gr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, ns(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, dgr-w, gu, dgr-w, sn, as(s), as(s), dgr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, dgr-w, sn, as(s), ac(s), gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, as(s), asq, gr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, asq, asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, ns(s), ahq, ngr-w, as(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), as(s), ngr-w, as(s)
+f, f, FP_2018_23, f, ngr-am(s), gu, gr(s)-mm(s), as(s), sq, gr-um, as(s)
+f, f, FP_2018_23, f, gr(s)-um, p, dgr(s)-mm, as, ns(s), ngr(s)-am, as(s)
+f, f, FP_2018_3, f, gr(s)-um, p, am, sn, as(s), asq, gr(s)-am, ns(s)
+f, f, FP_2018_3, f, gr(s)-am, p, um, sn, as(s), as(s), ngr(s)-am, as(s)
+f, f, FP_2018_3, f, ngr(s)-am, p, ngr-am(s), sn, as(s), asq, dgr(s)-am(s), as(s)
+f, f, FP_2018_3, f, ngr(s)-am(s), gu, dgr-w, sn, as(s), ns(s), ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, as(s), asq, ngr-w, as(s)
+f, f, FP_2018_3, f, ngr-w, gu, ngr-w, sn, as(s), sq, ngr-w, ac(s)
+f, f, FP_2018_3, f, agr, gu, gr-w, sn, ac(s), sn, aws(s), gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr(s)-w, sn, ac(s), aws(s), mgr-w, aws(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, aws(s), asq, ngr-w, ac(s)
+f, f, FP_2018_4, f, hs(l), ba, lb, lb, gt, lb, gt
+f, f, FP_2018_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2018_4, f, hs, ba, lb, lb, gt, lb, gt
+f, f, FP_2018_4, f, hs, ba, lb, lb
+f, f, FP_2018_7b, f, am, am(s)-as, am, aws(s)
+f, f, FP_2018_1, f, lm, as, nws, modws, modws
+f, f, FP_2018_1, f, lm, as, nws, aws, nws
+f, f, FP_2018_1, f, gr(l), as, nws(l), nws, aws
+f, f, FP_2018_3, f, ngr(l), gu, gr, aws(s), nws(s), gr, aws(s)
+f, f, FP_2018_3, f, gr, gu-mgr-w, sn, aws(s), aws(s), gr-w, aws(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, aws(s), aws(s), ngr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, aws(s), hq, ngr-w, aws(s)
+f, f, FP_2018_5, f, am, am, hq, sq, dsq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2018_5, f, am, am, hq, sq, hq, sq, sq, hq, sq, hq, sq, am
+f, f, FP_2018_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, sq
+f, f, FP_2018_7b, f, am, am(s), as(l), am, ahq
+f, f, FP_2018_7b, f, am, nm(s), as(l), am, ahq
+f, f, FP_2018_1, f, lm, as, nws, nws, nws
+f, f, FP_2018_1, f, lm, as, nws, nws, nws(s)
+f, f, FP_2018_1, f, lm, as, nws(l), aws, ws
+f, f, FP_2018_1, f, lm-as, nws, nws, dws
+f, f, FP_2018_2a, f, gw(l), gw-agr(l), aws(s), gw-mgr, aws(s)
+f, f, FP_2018_2b, f, gw-agr, gw-mgr, aws(s), ahq, mgr, uws(s)
+f, f, FP_2018_2b, f, gr, gr-agr, aws(s), ahq, gr-w, aws(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, aws(s), ahq, ngr-w, nc(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, ac(s), ahq, ngr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gr-gu, ngr-w, sn, ac(s), ac(s), ngr-w, nc(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, asq, asq, gr-w, asq
+f, f, FP_2018_4, f, hs(l), ba, lb, lb, gt, lb, gt
+f, f, FP_2018_4, f, hs(l), lb, lb, gt, lb
+f, f, FP_2018_4, f, hs(l), ba, lb, lb, gt, lb
+f, f, FP_2018_4, f, hs(l), ba, lb, lb, gt, lb
+f, f, FP_2018_4, f, hs(l), ba, lb, lb, gt, lb, hs(l)
+f, f, FP_2018_5, f, am, am, sq, sq
+f, f, FP_2018_5, f, am, am, hq, sq, sq, sq, sq, sq, am, sq
+f, f, FP_2018_5, f, mm, mm(s), sq, sq, sq, sq, sq
+f, f, FP_2018_5, f, am, am, sq, sq, sq, sq, sq, sq, am, sq
+f, f, FP_2018_7a, f, mm, nm(s)-as
+f, f, FP_2018_7b, f, am, dm(s), as, am, aws(s)
+f, f, FP_2018_1, f, lm, as, nws, aws
+f, f, FP_2018_1, f, lm-as, nws, aws, nws
+f, f, FP_2018_1, f, lm, as, nws, aws(s), dws(s)
+f, f, FP_2018_2a, f, gw(l), gw-gr, aws(s), gw-gr, ac(s)
+f, f, FP_2018_3, f, ngr-w, gu, gr-w, sn, aws(s), ahq, ngr-w, aws(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, aws(s), hq, ngr-w, ahq, sq
+f, f, FP_2018_5, f, am, am(s), sq, sq, sq
+f, f, FP_2018_5, f, am, am, sq, sq, sq, sq, sq, am, sq
+f, f, FP_2018_7a, f, am, am(s), as
+f, f, FP_2018_24, f, gr(l), hs, nws, modws, nws, nws(s)
+f, f, FP_2018_24, f, gr(l), nws, nws, aws, nws
+f, f, FP_2018_10, f, agr(s)-uws(s), sq, sq, sq, uws(s)
+f, f, FP_2018_24, f, lm, nws, nws, nws, nws(s), nws
+f, f, FP_2018_10, f, gr(s)-aws, sq, sq, sq, agr(s)-uws
+f, f, FP_2018_5, f, am, am, hq, hq, hq, sq
+f, f, FP_2018_5, f, am, am, hq, sq, dhq, hq, hq, sq, sq, am, sq
+f, f, FP_2018_5, f, am, am, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, am, ahq
+f, f, FP_2018_7a, f, am, am(s), as
+f, f, FP_2018_1, f, lm, as, nws, aws(s), dws(s)
+f, f, FP_2018_1, f, lm, as, nws, nws, nws
+f, f, FP_2018_1, f, lm-as, nws, nws(s), nws(s)
+f, f, FP_2018_1, f, lm-as, nws, aws(s), dws
+f, f, FP_2018_1, f, lm-as, nws, nws, ws
+f, f, FP_2018_2a, f, gw(l), gw-gr, ahq, gw-gr, ahq
+f, f, FP_2018_2b, f, agr, gw-gr, nws(s), ahq, gr-w, aws(s)
+f, f, FP_2018_3, f, agr, gu, agr, ac(s), nws(s), ngr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, nc(s), sq, hq, gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, ngr-w, sn, ac(s), sq, gr-w, ac(s)
+f, f, FP_2018_3, f, gr-w, gu, gr-w, sn, ac(s), asq, gr-w, asq
+f, f, FP_2018_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2018_4, f, hs, ba, lb, lb, gt, lb
+f, f, FP_2018_5, f, am(s), am(s), sq, sq, sq, sq, am, sq
+f, f, FP_2018_5, f, am, am, sq, sq, hq, sq, sq, sq, sq, am
+f, f, FP_2018_7a, f, am, am(s), as
+f, f, FP_2018_7a, f, agr(s)-um, am(s), as
+f, f, FP_2018_17, f, dgr, dgr-modws(l), nws, dgr, modws, modws(s), agr(s), dgr(s), dgr
+f, f, FP_2018_17, f, dgr, modws, nws, dgr, nc(s), nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr(s), nws, nws, dgr, nws, nc(s), dgr, dgr
+f, f, FP_2018_18, f, mm, mm, um, dm(s), nc, sr, sr, modws(s), modhc, modhc, mm, dc(s)
+f, f, FP_2018_19, f, mm, hq, sq, aws(s), sq, sq, hq, sq, sq
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, sq, sq, hq, sq, hq, sq, am, m
+f, f, FP_2018_19, f, m, hq, sq, hq, sq, sq, hq, sq, sq, sq
+f, f, FP_2018_20, f, nm, agr(s), dm(s), agr(s), dm(s), agr(s), sq
+f, f, FP_2018_20, f, m, agr(s), dgr(s), agr(s), sq, agr(s)
+f, f, FP_2018_20, f, nm, agr(s), dgr(s), agr(s), dgr(s), agr(s), am(s)
+f, f, FP_2018_20, f, nm, sq, agr(s), ugr(s), agr(s), gr(s), agr(s)
+f, f, FP_2018_20, f, nm, agr(s), gr(s), agr(s), gr(s), agr(s), nm
+f, f, FP_2018_21, f, agr, ugr, ugr(s), dm(s), ngr, gr(s), gu
+f, f, FP_2018_21, f, agr, ugr, dm(s), dm(s), agr, gu
+f, f, FP_2018_21, f, gr, m, gr, gu, agr
+f, f, FP_2018_21, f, m, gr, hq, gr, gu
+f, f, FP_2018_17, f, gr, nws(s), nws, nws(s), gr, dgr, gu
+f, f, FP_2018_17, f, dgr, nws, nws, nws(s), dgr(s), dgr
+f, f, FP_2018_17, f, dgr, nws, nws, dgr, nws, nws(s), dgr(s), dgr
+f, f, FP_2018_17, f, dgr, aws, nws, nws(s), dgr(s), dgr
+f, f, FP_2018_18, f, modhc, dc, nc, dsq, modhc, sr, sr, modhc, dc, nm, dc(s)
+f, f, FP_2018_19, f, nm, hq, sq, sq, sq, hq, sq
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2018_20, f, nm, agr(s), gr(s), agr(s), sq, agr(s), sq
+f, f, FP_2018_20, f, mm, p, am(s), am(s), dm(s), agr(s)
+f, f, FP_2018_20, f, nm, am(s), gr(s), am(s), gr(s), am(s), sq
+f, f, FP_2018_20, f, nm, agr(s), agr(s), agr(s), gr(s), agr(s)
+f, f, FP_2018_20, f, nm, am(s), dgr(s), am(s), dgr(s), agr(s)
+f, f, FP_2018_20, f, nm, am(s), am(s), agr(s), dm(s), am(s)
+f, f, FP_2018_17, f, gr, nws(s), nws, nws(s), dgr, nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws(s), nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr(s), nws, nws(s), gr, nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, gr, nws, nws, nws(s), dgr, nws, nws, dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, nws(s), dgr, aws(s), dws(s), aws(s), dgr, mgr(l)
+f, f, FP_2018_17, f, dgr(s), nws, nws, dgr(s), nws(s), nws(s), nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, dgr, ac(s), dws, nws(s), dgr, dgr
+f, f, FP_2018_18, f, dc, modhc, dc(s), dc, sr, sr, dc, nm(s), nm, dc(s)
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2018_19, f, m, hq, sq, hq, sq, sq, hq, sq, am, m
+f, f, FP_2018_19, f, nm, hq, sq, sq, sq, hq, sq, hq, sq, am, m
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2018_19, f, nm, hq, sq, sq, hq, sq, hq, sq, nm(l)
+f, f, FP_2018_20, f, nm, am(s), am(s), agr(s), gr(s), agr(s), sq
+f, f, FP_2018_20, f, nm, am(s), am(s), am(s), am(s), agr(s)
+f, f, FP_2018_20, f, mm(s)-m, agr(s), gr(s), am(s), gr(s), agr(s)
+f, f, FP_2018_20, f, am, am(s), gr(s), agr(s), am(s), am(s), am(s)
+f, f, FP_2018_20, f, mm, am(s), dgr(s), agr(s), gr(s), agr(s)
+f, f, FP_2018_21, f, am, m, m, gu
+f, f, FP_2018_22, f, gr, asq, asq
+f, f, FP_2018_22, f, gr, gu
+f, f, FP_2018_22, f, gr, ahq, asq, gu
+f, f, FP_2018_17, f, dgr, nws, nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr(s), nws, nws(s), dgr(s), nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, nws(s), dgr(s), aws(s), nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws(s), dgr, nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, dsq, dgr, nws, nws(s), dgr, dgr
+f, f, FP_2018_18, f, dm, modhc, dm(s), dm, sr, sr, dc, dc, dc, dsq
+f, f, FP_2018_19, f, m, hq, sq, sq, hq, sq, sq
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq, sq, am-m
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, FP_2018_19, f, nm, hq, sq, hq, sq, hq, sq, hq, sq, sq, am, m
+f, f, FP_2018_20, f, nm, am(s), dgr(s), am(s), dgr(s), am(s), sq, agr(s)
+f, f, FP_2018_20, f, nm, am(s), sq, agr(s), dgr(s), am(s), sq
+f, f, FP_2018_20, f, nm, agr(s), gr(s), agr(s), sq, am(s)
+f, f, FP_2018_21, f, m, dm(s), dm(s), dsq, m, gu
+f, f, FP_2018_21, f, m, um, dm(s), dm, m, gu
+f, f, FP_2018_22, f, gr, gw, gr, ahq, ahq, ahq
+f, f, FP_2018_17, f, dgr, nws, nws, dgr, nws, ac(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, nws(s), dgr, dgr
+f, f, FP_2018_17, f, dgr, nws, nws, dgr, nws, aws(s), dgr, dgr
+f, f, FP_2018_18, f, dc, dc, dc(s), dc, sr, sr, dc, nc, dc(s), dsq
+f, f, EC_2016_33, f, mm-ac, dgr(s), dgr(s), dgr(s), dgr(s)
+f, f, EC_2016_33, f, m-ac, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_30, f, m-ac, sr
+f, f, EC_2016_25, f, agr, agr, sq
+f, f, EC_2016_25, f, agr(s), sq, agr, sq
+f, f, EC_2016_25, f, agr(s), sq, agr, sq
+f, f, EC_2016_26, f, pe, pe-ac, ba
+f, f, EC_2016_26, f, pe, modhc-ahq, asq
+f, f, EC_2016_29, f, ac(s), ac, sq
+f, f, EC_2016_29, f, ac(s), modhc, nws(l)
+f, f, EC_2016_37, f, modhc, hq, hq, ahq, hq
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_28, f, mm-aws(s), dgr
+f, f, EC_2016_33, f, mm-w, dgr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, m-w, gw(l)
+f, f, EC_2016_34, f, am, gw-sr
+f, f, EC_2016_34, f, m-ac, gw-sr
+f, f, EC_2016_34, f, m-ac, gw-sr
+f, f, EC_2016_31, f, mbd, abd(s)
+f, f, EC_2016_31, f, nbd-w, abd(s)
+f, f, EC_2016_31, f, mbd, abd(s)
+f, f, EC_2016_31, f, mbd, mbd(s)
+f, f, EC_2016_31, f, abd, abd(s)
+f, f, EC_2016_31, f, abd, abd(s)
+f, f, EC_2016_31, f, mbd, abd(s)
+f, f, EC_2016_29, f, nc-aws(s), modhc, ahq
+f, f, EC_2016_29, f, ac(s)-ahq, modhc-ahq
+f, f, EC_2016_29, f, nc(s)-ahq, modhc, modhc, aws(l)
+f, f, EC_2016_28, f, mm, ac(s), dgr
+f, f, EC_2016_28, f, mm, ac(s), dgr
+f, f, EC_2016_28, f, m-w, ac(s), dgr
+f, f, EC_2016_28, f, m-w, hc(s), dgr
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, am, gw(l)
+f, f, EC_2016_34, f, m-ac(s), gw(l)
+f, f, EC_2016_34, f, m-ac(s), gw-sr
+f, f, EC_2016_34, f, m-ac, gw-sr
+f, f, EC_2016_34, f, m-ac, sr
+f, f, EC_2016_34, f, m-w, sr
+f, f, EC_2016_34, f, agr, am
+f, f, EC_2016_34, f, am(s), am, ac(s)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_28, f, am(s), ac, dgr
+f, f, EC_2016_28, f, m-w, ac, dgr
+f, f, EC_2016_28, f, am, hc(s), dgr
+f, f, EC_2016_33, f, mm-ac(s), gr(s), gr(s), dgr(s)
+f, f, EC_2016_33, f, am, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, am, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, am(s)-asq, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, m-ac(s), gw-sr
+f, f, EC_2016_34, f, m-ac, gw-sr
+f, f, EC_2016_31, f, abd, abd(s)
+f, f, EC_2016_31, f, abd, abd(s)
+f, f, EC_2016_31, f, mbd, abd(s)
+f, f, EC_2016_31, f, mbd, abd(s)
+f, f, EC_2016_26, f, pe-aws, sq
+f, f, EC_2016_26, f, aws, sq
+f, f, EC_2016_26, f, aws, sq, sq
+f, f, EC_2016_26, f, pe-as, sq
+f, f, EC_2016_26, f, pe-modhc-aws(s), sq
+f, f, EC_2016_26, f, ac(s)-ahq, sq
+f, f, EC_2016_29, f, hc(s), nws(l), dc
+f, f, EC_2016_37, f, modhc-ahq, ahq, ahq, ahq
+f, f, EC_2016_37, f, modhc, ahq, ahq, ahq, ahq
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, hc, dgr(l)
+f, f, EC_2016_33, f, m-w, dgr, dgr, dgr(s), dgr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-ac(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_34, f, m-ac(s), sr(l)
+f, f, EC_2016_34, f, m-ac(s), ac(s), sr(l)
+f, f, EC_2016_34, f, m-w, hc(s), sr(l)
+f, f, EC_2016_34, f, m-w, hc(s), sr(l)
+f, f, EC_2016_34, f, m-ac(s), sr(l)
+f, f, EC_2016_34, f, m-ac(s), hc(s), sr(l)
+f, f, EC_2016_34, f, m-ac, hc(s), sr(l)
+f, f, EC_2016_25, f, agr(s), sn, agr(l), sn
+f, f, EC_2016_25, f, agr(s), sn, agr(l), sn
+f, f, EC_2016_25, f, agr(s), sn, agr(l), sn, sn
+f, f, EC_2016_26, f, ti(s), ti(a)-ac-ahq, ba
+f, f, EC_2016_26, f, ti(a), ti(a)-modhc-ahq, w
+f, f, EC_2016_26, f, ti(d), nc-ahq
+f, f, EC_2016_27, f, modhc, modhc(l)-aws(s), aws(s)
+f, f, EC_2016_27, f, modhc, modhc, ahq, ahq
+f, f, EC_2016_27, f, modhc, modhc
+f, f, EC_2016_27, f, modhc, modhc(l)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, modhc, hc(s), dm(l)
+f, f, EC_2016_28, f, nm-w, hc, gr
+f, f, EC_2016_28, f, mm-w, hc(s), gr
+f, f, EC_2016_33, f, m-w, gr, gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr, gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, m-w, gw, gw(s)
+f, f, EC_2016_34, f, m-w, gw, gw(s)
+f, f, EC_2016_34, f, m-w, gw, sr(l)
+f, f, EC_2016_34, f, nm-w, gw, sr
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, nm(l)-w, sr(l)
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, am, sr(l)
+f, f, EC_2016_34, f, m-w, sr(l)
+f, f, EC_2016_35, f, mbd, mbd, mbd(s)
+f, f, EC_2016_35, f, mbd(l), mbd
+f, f, EC_2016_35, f, mbd(l), mbd(s)
+f, f, EC_2016_35, f, mbd(l), ubd(s)
+f, f, EC_2016_35, f, dbd, mbd(l), dbd-w
+f, f, EC_2016_35, f, mbd(l), dbd-w
+f, f, EC_2016_35, f, mbd(l), ubd(s), mbd(l)
+f, f, EC_2016_26, f, ti(m), modhc-ahq, asq
+f, f, EC_2016_26, f, ti(a), ti(a), modhc-ahq, asq
+f, f, EC_2016_29, f, modhc(s)-ahq, modhc-uws(s), sq
+f, f, EC_2016_29, f, uc(s)-ahq, modhc-aws, aws, ahq
+f, f, EC_2016_29, f, ac, modhc, nc(s)-aws(l)
+f, f, EC_2016_37, f, modhc-ahq, ahq, ahq, ahq, ahq, ahq
+f, f, EC_2016_37, f, modhc-ahq, ahq, ahq, dhq, ahq
+f, f, EC_2016_38a, f, modhc-ahq, dm(l)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_28, f, m, hc, sq, dgr
+f, f, EC_2016_28, f, nm-nc, sq, dgr
+f, f, EC_2016_28, f, m-hc, sq, dgr
+f, f, EC_2016_28, f, mm, nc(s), sq, dgr
+f, f, EC_2016_28, f, mm, sq, sq, dgr
+f, f, EC_2016_28, f, dm, nc(s), asq, dgr
+f, f, EC_2016_28, f, m-nc, dsq, dgr
+f, f, EC_2016_28, f, nm-w-hc(s), sq, dgr
+f, f, EC_2016_28, f, m, nc(s), hq, dgr
+f, f, EC_2016_28, f, m-hc, sq, dgr
+f, f, EC_2016_28, f, m-hc, sq, dgr
+f, f, EC_2016_28, f, nm-ac(s), sq, dgr
+f, f, EC_2016_28, f, mm-ac, sq, sq, dgr
+f, f, EC_2016_28, f, m-hc, sq, dgr
+f, f, EC_2016_33, f, m-w, gr, gr, gr(s)
+f, f, EC_2016_33, f, m-w, dgr(s), dgr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_34, f, nm-w, gw, sr
+f, f, EC_2016_34, f, m-w, gw, sr
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, nm-w, gw, sr
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, nm-w, gw
+f, f, EC_2016_34, f, nm-w, gw, sr
+f, f, EC_2016_34, f, m-w, gw
+f, f, EC_2016_34, f, m-w, gw, sr
+f, f, EC_2016_34, f, m-w, sr, sr
+f, f, EC_2016_34, f, m-w, gw, sr
+f, f, EC_2016_35, f, abd, mbd, sn, bd(s)-w, sn
+f, f, EC_2016_35, f, mbd, am(s), sn, bd(s)-w, sn
+f, f, EC_2016_35, f, m, am, sn, bd(s)-w, sn
+f, f, EC_2016_35, f, mbd(s), sn, ubd, sn
+f, f, EC_2016_35, f, mbd(l), sn, dbd-w, sn
+f, f, EC_2016_35, f, mbd, mbd, sn, bd(s)-w, sn
+f, f, EC_2016_35, f, nbd, dbd, abd(s), sn, sn, dbd-w, sn
+f, f, EC_2016_35, f, mbd(l), ubd(s)
+f, f, EC_2016_35, f, mbd(l), ubd(s)
+f, f, EC_2016_35, f, mbd, ubd, ubd(s)
+f, f, EC_2016_37, f, modhc-ahq, ahq, ahq, ahq, ahq
+f, f, EC_2016_38a, f, modhc, dm(l)
+f, f, EC_2016_38a, f, modhc-ahq, dm(l)
+f, f, EC_2016_38a, f, modhc-ahq, dm(l)
+f, f, EC_2016_38a, f, modhc, sq, dm, dm
+f, f, EC_2016_28, f, m-hc, dgr
+f, f, EC_2016_28, f, am-nc, sq, dgr
+f, f, EC_2016_28, f, mm(l)-ac, dgr
+f, f, EC_2016_28, f, m, nc, asq, dgr
+f, f, EC_2016_28, f, nm, nc, sq, dgr
+f, f, EC_2016_28, f, m-nc, sq, dgr
+f, f, EC_2016_28, f, m-nc, sq, sq, dgr
+f, f, EC_2016_28, f, nm-nc(s), dgr
+f, f, EC_2016_28, f, m, nc, sq, dgr
+f, f, EC_2016_28, f, nm-hc, sq, dgr
+f, f, EC_2016_28, f, nm, hc(s), dsq, dgr
+f, f, EC_2016_28, f, nm-nc, sq, dgr
+f, f, EC_2016_28, f, mm(l)-asq, asq, sq, dgr
+f, f, EC_2016_28, f, m-w, dhq, sq, dgr
+f, f, EC_2016_28, f, mm-w, asq, sq, hq, dgr
+f, f, EC_2016_28, f, mm-w, hq, sq, dgr
+f, f, EC_2016_28, f, mm-w, hq, dsq, dgr
+f, f, EC_2016_28, f, mm-w, asq, dhq, dgr
+f, f, EC_2016_28, f, nm-w, nc(s), sq, dgr
+f, f, EC_2016_28, f, m-hc(s), dgr
+f, f, EC_2016_28, f, m-w, hc(s), sq, dgr
+f, f, EC_2016_28, f, m-w, hc(s), sq, dgr
+f, f, EC_2016_28, f, m-w, sq, sq, dgr
+f, f, EC_2016_28, f, nm-nc(s), dgr
+f, f, EC_2016_28, f, m-dc(s), dsq, dgr
+f, f, EC_2016_28, f, nm-asq, sq, sq, dgr
+f, f, EC_2016_28, f, mm-w, dsq, dsq, dgr
+f, f, EC_2016_28, f, mm-w, dsq, asq, dgr
+f, f, EC_2016_28, f, mm-sq, asq, asq, dgr
+f, f, EC_2016_33, f, mm-w, gr, gr, gr
+f, f, EC_2016_33, f, m-w, gr, gr, gr(s)
+f, f, EC_2016_33, f, m-w, gr, gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, m-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, mm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2016_33, f, nm-w, sq, gr, dgr, gw-sr
+f, f, EC_2016_34, f, m-w, gw(l), sr
+f, f, EC_2016_34, f, nm-w, sr
+f, f, EC_2016_34, f, m-w, gw(l), sr
+f, f, EC_2016_34, f, nm-w, gw, sr
+f, f, EC_2016_34, f, m-w, sr, sr
+f, f, EC_2017_37, f, modhc, ahq, hq, hq, hq
+f, f, EC_2017_32, f, mm, hq, hq, hq, hq, hq, asq, dgr
+f, f, EC_2017_32, f, mm, asq, dsq, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm-w, nws(s), dsq, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm, hq, sq, sq, dhq, dgr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr, gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr, gr, gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr, gr, gr(s)
+f, f, EC_2017_34, f, mm-w, gw, gw(l), sr(s)
+f, f, EC_2017_34, f, mm-w, gw, sr, sr(s)
+f, f, EC_2017_34, f, nm-w, gw, sr, sr(s), aws(s)
+f, f, EC_2017_34, f, mm-w, gw, sr, sr(s)
+f, f, EC_2017_34, f, mm-w, gw, sr, sr(s)
+f, f, EC_2017_35, f, mbd(l), mbd, sn, mbd, sn
+f, f, EC_2017_35, f, mbd(l), mbd, sn, mbd, sn
+f, f, EC_2017_35, f, mbd(l), mbd, sn, mbd, sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), nc(s), aws, ba
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), ac(s), aws
+f, f, EC_2017_37, f, modhc, hq, hq, hq, hq, hq, hq, hq, ahq, hq
+f, f, EC_2017_37, f, modhc, hq, hq, ahq, ahq, ahq, ahq, ahq, ahq
+f, f, EC_2017_38a, f, modhc, dc(l)
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_32, f, mm-w, sq, sq, ahq, sq, sq, sq, sq, dgr
+f, f, EC_2017_32, f, mm, hq, sq, sq, sq, sq, sq, sq, sq, dgr
+f, f, EC_2017_32, f, mm-w, sq, sq, asq, sq, ahq, dgr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr, gr
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_34, f, m-w, gw, sr, sr
+f, f, EC_2017_34, f, m-w, gw, sr, sr
+f, f, EC_2017_34, f, mm-w, gw, sr, sr
+f, f, EC_2017_34, f, m-w, gw, sr, sr
+f, f, EC_2017_34, f, m-w, gw, sr, sr
+f, f, EC_2017_35, f, mbd, mbd, sn, ubd, sn
+f, f, EC_2017_35, f, mbd(l), um, sn, ubd, sn
+f, f, EC_2017_35, f, mbd(l), sn, sn, dbd(s), sn
+f, f, EC_2017_35, f, mbd(l), ubd(s), sn, dbd(s), sn
+f, f, EC_2017_35, f, mbd(l), sn, dbd(s), sn
+f, f, EC_2017_35, f, mbd, mbd, mbd, sn, ubd, sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), ti(a), hq, aws(s)
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), hq, aws
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), asq, aws(l)
+f, f, EC_2017_37, f, modhc, hq, ahq, hq, ahq, ahq, hq, ahq, hq, ahq, dhq
+f, f, EC_2017_37, f, modhc, hq, ahq, ahq, ahq, ahq, ahq, ahq, ahq, dhq, ahq, ahq, sq, sq
+f, f, EC_2017_38a, f, modhc, dm(l)
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_32, f, mm, sq, hq, dgr
+f, f, EC_2017_32, f, mm, dsq, dsq, dgr, sq, dsq
+f, f, EC_2017_32, f, mm-w, dsq, sq, hq, hq, dgr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr, gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr, gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_34, f, mm-w, gw, gw(l), sr
+f, f, EC_2017_34, f, mm-w, gw, sr(l), sr
+f, f, EC_2017_34, f, m-w, gw, sr(l)
+f, f, EC_2017_34, f, mm, gw, sr, sr
+f, f, EC_2017_34, f, mm-w, gw, sr, sr
+f, f, EC_2017_35, f, mbd, mbd, sn, sn, ubd-w, sn
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn, bd-w, sn
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn, bd-w, sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), nc(s)-aws
+f, f, EC_2017_37, f, modhc(l), hq, hq, hq, hq, hq, hq, hq, hq
+f, f, EC_2017_37, f, modhc(l), ahq, ahq, ahq, ahq, ahq, hq, ahq, hq
+f, f, EC_2017_38a, f, modhc, dc(l)
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38a, f, modhc-asq, dm, dm
+f, f, EC_2017_32, f, mm, sq, dsq, dgr
+f, f, EC_2017_32, f, mm-w, sq, sq, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm, hq, sq, sq, hq, sq, hq, dgr
+f, f, EC_2017_32, f, mm, dsq, sq, sq, sq, asq, sq, dgr
+f, f, EC_2017_32, f, mm, sq, hq, sq, asq, sq, asq, asq, dgr
+f, f, EC_2017_32, f, mm, sq, asq, sq, asq, sq, dsq, dgr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr, gr
+f, f, EC_2017_33, f, mm-w, gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_34, f, mm-w, gw, gw(l), sr(s)
+f, f, EC_2017_34, f, mm-w, gw, sr(l), sr(s)
+f, f, EC_2017_34, f, m-w, gw, sr, sr(s)
+f, f, EC_2017_34, f, mm-w, gw, sr, sr(s)
+f, f, EC_2017_35, f, mbd(l), hc, dbd-w, ahq
+f, f, EC_2017_35, f, mbd(l), mbd, sn, dbd-w, sn
+f, f, EC_2017_35, f, mbd(l), dbd-w, sn
+f, f, EC_2017_35, f, mbd(l), ubd, dbd-w, sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), aws, sq
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), nc(s), aws
+f, f, EC_2017_36a, f, ti(a), ti(a), ahq, nc(s), nc(s)-aws, aws
+f, f, EC_2017_37, f, modhc(l), ahq, ahq, ahq, hq, hq, hq, hq, ahq, hq
+f, f, EC_2017_37, f, modhc(l), ahq, ahq, ahq, hq, ahq, hq, ahq, dhq, ahq
+f, f, EC_2017_37, f, modhc(l), ahq, ahq, ahq, ahq, hq, ahq, hq, ahq, dhq, ahq
+f, f, EC_2017_38a, f, modhc, dc, dm
+f, f, EC_2017_38a, f, modhc, dm, dm(l)
+f, f, EC_2017_32, f, mm-w, dsq, sq, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm-w, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm-dsq, dsq, dsq, dgr, gr
+f, f, EC_2017_35, f, mbd(l), bd(s), sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, gr(s), sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, sn, sn, dbd-w
+f, f, EC_2017_35, f, mbd(l), ubd(s), dbd-w
+f, f, EC_2017_35, f, mbd, ubd
+f, f, EC_2017_35, f, mbd, ubd, sn, ubd, sn
+f, f, EC_2017_35, f, mbd, mbd
+f, f, EC_2017_32, f, mm, hq, dhq, dhq, dhq, hq, hq, hq, dhq, dgr
+f, f, EC_2017_32, f, mm, sq, hq, sq, dsq, sq, sq, sq, dgr
+f, f, EC_2017_32, f, mm, hq, dhq, hq, sq, ahq, sq, hq, dsq, hq, sq, dgr
+f, f, EC_2017_32, f, mm, hq, sq, hq, sq, sq, hq, hq, hq, sq, dgr
+f, f, EC_2017_32, f, mm, sq, sq, hq, sq, hq, sq, dsq, hq, dhq, dgr
+f, f, EC_2017_32, f, mm, sq, sq, hq, sq, sq, dsq, hq, dgr
+f, f, EC_2017_33, f, m-w, gr, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr, gr
+f, f, EC_2017_33, f, m-w, gr, gr, gr, gr
+f, f, EC_2017_34, f, mm, gw, gw, sr(s)
+f, f, EC_2017_36b, f, ti(a), ti(a), ti(a), ti(a), asq, asq, ac(s), sq
+f, f, EC_2017_36b, f, ti(a), asq, asq, asq, aws, aws
+f, f, EC_2017_37, f, modhc, ahq, ahq, ahq, ahq, ahq, ahq, ahq
+f, f, EC_2017_37, f, modhc(l), ahq, ahq, ahq, ahq, ahq, ahq, ahq
+f, f, EC_2017_38a, f, modhc, m, dm
+f, f, EC_2017_34, f, mm, gw, sr
+f, f, EC_2017_34, f, mm-w, gw, gw
+f, f, EC_2017_34, f, mm(l)-w, gw, gw-sr(s)
+f, f, EC_2017_34, f, mm(l), gw, sr
+f, f, EC_2017_34, f, m, gw, sr
+f, f, EC_2017_34, f, m-w, sr, gw, gw
+f, f, EC_2017_34, f, m, sr, gw, gw
+f, f, EC_2017_34, f, m, sr, gw, gw
+f, f, EC_2017_34, f, am, gw, gw
+f, f, EC_2017_34, f, m, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, sr
+f, f, EC_2017_34, f, am, gw, sr
+f, f, EC_2017_34, f, m, gw, sr
+f, f, EC_2017_34, f, m-w, gw, sr
+f, f, EC_2017_34, f, am, sr, sr
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, ubd, ubd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, ubd, ubd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, ubd, ubd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, ubd, ubd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, ubd, ubd, sn, sn, ubd, sn, sn
+f, f, EC_2017_35, f, mbd, dbd, dbd, sn, sn, dbd-w
+f, f, EC_2017_36b, f, ti(a), ti(a), ti(a), sq, sq, sq, sq, sq, aws(s), asq
+f, f, EC_2017_36b, f, ti(a), ti(a), sq, asq, sq, sq, sq, sq, nws(s)-aws, aws
+f, f, EC_2017_37, f, modhc(l), aws(s), ahq, ahq, ahq, ahq, ahq, hq, ahq
+f, f, EC_2017_38a, f, modhc, hc, dm
+f, f, EC_2017_38a, f, modhc, dm, dgr(l)
+f, f, EC_2017_32, f, mm(l)-ac, dgr
+f, f, EC_2017_32, f, mm, hq, dhq, hq, dgr, dgr
+f, f, EC_2017_33, f, mm, gr, gr, gr
+f, f, EC_2017_33, f, nm, gr, gr, gr
+f, f, EC_2017_33, f, nm, gr, gr, gr, gr(s)
+f, f, EC_2017_33, f, nm, gr, gr, ngr, gr(s)
+f, f, EC_2017_33, f, m, gr, gr, gr, gr
+f, f, EC_2017_33, f, nm, gr, gr, gr, gr
+f, f, EC_2017_34, f, nm, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, gw-sr
+f, f, EC_2017_34, f, m, gw, sr
+f, f, EC_2017_34, f, m, gw, sr
+f, f, EC_2017_34, f, nm, gw-sr, sr, sr(s), agr(s)
+f, f, EC_2017_34, f, m, sr, sr
+f, f, EC_2017_34, f, mm, sr, sr
+f, f, EC_2017_34, f, nm, sr, sr
+f, f, EC_2017_34, f, nm, sr, sr
+f, f, EC_2017_34, f, am, sr, sr
+f, f, EC_2017_34, f, nm, sr, sr
+f, f, EC_2017_34, f, m, sr, sr
+f, f, EC_2017_34, f, nm, sr, sr
+f, f, EC_2017_35, f, mbd(l), dbd(s), sn, sn, ubd(s), sn, sn
+f, f, EC_2017_35, f, mbd, mbd, sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd(l), ubd(s), sn, sn, abd, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd, ubd, sn, sn, dbd-w, sn, sn
+f, f, EC_2017_35, f, mbd(l), sn, sn, abd(s), sn, abd(s), sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), ti(a), ti(a), nc(s)-aws, asq
+f, f, EC_2017_34, f, nm(l), gw(l)-sr(s), sr(s), sr(s)
+f, f, EC_2017_34, f, nm, gw(l), sr, sr(s)
+f, f, EC_2017_34, f, mm-w, gw-sr, sr(l), sr(s)
+f, f, EC_2017_34, f, mm, gw, sr(l), sr(s)
+f, f, EC_2017_35, f, mbd(l), ba, ba, ba, mbd(s)-w, ba, ba
+f, f, EC_2017_35, f, mbd, mbd, abd, ba, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd, mbd, ba, ba, ba, dbd(s)-w, ba, ba
+f, f, EC_2017_35, f, mbd(l), mbd, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd(l), bd(s), ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd, abd, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd(l), mbd, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd, nbd(s), abd(s), ba, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd, mbd, abd(s), ba, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_35, f, mbd, mbd, abd(s), ba, ba, ba, dbd-w, ba, ba
+f, f, EC_2017_36a, f, ti(a)(s), ti(m), ti(m), ti(n)(s), ti(n)(s), aws, ba
+f, f, EC_2017_37, f, modhs(s), modhs, modws, nws, sq, sq
+f, f, EC_2017_37, f, modhc(s), modhc, modhs(s)-ahq, ahq, ahq, ahq, ahq, ahq, hq, ahq, ahq
+f, f, EC_2017_37, f, modhc, ahq, ahq, ahq, ahq, ahq, hq, ahq
+f, f, EC_2017_38a, f, modhc, dm(l)
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38a, f, m, dm, dm
+f, f, EC_2017_38b, f, mm, dgr
+f, f, EC_2017_38b, f, mm, dgr
+f, f, EC_2017_33, f, mm-w, agr, gr, agr, gr(s)
+f, f, EC_2017_33, f, mm-w, gr, gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr, gr, gr, gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr(s), gr, gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr, gr, gr(s), gr(s)
+f, f, EC_2017_34, f, mm-w, gw, gw-sr, sr(s), sr(s)
+f, f, EC_2017_34, f, m-w, sr(l), sr(l), sr(s)
+f, f, EC_2017_34, f, m-w, gw, gw-sr(s), sr(s)
+f, f, EC_2017_35, f, mbd(l), ubd, sn, sn
+f, f, EC_2017_35, f, mbd(l), m-w, sn
+f, f, EC_2017_35, f, mbd(l), ubd, sn, sn
+f, f, EC_2017_35, f, mbd(l), mbd, bd(s), sn, dbd
+f, f, EC_2017_35, f, mbd(l), dbd(s), sn, sn
+f, f, EC_2017_35, f, abd(s), nbd, mbd
+f, f, EC_2017_35, f, mbd(l), abd(s), sn, sn, sn
+f, f, EC_2017_35, f, mbd, mbd, abd(s)
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn, sn
+f, f, EC_2017_35, f, mbd(l), mbd, nbd(s), sn, sn, sn, dbd-w
+f, f, EC_2017_35, f, mbd(l), mbd, sn, sn, sn, dbd-w, sn, sn, sn
+f, f, EC_2017_35, f, mbd(l), sn, sn, sn
+f, f, EC_2017_35, f, mbd, mbd(l), bd(s), sn, dbd-w, sn, sn
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), ti(a), ti(a), ti(n), ti(a), ti(a), ti(n), aws, asq
+f, f, EC_2017_36a, f, ti(a), ti(a), ti(a), ti(a), ti(a), sr(s), aws(s), sq
+f, f, EC_2017_37, f, modhc, ahq, ahq, ahq, hq, asq, ahq, ahq
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38a, f, modhc, dm, dm
+f, f, EC_2017_38b, f, mm-w, m, dgr
+f, f, EC_2017_38b, f, mm-w, dm, gr
+f, f, EC_2017_32, f, mm-w, sq, sq, sq, sq, sq, sq, sq, dgr
+f, f, EC_2017_32, f, mm, ahq, sq, sq, sq, dhq, dhq, dhq, ahq, hq, sq, dgr
+f, f, EC_2017_32, f, mm, sq, sq, hq, ahq, hq, dsq, dsq, dsq, dgr
+f, f, EC_2017_32, f, mm, asq, dsq, sq, hq, sq, ahq, sq, hq, sq, sq, sq, dhq, dgr
+f, f, EC_2017_33, f, mm-w, gr, gr, gr(s), gr(s)
+f, f, EC_2017_33, f, mm-sq, gr, gr, gr, gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm, sq, agr, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr(s), gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm, gr(s), gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gr(s), gr(s), gr(s), gr(s), gr(s)
+f, f, EC_2017_33, f, mm-w, gw, sr, sr
+f, f, EC_2017_33, f, mm, sr
+f, f, EC_2018_39a, f, ba, ba, ba, as(l)
+f, f, EC_2018_39a, f, ba, ba, ba, as(l)
+f, f, EC_2018_39b, f, ba, ba, asq, asq, ba, ba, as(l)
+f, f, EC_2018_39b, f, ba, ba, asq, asq, ba, ba, as(l)
+f, f, EC_2018_5, f, mm(s), mm(s), hq, hq, hq, hq, hq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, hq, hq, hq, hq, hq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, sq, hq, hq, sq, asq
+f, f, EC_2018_5, f, am, mm, hq, hq, hq, hq, hq, hq, hq, sq, hq, hq, hq, sq, hq
+f, f, EC_2018_5, f, mm, am, hq, hq, sq, hq, sq, hq, hq, sq, hq, ahq, ahq
+f, f, EC_2018_7a, f, mm, mm, ac
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_1, f, lm-ti(a)(s), nws(l), nws(s)
+f, f, EC_2018_1, f, m-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_40b, f, gr(s)-ba, p, gr(s)-ba, ahq, ahq
+f, f, EC_2018_40c, f, mm(s), mm(s), ahq, hq
+f, f, EC_2018_5, f, mm, mm, asq, sq, sq, sq, hq, sq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, hq, sq, hq, sq, hq, hq, sq, hq, sq, hq, sq
+f, f, EC_2018_5, f, mm, mm, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, sq, hq, sq,
+f, f, EC_2018_5, f, mm, mm, sq, hq, sq, hq, sq, hq, sq, hq, sq
+f, f, EC_2018_5, f, mm, mm, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, hq, sq, sq
+f, f, EC_2018_7a, f, am, mm, as
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_40c, f, mm, mm, ahq, ahq
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_1, f, m-ti(a), aws(s), dws, aws(s)
+f, f, EC_2018_1, f, lm, nws, dws, aws(s)
+f, f, EC_2018_1, f, lm, ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), nws, nws(s)
+f, f, EC_2018_40a, f, m, m, ahq, asq
+f, f, EC_2018_40b, f, gr(s)-ba, p(s), gr(s)-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr(s)-ba, gr(s)-ba, ahq, ahq, nm
+f, f, EC_2018_40b, f, gr(s)-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr(s)-ba, gr(s)-ba, ahq, ahq
+f, f, EC_2018_39a, f, ba, ba, ac(l)
+f, f, EC_2018_39a, f, ba, ba, ba, ac(l)
+f, f, EC_2018_39a, f, ba, ba, ba, ac(l)
+f, f, EC_2018_40c, f, mm, mm, ahq, ahq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, hq, hq, ahq, sq, hq, hq, sq, asq
+f, f, EC_2018_5, f, mm, am(s), sq, hq, hq, sq, hq, hq, hq, sq
+f, f, EC_2018_5, f, am, am(s), hq, hq, hq, hq, hq, hq, sq, hq, hq, sq, sq
+f, f, EC_2018_5, f, am, am, hq, hq, hq, sq, hq, hq, sq
+f, f, EC_2018_7a, f, mm, am, as
+f, f, EC_2018_7a, f, um(s), um(s)
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_5, f, mm, mm, sq, hq, sq, hq, sq, hq, sq, hq, asq, asq
+f, f, EC_2018_5, f, am, am, hq, hq, hq, asq, hq, hq, sq, hq, asq, hq, sq, hq, sq
+f, f, EC_2018_7a, f, am, sq, am(s), as
+f, f, EC_2018_7a, f, um, um, as
+f, f, EC_2018_7a, f, mm, um, as
+f, f, EC_2018_7a, f, um, um, um, as
+f, f, EC_2018_1, f, ti(a), modws, ws(s), aws(s)
+f, f, EC_2018_1, f, ti(a), nws, nws
+f, f, EC_2018_1, f, nws(s), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), bt, nws(l), aws, ahq
+f, f, EC_2018_1, f, lm-ti(a), aws, nws, aws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws
+f, f, EC_2018_1, f, lm-ti(a), aws(s), uws, aws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), ahq, dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm, ti(a), aws(s), dws, nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, aws(s)
+f, f, EC_2018_1, f, lm-ti(a), gr(l), aws, dws, aws(s)
+f, f, EC_2018_1, f, lm, ti(a), aws(s), dws, aws(s)
+f, f, EC_2018_7a, f, mm, mm, as(l)
+f, f, EC_2018_7a, f, mm, mm, as(l)
+f, f, EC_2018_7a, f, am, as(l)
+f, f, EC_2018_7a, f, am(s), ti(a), ahq
+f, f, EC_2018_7a, f, am(s), as(l)
+f, f, EC_2018_7a, f, mm, mm, as(l), am(s)-asq
+f, f, EC_2018_1, f, lm-ti(a), nws, dws, nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws, nws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, nws(s), sq
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws, dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(s), nws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws, nws
+f, f, EC_2018_1, f, lm-ti(a), nws, nws, nws
+f, f, EC_2018_1, f, lm-ti(a), nws(s), dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm, aws, dws, nws(s)
+f, f, EC_2018_1, f, lm, nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, aws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws(s), dws, aws(s)
+f, f, EC_2018_41, f, as(l), asq, ahq, ahq
+f, f, EC_2018_41, f, as(l), asq, asq, ahq
+f, f, EC_2018_41, f, as(l), sq, asq
+f, f, EC_2018_41, f, as(l), asq, asq
+f, f, EC_2018_41, f, as(l), asq, hq, asq
+f, f, EC_2018_41, f, as(l), asq, hq, asq, asq
+f, f, EC_2018_41, f, as(l), asq, hq, asq, ahq, ahq
+f, f, EC_2018_41, f, as(l), asq, asq, asq
+f, f, EC_2018_41, f, as(l), ahq, hq, hq, ahq
+f, f, EC_2018_41, f, as(l), asq, asq, hq, asq, ahq
+f, f, EC_2018_41, f, as(l), asq, asq, asq, asq
+f, f, EC_2018_41, f, as(l), asq, asq, asq, asq
+f, f, EC_2018_41, f, as(l), asq, asq, hq
+f, f, EC_2018_1, f, lm-ti(a), nws(l), dws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s), hq
+f, f, EC_2018_1, f, lm-ti(a), nws(l), dws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), aws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), sq, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(s), uws, nws
+f, f, EC_2018_1, f, lm-pe, nws, dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws(s)
+f, f, EC_2018_1, f, lm-ti(a), aws, dws, nws(s)
+f, f, EC_2018_1, f, lm-ti(a), nws(l), nws
+f, f, EC_2018_7a, f, am(s), am(s), as
+f, f, EC_2018_7a, f, aws(s), dws, nws(s), ahq, ahq
+f, f, EC_2018_7a, f, lm-as, nws(l), nws(s)
+f, f, EC_2018_7a, f, lm-as, aws(s), dws, nws(s)
+f, f, EC_2018_40a, f, gr, agr, hq, hq
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, asq, asq, gr-ba
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, asq, hq, dsq
+f, f, EC_2018_40b, f, gr-ba, gr-ba, asq, asq
+f, f, EC_2018_40b, f, gr-ba, hs, gr-ba, asq, dsq
+f, f, EC_2018_40b, f, gr-ba, m, gr-ba, asq, asq
+f, f, EC_2018_40b, f, gr-ba, gu, ba, lb, as
+f, f, EC_2018_1, f, lm-as, ahq, hq, nws(l), nws
+f, f, EC_2018_40b, f, gr-ba, agr, asq, asq
+f, f, EC_2018_40b, f, gr-ba, gr-ba, asq, asq, asq
+f, f, EC_2018_1, f, lm-as, nws(l), nws
+f, f, EC_2018_1, f, lm, nws(l), nws
+f, f, EC_2018_40b, f, gr, agr, hq, ahq, ahq, asq
+f, f, EC_2018_40b, f, gr-ba, gr-ba, asq, asq, hq
+f, f, EC_2018_5, f, mm, mm, hq, asq, hq, sq, hq, hq, hq
+f, f, EC_2018_5, f, mm, mm, sq, hq, sq, hq, hq, hq, sq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, hq, hq, hq, hq, hq, sq
+f, f, EC_2018_7a, f, mm, as, ahq
+f, f, EC_2018_7a, f, mm, mm, as, nws(s)
+f, f, EC_2018_7a, f, am, am, as
+f, f, EC_2018_7a, f, am, am, as, hq
+f, f, EC_2018_7a, f, am, am, as
+f, f, EC_2018_7a, f, am, am, as, ws
+f, f, EC_2018_7a, f, am, am, as
+f, f, EC_2018_1, f, lm-as, nws, nws, nws
+f, f, EC_2018_1, f, lm-as, nws, dws, dws(s)
+f, f, EC_2018_1, f, lm-as, asq, nws(l), dws(s)
+f, f, EC_2018_40b, f, gr-ba, gr-ba, asq, asq, ba, ba
+f, f, EC_2018_40b, f, gr-ba, ba, asq, asq, ahq, asq
+f, f, EC_2018_40b, f, gr-ba, ba, ahq, ahq, ahq, asq, asq
+f, f, EC_2018_40b, f, gr-ba, ba, asq, asq, sq, sq
+f, f, EC_2018_41, f, as, ahq, ahq, ahq, ac
+f, f, EC_2018_40b, f, gr, gu, gr-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, ahq, hq
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, ahq, hq
+f, f, EC_2018_40b, f, gr-ba, gr-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba
+f, f, EC_2018_40b, f, gr-ba, gu, gr-ba, ahq, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, gr-ba, asq, sq, asq
+f, f, EC_2018_41, f, as, asq, asq
+f, f, EC_2018_41, f, as, as, hq
+f, f, EC_2018_41, f, as, as, ahq, ahq
+f, f, EC_2018_40b, f, agr, agr, hq, dhq
+f, f, EC_2018_40b, f, gr-ba, sq, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, hq, asq
+f, f, EC_2018_40b, f, gr-ba, hq, ahq
+f, f, EC_2018_40b, f, gr-ba, ahq, asq
+f, f, EC_2018_5, f, mm, mm, hq, hq, hq, sq, hq, hq, hq, hq, hq, hq, am(s)
+f, f, EC_2018_7a, f, mm, mm, as
+f, f, EC_2018_7a, f, mm, mm(s), as
+f, f, EC_2018_40b, f, gr, ahq, ahq, ahq
+f, f, EC_2018_40b, f, gr, asq, asq
+f, f, EC_2018_40b, f, gr, ahq, ahq, gr(s), asq
+f, f, EC_2018_40b, f, gr, asq, ahq, asq, gr-ba, ahq
+f, f, EC_2018_40b, f, gr-ba, ahq, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, ahq, asq
+f, f, EC_2018_40b, f, gr-ba, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, ahq, asq
+f, f, EC_2018_40b, f, gr-ba, ahq, ahq, ahq, ahq, ahq
+f, f, EC_2018_40b, f, gr-ba, ba, ahq, ahq, asq, ahq
+f, f, EC_2018_40b, f, am(s), mm-as
+f, f, EC_2018_40b, f, hq, ahq, ahq
+f, f, EC_2018_40b, f, am(s), ac(l)-bt
